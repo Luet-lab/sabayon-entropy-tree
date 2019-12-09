@@ -3,7 +3,7 @@ steps:
 requires:
 - category: "layer"
   version:  ">=0.1"
-  name:     "core-desktop-build"
+  name:     "build-sabayon-overlays"
 - category: "layer"
   version:  ">=0.1"
   name:     "sabayon-overlay"

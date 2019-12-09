@@ -3,18 +3,13 @@ conflicts: []
 name: git-subversion
 requires:
 - 
-  category: dev-libs
-  name: expat
+  category: dev-vcs
+  name: git
   
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
+  version: 2.21.0
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: Authen-SASL
   
   version: ""
 - 
@@ -23,58 +18,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
+  category: app-text
+  name: highlight
   
   version: ""
 - 
@@ -83,18 +28,23 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -108,23 +58,58 @@ requires:
   
   version: "2.1"
 - 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
   category: dev-perl
   name: DBD-SQLite
   
   version: ""
 - 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -134,7 +119,22 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 use_flags:

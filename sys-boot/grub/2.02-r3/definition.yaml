@@ -2,34 +2,19 @@ category: sys-boot
 conflicts:
 - 
   category: sys-boot
-  name: grub
+  name: grub-static
   
   version: ""
 - 
   category: sys-boot
-  name: grub-static
+  name: grub
   
   version: ""
 name: grub
 requires:
 - 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: sys-boot
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
+  category: sys-fs
+  name: zfs
   
   version: ""
 - 
@@ -37,26 +22,6 @@ requires:
   name: sbsigntools
   
   version: ""
-- 
-  category: sys-boot
-  name: os-prober
-  
-  version: ""
-- 
-  category: sys-fs
-  name: zfs
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-apps
-  name: ibm-powerpc-utils
-  
-  version: 1.3.5
 - 
   category: app-arch
   name: xz-utils
@@ -68,10 +33,45 @@ requires:
   
   version: ""
 - 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: sys-boot
+  name: os-prober
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: 5.2-r5
+- 
   category: sys-fs
   name: lvm2
   
   version: 2.02.45
+- 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-apps
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
+- 
+  category: sys-boot
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
 - 
   category: sys-fs
   name: fuse

@@ -3,48 +3,18 @@ conflicts: []
 name: gitweb
 requires:
 - 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: dev-perl
-  name: Error
+  name: libpcre
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: TermReadKey
   
   version: ""
 - 
@@ -59,22 +29,22 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  name: DBI
   
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: openssl
   
   version: ""
 - 
@@ -83,18 +53,18 @@ requires:
   
   version: ""
 - 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
   category: app-crypt
   name: gnupg
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-libs
-  name: expat
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -104,9 +74,19 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
   name: MediaWiki-API
   
   version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
 - 
   category: app-crypt
   name: libsecret
@@ -114,7 +94,22 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre
+  name: expat
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -123,15 +118,20 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
-  category: dev-perl
-  name: HTML-Tree
+  category: dev-lang
+  name: perl
   
   version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
 - 
   category: dev-vcs
   name: subversion
