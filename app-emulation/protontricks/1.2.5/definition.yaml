@@ -3,13 +3,13 @@ conflicts: []
 name: protontricks
 requires:
 - 
-  category: dev-python
-  name: vdf
+  category: app-emulation
+  name: winetricks
   
   version: ""
 - 
-  category: app-emulation
-  name: winetricks
+  category: dev-python
+  name: vdf
   
   version: ""
 use_flags:

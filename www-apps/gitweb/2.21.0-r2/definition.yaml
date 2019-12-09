@@ -8,13 +8,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
@@ -29,7 +29,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -39,17 +59,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  name: TermReadKey
   
   version: ""
 - 
@@ -58,13 +68,18 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
-  category: dev-perl
-  name: Error
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -73,20 +88,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
   category: dev-vcs
-  name: git
+  name: cvsps
   
-  version: 2.21.0
+  version: "2.1"
 - 
   category: app-crypt
   name: libsecret
@@ -103,38 +108,33 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
   category: sys-libs
   name: zlib
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-perl
+  name: CGI
   
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: DBI
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
+  category: dev-libs
+  name: openssl
   
-  version: "2.1"
+  version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: app-crypt
+  name: gnupg
   
   version: ""
 use_flags:
