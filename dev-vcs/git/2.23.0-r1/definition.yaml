@@ -3,48 +3,23 @@ conflicts: []
 name: git
 requires:
 - 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
   category: sys-libs
   name: zlib
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
-  category: dev-perl
-  name: libwww-perl
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: app-crypt
   name: gnupg
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
   
   version: ""
 - 
@@ -54,7 +29,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: HTML-Tree
   
   version: ""
 - 
@@ -64,22 +39,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
+  name: openssl
   
   version: ""
 - 
   category: dev-libs
   name: libressl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
   
   version: ""
 - 
@@ -89,27 +54,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-perl
   name: DBD-SQLite
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
+  name: expat
   
   version: ""
 - 
@@ -118,13 +83,33 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
+  category: dev-perl
+  name: DBI
   
-  version: "2.1"
+  version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -133,8 +118,23 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 use_flags:

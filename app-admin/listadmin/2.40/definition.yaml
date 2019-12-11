@@ -3,28 +3,13 @@ conflicts: []
 name: listadmin
 requires:
 - 
-  category: net-mail
-  name: mailman
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Term-ReadLine-Perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-TokeParser-Simple
+  category: virtual
+  name: perl-Getopt-Long
   
   version: ""
 - 
   category: dev-perl
   name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Text-Reform
   
   version: ""
 - 
@@ -43,8 +28,23 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: perl-Getopt-Long
+  category: net-mail
+  name: mailman
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-TokeParser-Simple
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Text-Reform
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Term-ReadLine-Perl
   
   version: ""
 use_flags:
