@@ -3,21 +3,6 @@ conflicts: []
 name: git
 requires:
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
   category: dev-lang
   name: tk
   
@@ -33,23 +18,13 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
+  name: CGI
   
   version: ""
 - 
@@ -68,33 +43,13 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
   category: dev-vcs
   name: cvsps
   
   version: "2.1"
 - 
   category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -104,22 +59,37 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
   name: expat
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: DBI
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
   
   version: ""
 - 
@@ -129,7 +99,37 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 use_flags:

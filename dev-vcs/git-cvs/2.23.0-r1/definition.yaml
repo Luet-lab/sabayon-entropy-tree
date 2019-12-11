@@ -3,8 +3,13 @@ conflicts: []
 name: git-cvs
 requires:
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -14,32 +19,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  name: DBD-SQLite
   
   version: ""
 - 
   category: dev-libs
   name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
   
   version: ""
 - 
@@ -49,22 +34,37 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: MailTools
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-perl
-  name: Error
+  name: subversion
   
   version: ""
 - 
@@ -73,8 +73,33 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -84,22 +109,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: Error
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
@@ -113,33 +128,18 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
+  name: libwww-perl
   
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
+  name: TermReadKey
   
   version: ""
 use_flags:

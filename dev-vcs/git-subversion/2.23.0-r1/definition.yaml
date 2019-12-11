@@ -3,68 +3,8 @@ conflicts: []
 name: git-subversion
 requires:
 - 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
   category: dev-libs
   name: libpcre
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
   
   version: ""
 - 
@@ -79,7 +19,72 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -89,22 +94,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: app-crypt
-  name: libsecret
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -113,8 +103,33 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
@@ -124,22 +139,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
+  name: MediaWiki-API
   
   version: ""
 use_flags:

@@ -3,53 +3,13 @@ conflicts: []
 name: git
 requires:
 - 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
   category: dev-libs
   name: libpcre
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
+  name: Error
   
   version: ""
 - 
@@ -58,38 +18,18 @@ requires:
   
   version: "2.1"
 - 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
   category: dev-libs
   name: openssl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -99,22 +39,42 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
   name: HTML-Tree
   
   version: ""
 - 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
   category: dev-perl
-  name: libwww-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
   category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
+  name: gnupg
   
   version: ""
 - 
@@ -128,13 +88,53 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
   category: dev-vcs
   name: subversion
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
   
   version: ""
 use_flags:

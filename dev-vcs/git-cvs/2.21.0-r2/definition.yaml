@@ -4,22 +4,72 @@ name: git-cvs
 requires:
 - 
   category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
+  name: libpcre
   
   version: ""
 - 
   category: dev-libs
-  name: libpcre
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
   category: net-misc
   name: curl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
   
   version: ""
 - 
@@ -33,68 +83,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
   category: dev-vcs
   name: subversion
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
   
   version: ""
 - 
@@ -108,13 +98,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -123,18 +118,23 @@ requires:
   
   version: "2.1"
 - 
-  category: dev-perl
-  name: DBI
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: Error
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: DBD-SQLite
   
   version: ""
 use_flags:
