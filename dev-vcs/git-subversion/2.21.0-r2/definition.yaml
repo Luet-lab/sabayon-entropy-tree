@@ -8,10 +8,30 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: git
+  category: dev-perl
+  name: Error
   
-  version: 2.21.0
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
 - 
   category: dev-libs
   name: libpcre2[jit(+)]
@@ -23,8 +43,8 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -33,18 +53,13 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-vcs
+  name: git
   
-  version: ""
+  version: 2.21.0
 - 
   category: sys-libs
   name: zlib
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
   
   version: ""
 - 
@@ -54,32 +69,12 @@ requires:
   version: "2.1"
 - 
   category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
   name: DBI
   
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
+  name: CGI
   
   version: ""
 - 
@@ -93,8 +88,13 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
@@ -104,27 +104,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -133,8 +113,28 @@ requires:
   
   version: ""
 - 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
   category: dev-perl
-  name: libwww-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 use_flags:

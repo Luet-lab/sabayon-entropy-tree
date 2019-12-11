@@ -24,6 +24,16 @@ requires:
   version: ""
 - 
   category: app-text
+  name: poppler-base-0.79.0[jpeg2k=]
+  
+  version: ""
+- 
+  category: app-text
+  name: poppler-base-0.79.0[nss=]
+  
+  version: ""
+- 
+  category: app-text
   name: poppler-base-0.79.0[cxx=]
   
   version: ""
@@ -39,17 +49,7 @@ requires:
   version: ""
 - 
   category: app-text
-  name: poppler-base-0.79.0[jpeg2k=]
-  
-  version: ""
-- 
-  category: app-text
   name: poppler-base-0.79.0[jpeg=]
-  
-  version: ""
-- 
-  category: app-text
-  name: poppler-base-0.79.0[nss=]
   
   version: ""
 use_flags:

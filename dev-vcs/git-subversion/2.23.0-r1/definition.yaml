@@ -3,33 +3,18 @@ conflicts: []
 name: git-subversion
 requires:
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-vcs
+  name: cvsps
   
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
+  version: "2.1"
 - 
   category: dev-perl
   name: DBD-SQLite
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -38,8 +23,23 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -49,42 +49,57 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
   name: MediaWiki-API
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
-  category: dev-perl
-  name: CGI
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
+  category: app-text
+  name: highlight
   
-  version: "2.1"
+  version: ""
 - 
   category: dev-perl
   name: libwww-perl
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -98,48 +113,33 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
   category: dev-vcs
-  name: subversion
+  name: git
   
-  version: ""
+  version: 2.23.0
 - 
-  category: dev-lang
-  name: perl
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
   category: virtual
   name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
   
   version: ""
 use_flags:

@@ -3,28 +3,18 @@ conflicts: []
 name: listadmin
 requires:
 - 
-  category: dev-perl
-  name: HTML-TokeParser-Simple
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Text-Reform
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: net-mail
   name: mailman
   
   version: ""
 - 
-  category: virtual
-  name: perl-Getopt-Long
+  category: dev-perl
+  name: Term-ReadLine-Perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-TokeParser-Simple
   
   version: ""
 - 
@@ -34,17 +24,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: Text-Reform
   
   version: ""
 - 
   category: dev-perl
-  name: Term-ReadLine-Perl
+  name: TermReadKey
   
   version: ""
 - 
   category: virtual
   name: perl-MIME-Base64
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Getopt-Long
   
   version: ""
 use_flags:

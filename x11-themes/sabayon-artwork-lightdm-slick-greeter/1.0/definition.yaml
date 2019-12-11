@@ -3,6 +3,11 @@ conflicts: []
 name: sabayon-artwork-lightdm-slick-greeter
 requires:
 - 
+  category: x11-misc
+  name: lightdm-settings
+  
+  version: ""
+- 
   category: x11-themes
   name: sabayon-artwork-core
   
@@ -10,11 +15,6 @@ requires:
 - 
   category: x11-misc
   name: lightdm-slick-greeter
-  
-  version: ""
-- 
-  category: x11-misc
-  name: lightdm-settings
   
   version: ""
 use_flags:
