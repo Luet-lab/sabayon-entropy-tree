@@ -9,17 +9,12 @@ name: grub-2.02_beta3-r1
 requires:
 - 
   category: sys-fs
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-fs
   name: fuse
-  
-  version: ""
-- 
-  category: app-crypt
-  name: sbsigntools
-  
-  version: ""
-- 
-  category: sys-boot
-  name: os-prober
   
   version: ""
 - 
@@ -28,33 +23,13 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: 2.02.45
-- 
   category: sys-boot
   name: efibootmgr
   
   version: ""
 - 
-  category: sys-apps
-  name: powerpc-utils
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
+  category: app-crypt
+  name: sbsigntools
   
   version: ""
 - 
@@ -63,11 +38,6 @@ requires:
   
   version: 5.2-r5
 - 
-  category: media-libs
-  name: libsdl
-  
-  version: ""
-- 
   category: sys-fs
   name: zfs
   
@@ -75,6 +45,36 @@ requires:
 - 
   category: media-libs
   name: freetype
+  
+  version: ""
+- 
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-boot
+  name: os-prober
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: powerpc-utils
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
   
   version: ""
 use_flags:
