@@ -4,32 +4,7 @@ name: git-cvs
 requires:
 - 
   category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
+  name: libressl
   
   version: ""
 - 
@@ -44,27 +19,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
   name: CGI
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: TermReadKey
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
@@ -73,28 +48,28 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: HTML-Tree
+  category: dev-vcs
+  name: cvsps
   
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
+  version: "2.1"
 - 
   category: dev-vcs
   name: subversion
   
   version: ""
 - 
-  category: dev-vcs
-  name: git
+  category: app-crypt
+  name: libsecret
   
-  version: 2.21.0
+  version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit(+)]
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -104,27 +79,47 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: DBI
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
   category: dev-vcs
-  name: cvsps
+  name: git
   
-  version: "2.1"
+  version: 2.21.0
 - 
   category: sys-libs
   name: zlib
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -134,7 +129,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 use_flags:
