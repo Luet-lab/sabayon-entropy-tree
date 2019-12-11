@@ -4,12 +4,17 @@ name: git
 requires:
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: Error
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -18,8 +23,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -28,13 +43,23 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: CGI
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
   category: dev-vcs
-  name: subversion
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -43,8 +68,33 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
   category: dev-perl
-  name: Error
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
@@ -58,28 +108,13 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: CGI
   
   version: ""
 - 
@@ -88,38 +123,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-lang
-  name: tk
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -128,13 +133,8 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
+  category: dev-vcs
+  name: subversion
   
   version: ""
 use_flags:

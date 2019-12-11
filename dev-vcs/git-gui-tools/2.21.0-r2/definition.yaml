@@ -3,8 +3,13 @@ conflicts: []
 name: git-gui-tools
 requires:
 - 
-  category: dev-perl
-  name: Error
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
@@ -13,23 +18,23 @@ requires:
   
   version: ""
 - 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
   category: dev-vcs
   name: cvsps
   
   version: "2.1"
 - 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
@@ -39,7 +44,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -53,18 +78,23 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -74,12 +104,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
+  name: HTML-Tree
   
   version: ""
 - 
@@ -88,33 +113,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -124,7 +124,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre
+  name: libressl
   
   version: ""
 - 
@@ -133,8 +133,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
+  category: virtual
+  name: emacs
   
   version: ""
 use_flags:

@@ -3,6 +3,21 @@ conflicts: []
 name: lightdm-settings
 requires:
 - 
+  category: x11-misc
+  name: lightdm-slick-greeter
+  
+  version: ""
+- 
+  category: dev-python
+  name: setproctitle
+  
+  version: ""
+- 
+  category: dev-python
+  name: pygobject
+  
+  version: ""
+- 
   category: sys-auth
   name: polkit
   
@@ -20,21 +35,6 @@ requires:
 - 
   category: sys-apps
   name: lsb-release
-  
-  version: ""
-- 
-  category: x11-misc
-  name: lightdm-slick-greeter
-  
-  version: ""
-- 
-  category: dev-python
-  name: setproctitle
-  
-  version: ""
-- 
-  category: dev-python
-  name: pygobject
   
   version: ""
 version: 1.2.7
