@@ -4,9 +4,44 @@ name: git-subversion
 requires:
 - 
   category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
   name: libpcre
   
   version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
 - 
   category: dev-lang
   name: perl
@@ -18,38 +53,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
   category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: dev-perl
-  name: DBI
+  name: CGI
   
   version: ""
 - 
@@ -58,38 +63,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
   category: app-crypt
   name: libsecret
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -99,32 +84,37 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
+  name: MailTools
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -134,7 +124,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
   
   version: ""
 use_flags:
