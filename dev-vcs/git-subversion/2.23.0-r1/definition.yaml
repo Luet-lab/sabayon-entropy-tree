@@ -3,8 +3,13 @@ conflicts: []
 name: git-subversion
 requires:
 - 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
   category: dev-libs
-  name: openssl
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -13,18 +18,8 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
+  category: virtual
+  name: emacs
   
   version: ""
 - 
@@ -34,17 +29,37 @@ requires:
   version: "2.1"
 - 
   category: dev-perl
-  name: MailTools
+  name: DBI
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
@@ -53,13 +68,28 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -73,43 +103,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: dev-perl
   name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
   
   version: ""
 - 
@@ -123,23 +118,28 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: MailTools
   
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
+  name: TermReadKey
   
   version: ""
 use_flags:

@@ -4,16 +4,6 @@ name: pinentry
 requires:
 - 
   category: app-crypt
-  name: pinentry-base
-  
-  version: 1.1.0
-- 
-  category: app-crypt
-  name: pinentry-gnome
-  
-  version: 1.1.0
-- 
-  category: app-crypt
   name: pinentry-gtk2
   
   version: 1.1.0
@@ -27,6 +17,16 @@ requires:
   name: gcr
   
   version: ""
+- 
+  category: app-crypt
+  name: pinentry-base
+  
+  version: 1.1.0
+- 
+  category: app-crypt
+  name: pinentry-gnome
+  
+  version: 1.1.0
 use_flags:
 - caps
 - emacs

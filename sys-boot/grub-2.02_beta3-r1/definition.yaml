@@ -8,18 +8,13 @@ conflicts:
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-fs
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: sys-fs
-  name: fuse
+  category: sys-boot
+  name: os-prober
   
   version: ""
 - 
-  category: sys-apps
-  name: ibm-powerpc-utils
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
@@ -33,28 +28,23 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
+  category: x11-themes
+  name: sabayon-artwork-grub
   
-  version: 5.2-r5
+  version: ""
 - 
   category: sys-fs
   name: zfs
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
+  category: sys-fs
+  name: fuse
   
   version: ""
 - 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-boot
-  name: os-prober
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -63,8 +53,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libsdl
+  category: sys-fs
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-apps
+  name: ibm-powerpc-utils
   
   version: ""
 - 
@@ -73,8 +68,13 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  name: gettext
+  category: sys-libs
+  name: ncurses
+  
+  version: 5.2-r5
+- 
+  category: media-libs
+  name: libsdl
   
   version: ""
 use_flags:

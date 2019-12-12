@@ -3,28 +3,38 @@ conflicts: []
 name: git-gui-tools
 requires:
 - 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
   category: dev-vcs
   name: cvsps
   
   version: "2.1"
 - 
-  category: dev-perl
-  name: libwww-perl
+  category: dev-vcs
+  name: git
   
-  version: ""
+  version: 2.23.0
 - 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
@@ -39,32 +49,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: CGI
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: virtual
-  name: libiconv
+  name: Authen-SASL
   
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -74,7 +69,47 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -84,62 +119,27 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
   name: libpcre2[jit(+)]
   
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: MailTools
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 use_flags:
