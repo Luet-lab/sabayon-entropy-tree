@@ -3,33 +3,13 @@ conflicts: []
 name: gitweb
 requires:
 - 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
   category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  name: libpcre
   
   version: ""
 - 
@@ -38,8 +18,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -48,8 +28,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: libwww-perl
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
@@ -59,42 +39,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit(+)]
+  name: openssl
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -109,17 +59,62 @@ requires:
   version: ""
 - 
   category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-vcs
   name: cvsps
   
   version: "2.1"
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: DBI
   
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -128,13 +123,18 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: net-misc
+  name: curl
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
   
   version: ""
 use_flags:

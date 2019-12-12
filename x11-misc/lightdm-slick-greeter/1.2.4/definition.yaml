@@ -8,8 +8,8 @@ requires:
   
   version: 0.35.0
 - 
-  category: x11-libs
-  name: cairo
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -18,13 +18,8 @@ requires:
   
   version: "3.20"
 - 
-  category: media-libs
-  name: libcanberra
-  
-  version: ""
-- 
   category: x11-libs
-  name: pixman
+  name: libXext
   
   version: ""
 - 
@@ -33,8 +28,8 @@ requires:
   
   version: "1.12"
 - 
-  category: sys-devel
-  name: gettext
+  category: x11-libs
+  name: cairo
   
   version: ""
 - 
@@ -43,8 +38,13 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: libcanberra
+  
+  version: ""
+- 
   category: x11-libs
-  name: libXext
+  name: pixman
   
   version: ""
 use_flags:
