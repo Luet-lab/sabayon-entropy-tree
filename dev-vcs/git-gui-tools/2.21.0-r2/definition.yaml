@@ -3,8 +3,23 @@ conflicts: []
 name: git-gui-tools
 requires:
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -13,18 +28,38 @@ requires:
   
   version: ""
 - 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
   category: app-crypt
   name: gnupg
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
   
   version: ""
 - 
@@ -43,53 +78,18 @@ requires:
   
   version: ""
 - 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
   category: app-crypt
   name: libsecret
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
   category: dev-perl
   name: DBI
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
   
   version: ""
 - 
@@ -99,7 +99,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -108,33 +108,33 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
   category: dev-perl
-  name: TermReadKey
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
   category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: DBD-SQLite
+  name: subversion
   
   version: ""
 use_flags:

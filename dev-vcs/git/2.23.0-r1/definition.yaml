@@ -8,58 +8,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
   category: dev-perl
   name: TermReadKey
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
   
   version: ""
 - 
@@ -68,28 +18,13 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
   category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
+  name: Authen-SASL
   
   version: ""
 - 
@@ -99,12 +34,22 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: DBI
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
@@ -114,17 +59,42 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
   name: CGI
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -135,6 +105,36 @@ requires:
 - 
   category: dev-perl
   name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 use_flags:

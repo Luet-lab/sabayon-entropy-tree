@@ -3,8 +3,33 @@ conflicts: []
 name: listadmin
 requires:
 - 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
   category: virtual
   name: perl-Getopt-Long
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Text-Reform
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-MIME-Base64
+  
+  version: ""
+- 
+  category: net-mail
+  name: mailman
   
   version: ""
 - 
@@ -19,32 +44,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: net-mail
-  name: mailman
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Text-Reform
-  
-  version: ""
-- 
-  category: dev-perl
   name: Term-ReadLine-Perl
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-MIME-Base64
   
   version: ""
 use_flags:

@@ -8,6 +8,56 @@ conflicts:
 name: grub-2.02_beta3-r1
 requires:
 - 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: app-crypt
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl
+  
+  version: ""
+- 
+  category: sys-fs
+  name: zfs
+  
+  version: ""
+- 
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-boot
+  name: os-prober
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: 5.2-r5
+- 
+  category: sys-fs
+  name: fuse
+  
+  version: ""
+- 
   category: sys-fs
   name: lvm2
   
@@ -25,56 +75,6 @@ requires:
 - 
   category: sys-boot
   name: efibootmgr
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: app-crypt
-  name: sbsigntools
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: media-libs
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-fs
-  name: zfs
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-boot
-  name: os-prober
-  
-  version: ""
-- 
-  category: sys-fs
-  name: fuse
   
   version: ""
 use_flags:
