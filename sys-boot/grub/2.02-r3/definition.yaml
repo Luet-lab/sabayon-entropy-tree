@@ -13,16 +13,6 @@ conflicts:
 name: grub
 requires:
 - 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
   category: sys-libs
   name: ncurses
   
@@ -33,28 +23,23 @@ requires:
   
   version: 2.02.45
 - 
-  category: app-crypt
-  name: sbsigntools
-  
-  version: ""
-- 
   category: sys-boot
-  name: os-prober
+  name: efibootmgr
   
   version: ""
-- 
-  category: sys-fs
-  name: zfs
-  
-  version: ""
-- 
-  category: sys-apps
-  name: ibm-powerpc-utils
-  
-  version: 1.3.5
 - 
   category: sys-devel
   name: gettext
+  
+  version: ""
+- 
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: app-crypt
+  name: sbsigntools
   
   version: ""
 - 
@@ -63,13 +48,28 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  name: fuse
+  category: sys-apps
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
+- 
+  category: sys-boot
+  name: os-prober
   
   version: ""
 - 
-  category: sys-boot
-  name: efibootmgr
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-fs
+  name: fuse
   
   version: ""
 - 

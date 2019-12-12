@@ -8,43 +8,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
   category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-libs
-  name: libpcre
+  name: HTML-Tree
   
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -54,52 +29,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-perl
   name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
   
   version: ""
 - 
@@ -109,12 +39,42 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: DBI
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.23.0
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
@@ -123,8 +83,43 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
   
   version: ""
 - 
@@ -134,12 +129,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: MailTools
   
   version: ""
 use_flags:
