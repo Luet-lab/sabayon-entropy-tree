@@ -3,8 +3,8 @@ conflicts: []
 name: git-gui-tools
 requires:
 - 
-  category: dev-libs
-  name: expat
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -14,37 +14,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  name: expat
   
   version: ""
 - 
   category: virtual
   name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
   
   version: ""
 - 
@@ -58,13 +33,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
-  category: dev-perl
-  name: CGI
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -73,23 +48,53 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
   category: dev-perl
   name: Authen-SASL
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: CGI
   
   version: ""
 - 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
   category: dev-perl
-  name: Error
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -104,37 +109,32 @@ requires:
   version: "2.1"
 - 
   category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
   name: DBI
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
   category: app-crypt
   name: libsecret
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 use_flags:

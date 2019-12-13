@@ -4,7 +4,12 @@ name: gitweb
 requires:
 - 
   category: dev-perl
-  name: DBI
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -13,43 +18,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
   category: dev-libs
   name: libpcre
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
   
   version: ""
 - 
@@ -63,18 +33,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -83,38 +53,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-lang
-  name: perl
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -124,7 +64,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: Error
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
@@ -133,8 +93,48 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 use_flags:

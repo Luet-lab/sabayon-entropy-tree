@@ -3,6 +3,31 @@ conflicts: []
 name: git-subversion
 requires:
 - 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: git
+  
+  version: 2.21.0
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
   category: app-text
   name: highlight
   
@@ -18,58 +43,8 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: dev-lang
   name: tk
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
   
   version: ""
 - 
@@ -78,18 +53,18 @@ requires:
   
   version: ""
 - 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
   category: dev-libs
   name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
   category: dev-perl
-  name: CGI
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -103,8 +78,8 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
@@ -113,13 +88,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: HTML-Tree
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: MailTools
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
@@ -129,12 +109,32 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
   
   version: ""
 use_flags:
