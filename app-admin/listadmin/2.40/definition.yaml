@@ -3,21 +3,6 @@ conflicts: []
 name: listadmin
 requires:
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Text-Reform
-  
-  version: ""
-- 
   category: dev-perl
   name: TermReadKey
   
@@ -28,8 +13,28 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
   category: net-mail
   name: mailman
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Text-Reform
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Term-ReadLine-Perl
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Getopt-Long
   
   version: ""
 - 
@@ -40,11 +45,6 @@ requires:
 - 
   category: dev-perl
   name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Term-ReadLine-Perl
   
   version: ""
 use_flags:

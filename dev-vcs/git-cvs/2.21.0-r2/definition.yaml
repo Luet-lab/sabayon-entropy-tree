@@ -4,12 +4,22 @@ name: git-cvs
 requires:
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: Authen-SASL
   
   version: ""
 - 
-  category: dev-perl
-  name: HTML-Tree
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
@@ -18,23 +28,23 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-vcs
+  name: subversion
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -44,22 +54,17 @@ requires:
   version: ""
 - 
   category: app-crypt
-  name: gnupg
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  name: libwww-perl
   
   version: ""
 - 
@@ -68,8 +73,8 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -78,43 +83,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -124,17 +94,47 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
   name: MediaWiki-API
   
   version: ""
 - 
   category: dev-vcs
-  name: subversion
+  name: git
+  
+  version: 2.21.0
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 use_flags:

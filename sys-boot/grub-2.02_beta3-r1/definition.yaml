@@ -8,6 +8,16 @@ conflicts:
 name: grub-2.02_beta3-r1
 requires:
 - 
+  category: app-crypt
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
   category: app-arch
   name: xz-utils
   
@@ -18,28 +28,18 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  name: ibm-powerpc-utils
+  
+  version: ""
+- 
   category: sys-devel
   name: gettext
   
   version: ""
 - 
-  category: app-crypt
-  name: sbsigntools
-  
-  version: ""
-- 
   category: media-libs
   name: libsdl
-  
-  version: ""
-- 
-  category: sys-fs
-  name: zfs
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
   
   version: ""
 - 
@@ -54,22 +54,22 @@ requires:
   version: 5.2-r5
 - 
   category: sys-fs
-  name: fuse
-  
-  version: ""
-- 
-  category: sys-fs
   name: lvm2
   
   version: 2.02.45
 - 
   category: sys-apps
-  name: ibm-powerpc-utils
+  name: powerpc-utils
   
   version: ""
 - 
-  category: sys-apps
-  name: powerpc-utils
+  category: sys-fs
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-fs
+  name: fuse
   
   version: ""
 - 

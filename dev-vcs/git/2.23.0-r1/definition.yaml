@@ -3,43 +3,33 @@ conflicts: []
 name: git
 requires:
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: dev-libs
   name: libpcre
   
   version: ""
 - 
-  category: dev-perl
-  name: Authen-SASL
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: app-crypt
-  name: libsecret
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: MailTools
   
   version: ""
 - 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -48,13 +38,78 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 - 
   category: dev-libs
   name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
   
   version: ""
 - 
@@ -74,67 +129,12 @@ requires:
   version: "2.1"
 - 
   category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
   category: dev-perl
   name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
   
   version: ""
 use_flags:

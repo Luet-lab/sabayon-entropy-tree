@@ -3,13 +3,83 @@ conflicts: []
 name: git
 requires:
 - 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
   category: dev-vcs
   name: subversion
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -24,7 +94,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: Authen-SASL
   
   version: ""
 - 
@@ -33,48 +103,8 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
   category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
+  name: HTML-Tree
   
   version: ""
 - 
@@ -84,52 +114,22 @@ requires:
   version: ""
 - 
   category: dev-lang
-  name: perl
+  name: tk
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
+  category: dev-vcs
+  name: cvsps
   
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
+  version: "2.1"
 - 
   category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
   category: sys-libs
   name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
   
   version: ""
 use_flags:

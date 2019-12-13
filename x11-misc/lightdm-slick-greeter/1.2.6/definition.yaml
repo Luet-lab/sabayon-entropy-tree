@@ -3,10 +3,15 @@ conflicts: []
 name: lightdm-slick-greeter
 requires:
 - 
-  category: dev-util
-  name: intltool
+  category: media-libs
+  name: freetype
   
-  version: 0.35.0
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.20"
 - 
   category: media-libs
   name: libcanberra
@@ -18,15 +23,15 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
   category: x11-misc
   name: lightdm-base
   
   version: "1.12"
+- 
+  category: dev-util
+  name: intltool
+  
+  version: 0.35.0
 - 
   category: sys-devel
   name: gettext
@@ -38,15 +43,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
+  category: x11-libs
+  name: pixman
   
   version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.20"
 use_flags:
 - ""
 version: 1.2.6
