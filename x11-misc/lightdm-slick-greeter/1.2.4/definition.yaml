@@ -3,11 +3,6 @@ conflicts: []
 name: lightdm-slick-greeter
 requires:
 - 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
   category: dev-util
   name: intltool
   
@@ -23,21 +18,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.20"
-- 
-  category: x11-misc
-  name: lightdm-base
-  
-  version: "1.12"
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
   category: media-libs
   name: libcanberra
   
@@ -45,6 +25,26 @@ requires:
 - 
   category: x11-libs
   name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
+  category: x11-misc
+  name: lightdm-base
+  
+  version: "1.12"
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.20"
+- 
+  category: x11-libs
+  name: cairo
   
   version: ""
 use_flags:

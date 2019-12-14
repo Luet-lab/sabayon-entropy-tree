@@ -3,28 +3,63 @@ conflicts: []
 name: git
 requires:
 - 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
   category: app-crypt
   name: gnupg
   
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: DBD-SQLite
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -34,12 +69,47 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-perl
   name: TermReadKey
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: expat
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -54,87 +124,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
   category: dev-libs
   name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
   
   version: ""
 use_flags:

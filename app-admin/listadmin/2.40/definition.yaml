@@ -3,18 +3,18 @@ conflicts: []
 name: listadmin
 requires:
 - 
-  category: net-mail
-  name: mailman
+  category: virtual
+  name: perl-MIME-Base64
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
   category: virtual
   name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
   
   version: ""
 - 
@@ -28,18 +28,18 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  category: net-mail
+  name: mailman
   
   version: ""
 - 
   category: dev-perl
   name: HTML-TokeParser-Simple
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 

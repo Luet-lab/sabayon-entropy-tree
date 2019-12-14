@@ -3,28 +3,18 @@ conflicts: []
 name: git-gui-tools
 requires:
 - 
-  category: dev-vcs
-  name: subversion
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -34,12 +24,42 @@ requires:
   version: ""
 - 
   category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-perl
   name: Authen-SASL
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
   
   version: ""
 - 
@@ -54,22 +74,7 @@ requires:
   version: ""
 - 
   category: dev-vcs
-  name: git
-  
-  version: 2.21.0
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
+  name: subversion
   
   version: ""
 - 
@@ -78,18 +83,13 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: libwww-perl
+  category: dev-vcs
+  name: git
   
-  version: ""
+  version: 2.21.0
 - 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -98,13 +98,23 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -113,30 +123,20 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: app-text
+  name: highlight
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: DBI
   
   version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
 use_flags:
 - +blksha1
 - +curl
