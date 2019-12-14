@@ -8,31 +8,6 @@ conflicts:
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: app-crypt
-  name: sbsigntools
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: 5.2-r5
-- 
   category: sys-fs
   name: zfs
   
@@ -49,12 +24,12 @@ requires:
   version: ""
 - 
   category: sys-boot
-  name: os-prober
+  name: efibootmgr
   
   version: ""
 - 
-  category: media-libs
-  name: libsdl
+  category: app-crypt
+  name: sbsigntools
   
   version: ""
 - 
@@ -63,18 +38,43 @@ requires:
   
   version: 2.02.45
 - 
-  category: sys-fs
-  name: fuse
+  category: sys-apps
+  name: powerpc-utils
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: x11-themes
+  name: sabayon-artwork-grub
   
   version: ""
 - 
   category: sys-boot
-  name: efibootmgr
+  name: os-prober
   
   version: ""
 - 
-  category: sys-apps
-  name: powerpc-utils
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: 5.2-r5
+- 
+  category: media-libs
+  name: libsdl
+  
+  version: ""
+- 
+  category: sys-fs
+  name: fuse
   
   version: ""
 use_flags:
