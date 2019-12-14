@@ -3,18 +3,28 @@ conflicts: []
 name: lightdm-slick-greeter
 requires:
 - 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
   category: x11-misc
   name: lightdm-base
   
   version: "1.12"
 - 
-  category: sys-devel
-  name: gettext
+  category: x11-libs
+  name: cairo
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
@@ -23,18 +33,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
   category: dev-util
   name: intltool
   
   version: 0.35.0
 - 
-  category: media-libs
-  name: freetype
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -42,11 +47,6 @@ requires:
   name: gtk+
   
   version: "3.20"
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
 use_flags:
 - ""
 version: 1.2.6

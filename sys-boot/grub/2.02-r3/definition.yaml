@@ -2,29 +2,34 @@ category: sys-boot
 conflicts:
 - 
   category: sys-boot
-  name: grub
+  name: grub-static
   
   version: ""
 - 
   category: sys-boot
-  name: grub-static
+  name: grub
   
   version: ""
 name: grub
 requires:
 - 
-  category: sys-fs
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: sys-fs
-  name: fuse
+  category: sys-boot
+  name: os-prober
   
   version: ""
 - 
-  category: media-libs
-  name: libsdl
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-fs
+  name: fuse
   
   version: ""
 - 
@@ -38,8 +43,28 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: xz-utils
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-boot
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: app-crypt
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl
   
   version: ""
 - 
@@ -48,33 +73,8 @@ requires:
   
   version: 1.3.5
 - 
-  category: sys-boot
-  name: os-prober
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-fs
-  name: zfs
-  
-  version: ""
-- 
-  category: sys-boot
-  name: efibootmgr
-  
-  version: ""
-- 
   category: sys-devel
   name: gettext
-  
-  version: ""
-- 
-  category: app-crypt
-  name: sbsigntools
   
   version: ""
 use_flags:

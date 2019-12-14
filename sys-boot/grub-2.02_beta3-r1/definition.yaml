@@ -8,13 +8,8 @@ conflicts:
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-fs
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: sys-apps
-  name: ibm-powerpc-utils
+  category: sys-boot
+  name: os-prober
   
   version: ""
 - 
@@ -24,22 +19,7 @@ requires:
   version: ""
 - 
   category: sys-boot
-  name: os-prober
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-themes
-  name: sabayon-artwork-grub
+  name: efibootmgr
   
   version: ""
 - 
@@ -48,8 +28,33 @@ requires:
   
   version: ""
 - 
+  category: x11-themes
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
   category: sys-apps
   name: powerpc-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-fs
+  name: zfs
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-apps
+  name: ibm-powerpc-utils
   
   version: ""
 - 
@@ -58,8 +63,13 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  name: zfs
+  category: app-crypt
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
@@ -67,16 +77,6 @@ requires:
   name: ncurses
   
   version: 5.2-r5
-- 
-  category: sys-boot
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: app-crypt
-  name: sbsigntools
-  
-  version: ""
 use_flags:
 - debug
 - device-mapper
