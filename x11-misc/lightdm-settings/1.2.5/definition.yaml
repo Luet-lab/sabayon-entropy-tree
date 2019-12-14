@@ -4,21 +4,6 @@ name: lightdm-settings
 requires:
 - 
   category: dev-python
-  name: setproctitle
-  
-  version: ""
-- 
-  category: dev-python
-  name: pygobject
-  
-  version: ""
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: ""
-- 
-  category: dev-python
   name: xapp
   
   version: ""
@@ -35,6 +20,21 @@ requires:
 - 
   category: x11-misc
   name: lightdm-slick-greeter
+  
+  version: ""
+- 
+  category: dev-python
+  name: setproctitle
+  
+  version: ""
+- 
+  category: dev-python
+  name: pygobject
+  
+  version: ""
+- 
+  category: sys-auth
+  name: polkit
   
   version: ""
 version: 1.2.5

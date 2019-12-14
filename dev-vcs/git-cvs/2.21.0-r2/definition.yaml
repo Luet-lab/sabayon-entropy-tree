@@ -4,7 +4,42 @@ name: git-cvs
 requires:
 - 
   category: dev-libs
-  name: expat
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -18,71 +53,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
   category: dev-libs
   name: libressl
   
@@ -93,13 +63,38 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
   
   version: ""
 - 
@@ -108,23 +103,18 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
   category: dev-perl
   name: Error
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
@@ -133,8 +123,18 @@ requires:
   
   version: 2.21.0
 - 
-  category: net-misc
-  name: curl
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 use_flags:

@@ -3,11 +3,6 @@ conflicts: []
 name: listadmin
 requires:
 - 
-  category: virtual
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
   category: dev-lang
   name: perl
   
@@ -19,12 +14,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Text-Reform
+  name: HTML-TokeParser-Simple
   
   version: ""
 - 
   category: dev-perl
   name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Term-ReadLine-Perl
   
   version: ""
 - 
@@ -34,17 +34,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-TokeParser-Simple
-  
-  version: ""
-- 
-  category: dev-perl
   name: libwww-perl
   
   version: ""
 - 
   category: dev-perl
-  name: Term-ReadLine-Perl
+  name: Text-Reform
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-MIME-Base64
   
   version: ""
 use_flags:
