@@ -3,8 +3,8 @@ conflicts: []
 name: lightdm-slick-greeter
 requires:
 - 
-  category: x11-libs
-  name: libXext
+  category: media-libs
+  name: libcanberra
   
   version: ""
 - 
@@ -23,13 +23,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
+  category: x11-libs
+  name: gtk+
   
-  version: ""
+  version: "3.20"
 - 
-  category: media-libs
-  name: libcanberra
+  category: x11-libs
+  name: libXext
   
   version: ""
 - 
@@ -43,10 +43,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
+  category: media-libs
+  name: freetype
   
-  version: "3.20"
+  version: ""
 use_flags:
 - ""
 version: 1.2.6

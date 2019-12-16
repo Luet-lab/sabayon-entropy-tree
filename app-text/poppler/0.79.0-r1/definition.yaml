@@ -4,7 +4,12 @@ name: poppler
 requires:
 - 
   category: app-text
-  name: poppler-base-0.79.0[debug=]
+  name: poppler-base-0.79.0[jpeg=]
+  
+  version: ""
+- 
+  category: app-text
+  name: poppler-base-0.79.0[jpeg2k=]
   
   version: ""
 - 
@@ -14,7 +19,7 @@ requires:
   version: ""
 - 
   category: app-text
-  name: poppler-base-0.79.0[png=]
+  name: poppler-base-0.79.0[utils=]
   
   version: ""
 - 
@@ -29,22 +34,17 @@ requires:
   version: ""
 - 
   category: app-text
-  name: poppler-base-0.79.0[jpeg=]
+  name: poppler-base-0.79.0[debug=]
   
   version: ""
 - 
   category: app-text
-  name: poppler-base-0.79.0[jpeg2k=]
+  name: poppler-base-0.79.0[png=]
   
   version: ""
 - 
   category: app-text
   name: poppler-base-0.79.0[tiff=]
-  
-  version: ""
-- 
-  category: app-text
-  name: poppler-base-0.79.0[utils=]
   
   version: ""
 - 

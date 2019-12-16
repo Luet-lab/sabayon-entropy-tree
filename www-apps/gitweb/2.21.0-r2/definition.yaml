@@ -3,18 +3,28 @@ conflicts: []
 name: gitweb
 requires:
 - 
-  category: dev-perl
-  name: MediaWiki-API
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: MailTools
   
   version: ""
 - 
   category: dev-perl
-  name: TermReadKey
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -23,33 +33,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
   category: sys-libs
   name: zlib
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
   
   version: ""
 - 
@@ -63,23 +58,28 @@ requires:
   
   version: 2.21.0
 - 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
   category: dev-lang
   name: tk
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
+  category: dev-vcs
+  name: cvsps
   
-  version: ""
+  version: "2.1"
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -89,37 +89,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  name: libwww-perl
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -130,6 +105,31 @@ requires:
 - 
   category: net-misc
   name: curl
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
