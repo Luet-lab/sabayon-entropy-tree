@@ -5,17 +5,17 @@ license: GPL-2
 name: gnome-shell-windowlist
 requires:
 - 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-gnome-shell-extensions
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
   name: gnome-shell
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-gnome-shell-extensions
   
   version: ""
 uri: []

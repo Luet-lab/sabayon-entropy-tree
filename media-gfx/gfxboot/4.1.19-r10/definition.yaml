@@ -5,6 +5,27 @@ license: GPL-2
 name: gfxboot
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: "2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
+  
+  version: ""
+- 
+  category: "(\tapp-text"
+  description: ""
+  license: ""
+  name: xmlto
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -37,27 +58,6 @@ requires:
   description: ""
   license: ""
   name: nasm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: "2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
-  
-  version: ""
-- 
-  category: "(\tapp-text"
-  description: ""
-  license: ""
-  name: xmlto
   
   version: ""
 uri:

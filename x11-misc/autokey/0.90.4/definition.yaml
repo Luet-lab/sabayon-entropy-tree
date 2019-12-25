@@ -5,38 +5,10 @@ license: GPL-3
 name: autokey
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: zenity
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: pango
   
   version: ""
 - 
@@ -47,10 +19,17 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: pyatspi
+  name: pygobject
   
   version: ""
 - 
@@ -58,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: pyinotify
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-xlib
   
   version: ""
 - 
@@ -78,14 +50,42 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtksourceview
+  name: libnotify
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyatspi
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-xlib
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: zenity
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: gtksourceview
   
   version: ""
 uri:

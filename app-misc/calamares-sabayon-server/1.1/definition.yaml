@@ -19,20 +19,6 @@ license: CC-BY-SA-4.0
 name: calamares-sabayon-server
 requires:
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-branding
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: jfsutils
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -40,10 +26,10 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-fs
   description: ""
   license: ""
-  name: calamares-sabayon-server-base-modules
+  name: btrfs-progs
   
   version: ""
 - 
@@ -51,6 +37,13 @@ requires:
   description: ""
   license: ""
   name: dosfstools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: jfsutils
   
   version: ""
 - 
@@ -75,10 +68,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: btrfs-progs
+  name: calamares-sabayon-server-base-modules
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-server-branding
   
   version: ""
 uri: []

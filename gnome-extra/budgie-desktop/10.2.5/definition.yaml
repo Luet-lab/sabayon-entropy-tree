@@ -5,54 +5,19 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower[introspection=]
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gnome-settings-daemon
   
   version: ""
 - 
-  category: gnome-base
+  category: sys-apps
   description: ""
   license: ""
-  name: gnome-control-center
+  name: accountsservice
   
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.16"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 3.18.0
+  version: "0.6"
 - 
   category: sys-auth
   description: ""
@@ -78,21 +43,56 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: gnome-session
   
   version: ""
 - 
-  category: sys-apps
+  category: media-sound
   description: ""
   license: ""
-  name: accountsservice
+  name: pulseaudio
   
-  version: "0.6"
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.16"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.18.0
 - 
   category: x11-libs
   description: ""
   license: ""
   name: wxGTK
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower[introspection=]
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-control-center
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
   
   version: ""
 uri: []

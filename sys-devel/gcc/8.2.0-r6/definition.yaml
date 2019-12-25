@@ -8,55 +8,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[fixed-point?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[hardened?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[cxx?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[multilib?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[nptl?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[altivec?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[graphite?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: base-gcc-8.2.0[objc-gc?]
   
   version: ""
@@ -71,14 +22,14 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[nls?]
+  name: base-gcc-8.2.0[graphite?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[openmp?]
+  name: base-gcc-8.2.0[hardened?]
   
   version: ""
 - 
@@ -92,6 +43,27 @@ requires:
   category: sys-devel
   description: ""
   license: ""
+  name: base-gcc-8.2.0[cxx?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[nls?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[nptl?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
   name: base-gcc-8.2.0[objc?]
   
   version: ""
@@ -99,7 +71,35 @@ requires:
   category: sys-devel
   description: ""
   license: ""
+  name: base-gcc-8.2.0[altivec?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[fixed-point?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
   name: base-gcc-8.2.0[objc++?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[multilib?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[openmp?]
   
   version: ""
 uri: []

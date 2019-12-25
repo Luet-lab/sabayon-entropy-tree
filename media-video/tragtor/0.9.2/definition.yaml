@@ -5,6 +5,13 @@ license: LGPL-2.1
 name: tragtor
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
+  
+  version: ""
+- 
   category: media-video
   description: ""
   license: ""
@@ -16,13 +23,6 @@ requires:
   description: ""
   license: ""
   name: id3v2
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
   
   version: ""
 uri:

@@ -5,26 +5,12 @@ license: LGPL-2
 name: libxklavier
 requires:
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xkeyboard-config
-  
-  version: 2.4.1-r3
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
+  version: "2.16"
 - 
   category: x11-libs
   description: ""
@@ -40,12 +26,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: gobject-introspection
+  name: xkeyboard-config
   
-  version: "1.30"
+  version: 2.4.1-r3
 - 
   category: app-text
   description: ""
@@ -57,9 +43,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libxml2
   
-  version: "2.16"
+  version: ""
 - 
   category: x11-apps
   description: ""
@@ -67,6 +53,20 @@ requires:
   name: xkbcomp
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.30"
 uri:
 - http://distfiles.sabayon.org//libxklavier-5.4.tar.bz2
 use_flags:

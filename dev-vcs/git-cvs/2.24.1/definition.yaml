@@ -5,38 +5,10 @@ license: GPL-2
 name: git-cvs
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Error
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: libsecret
   
   version: ""
 - 
@@ -46,27 +18,6 @@ requires:
   name: cvsps
   
   version: "2.1"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTML-Tree
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -82,17 +33,24 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: virtual
   description: ""
   license: ""
-  name: tk
+  name: libiconv
   
   version: ""
 - 
-  category: dev-perl
+  category: app-crypt
   description: ""
   license: ""
-  name: MediaWiki-API
+  name: gnupg
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: highlight
   
   version: ""
 - 
@@ -103,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: emacs
+  name: libpcre
   
   version: ""
 - 
@@ -124,17 +82,24 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-libs
   description: ""
   license: ""
-  name: perl
+  name: expat
   
   version: ""
 - 
-  category: app-text
+  category: dev-perl
   description: ""
   license: ""
-  name: highlight
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Tree
   
   version: ""
 - 
@@ -145,45 +110,17 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: dev-lang
   description: ""
   license: ""
-  name: git
-  
-  version: 2.24.1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
+  name: perl
   
   version: ""
 - 
-  category: dev-perl
+  category: dev-lang
   description: ""
   license: ""
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
+  name: tk
   
   version: ""
 - 
@@ -197,7 +134,70 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: CGI
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: git
+  
+  version: 2.24.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
   
   version: ""
 uri:

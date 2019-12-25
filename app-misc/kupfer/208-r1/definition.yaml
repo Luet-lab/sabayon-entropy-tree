@@ -8,14 +8,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygtk
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
+  name: pyxdg
   
   version: ""
 - 
@@ -33,10 +26,31 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: keybinder
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: pyxdg
+  name: pygtk
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
   
   version: ""
 - 
@@ -51,20 +65,6 @@ requires:
   description: ""
   license: ""
   name: pygobject
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
   
   version: ""
 uri:

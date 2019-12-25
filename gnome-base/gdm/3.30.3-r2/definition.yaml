@@ -13,47 +13,12 @@ license: "\n\tGPL-2+\n\tbranding? ( CC-BY-SA-4.0 )\n"
 name: gdm
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: accountsservice
+  name: tcp-wrappers
   
-  version: 0.6.35
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
+  version: "7.6"
 - 
   category: gnome-base
   description: ""
@@ -69,31 +34,52 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: libgudev
+  name: iso-codes
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libXinerama
   
-  version: 2.91.1
+  version: ""
 - 
-  category: gnome-base
+  category: x11-apps
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: xhost
   
-  version: 3.1.4
+  version: ""
 - 
-  category: sys-auth
+  category: media-libs
   description: ""
   license: ""
-  name: pam_fprint
+  name: fontconfig
+  
+  version: 2.5.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
+  
+  version: 0.6.35
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
   
   version: ""
 - 
@@ -104,10 +90,52 @@ requires:
   
   version: "2.44"
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: "0.20"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.4"
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: 1.0.2-r3
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "239.3"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pam_fprint
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXdmcp
+  name: gtk+
+  
+  version: 2.91.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -121,70 +149,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: systemd
   
-  version: "7.6"
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xhost
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: orca
-  
-  version: "3.10"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: "0.20"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.5.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: "239.3"
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: mousetweaks
-  
-  version: ""
+  version: "186"
 - 
   category: x11-base
   description: ""
   license: ""
   name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
   
   version: ""
 - 
@@ -195,26 +167,47 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcanberra
-  
-  version: "0.4"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: libXau
   
   version: ""
 - 
-  category: sys-boot
+  category: x11-libs
   description: ""
   license: ""
-  name: plymouth
+  name: libXdmcp
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: orca
+  
+  version: "3.10"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.12
 - 
   category: gnome-base
   description: ""
@@ -223,33 +216,40 @@ requires:
   
   version: 3.1.90
 - 
-  category: app-text
+  category: x11-libs
   description: ""
   license: ""
-  name: iso-codes
+  name: libxcb
   
   version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: 1.0.2-r3
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
-  
-  version: "186"
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
+  name: dbus
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: mousetweaks
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: 3.1.4
 uri:
 - 'https://www.mail-archive.com/tango-artists@lists.freedesktop.org/msg00043/tango-gentoo-v1.1.tar.gz '
 use_flags:

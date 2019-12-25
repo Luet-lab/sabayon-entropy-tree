@@ -5,17 +5,38 @@ license: GPL-3
 name: quassel
 requires:
 - 
-  category: net-nds
+  category: kde-frameworks
   description: ""
   license: ""
-  name: openldap
+  name: knotifications
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtgui
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
   
   version: ""
 - 
@@ -33,6 +54,13 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
@@ -43,21 +71,56 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
+  name: knotifyconfig
+  
+  version: ""
+- 
+  category: net-irc
+  description: ""
+  license: ""
+  name: quassel-common
+  
+  version: 0.13.1
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
   name: kcoreaddons
   
   version: ""
 - 
-  category: sys-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: zlib
+  name: kwidgetsaddons
   
   version: ""
 - 
-  category: app-crypt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qca
+  name: kxmlgui
   
   version: ""
 - 
@@ -67,13 +130,6 @@ requires:
   name: sonnet
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: snorenotify
-  
-  version: 0.7.0
 - 
   category: dev-qt
   description: ""
@@ -92,21 +148,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
   name: qtwebengine
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
   
   version: ""
 - 
@@ -121,55 +170,6 @@ requires:
   description: ""
   license: ""
   name: sqlite
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifyconfig
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.13.1
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
   
   version: ""
 uri:

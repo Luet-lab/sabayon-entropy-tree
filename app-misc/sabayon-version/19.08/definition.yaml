@@ -1,13 +1,6 @@
 category: app-misc
 conflicts:
 - 
-  category: app-admin
-  description: ""
-  license: ""
-  name: eselect-init
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -22,6 +15,13 @@ conflicts:
   
   version: ""
 - 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect-init
+  
+  version: ""
+- 
   category: <sys-apps
   description: ""
   license: ""
@@ -33,31 +33,10 @@ license: GPL-2
 name: sabayon-version
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: man
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
   name: base-gcc
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-python
   
   version: ""
 - 
@@ -72,6 +51,27 @@ requires:
   description: ""
   license: ""
   name: sabayon-dracut
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: man
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-python
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 

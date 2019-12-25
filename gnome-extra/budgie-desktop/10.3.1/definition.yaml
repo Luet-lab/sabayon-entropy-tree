@@ -5,33 +5,19 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
-  category: dev-util
+  category: net-wireless
   description: ""
   license: ""
-  name: desktop-file-utils
+  name: gnome-bluetooth
   
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower[introspection=]
-  
-  version: ""
+  version: "3.18"
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-menus
+  name: gnome-session
   
-  version: 3.10.1
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -47,24 +33,10 @@ requires:
   
   version: "0.6"
 - 
-  category: gnome-base
+  category: media-sound
   description: ""
   license: ""
-  name: gnome-desktop
-  
-  version: 3.18.0
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower-pm-utils[introspection=]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-control-center
+  name: pulseaudio
   
   version: ""
 - 
@@ -75,6 +47,20 @@ requires:
   
   version: "3.16"
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-menus
+  
+  version: 3.10.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-control-center
+  
+  version: ""
+- 
   category: sys-auth
   description: ""
   license: ""
@@ -82,24 +68,38 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-power
   description: ""
   license: ""
-  name: wxGTK
+  name: upower-pm-utils[introspection=]
   
   version: ""
 - 
-  category: net-wireless
+  category: dev-util
   description: ""
   license: ""
-  name: gnome-bluetooth
+  name: desktop-file-utils
   
-  version: "3.18"
+  version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gnome-desktop
+  
+  version: 3.18.0
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower[introspection=]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
   
   version: ""
 uri: []

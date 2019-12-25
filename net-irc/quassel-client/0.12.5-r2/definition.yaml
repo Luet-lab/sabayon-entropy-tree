@@ -6,66 +6,10 @@ license: GPL-3
 name: quassel-client
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifyconfig
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.12.5
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: phonon[qt5(+)]
+  name: kxmlgui
   
   version: ""
 - 
@@ -76,24 +20,17 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: net-irc
   description: ""
   license: ""
-  name: qtcore
+  name: quassel-common
   
-  version: ""
+  version: 0.12.5
 - 
-  category: kde-frameworks
+  category: sys-libs
   description: ""
   license: ""
-  name: kxmlgui
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  name: zlib
   
   version: ""
 - 
@@ -104,10 +41,45 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: knotifyconfig
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: phonon[qt5(+)]
   
   version: ""
 - 
@@ -125,10 +97,38 @@ requires:
   
   version: 0.7.0
 - 
-  category: sys-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: zlib
+  name: qtdbus
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
   
   version: ""
 uri:

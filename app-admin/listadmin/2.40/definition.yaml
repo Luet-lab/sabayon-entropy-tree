@@ -6,34 +6,6 @@ license: GPL-2
 name: listadmin
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailman
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTML-TokeParser-Simple
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
@@ -55,10 +27,24 @@ requires:
   
   version: ""
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailman
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: Term-ReadLine-Perl
+  name: HTML-TokeParser-Simple
   
   version: ""
 - 
@@ -66,6 +52,20 @@ requires:
   description: ""
   license: ""
   name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Term-ReadLine-Perl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-MIME-Base64
   
   version: ""
 uri:

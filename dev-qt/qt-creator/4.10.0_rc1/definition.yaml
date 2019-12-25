@@ -5,12 +5,12 @@ license: GPL-3
 name: qt-creator
 requires:
 - 
-  category: dev-qt
+  category: dev-util
   description: ""
   license: ""
-  name: qtsvg
+  name: valgrind
   
-  version: 5.12.3
+  version: ""
 - 
   category: sys-devel
   description: ""
@@ -19,10 +19,31 @@ requires:
   
   version: "8"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: the_silver_searcher
+  
+  version: ""
+- 
   category: dev-vcs
   description: ""
   license: ""
-  name: git
+  name: mercurial
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
+  
+  version: 5.12.3
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: bzr
   
   version: ""
 - 
@@ -33,31 +54,17 @@ requires:
   
   version: 1.13.1
 - 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvs
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtprintsupport
   
   version: 5.12.3
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsql
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: designer
+  name: qthelp
   
   version: 5.12.3
 - 
@@ -71,7 +78,28 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtconcurrent
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtserialport
   
   version: 5.12.3
 - 
@@ -82,40 +110,33 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: bzr
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gdb
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: the_silver_searcher
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
-  name: valgrind
+  name: cppcheck
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwebengine
+  name: qtsvg
   
   version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: designer
+  
+  version: 5.12.3
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: git
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -124,12 +145,12 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-util
   description: ""
   license: ""
-  name: qtnetwork
+  name: cmake[server(+)]
   
-  version: 5.12.3
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -145,12 +166,19 @@ requires:
   
   version: 5.12.3
 - 
-  category: dev-util
+  category: dev-vcs
   description: ""
   license: ""
-  name: cppcheck
+  name: cvs
   
   version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qttranslations
+  
+  version: 5.12.3
 - 
   category: dev-qt
   description: ""
@@ -162,21 +190,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtserialport
-  
-  version: 5.12.3
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: cmake[server(+)]
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtquickcontrols
+  name: qtnetwork
   
   version: 5.12.3
 - 
@@ -190,42 +204,28 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qttranslations
+  name: qtsql
   
   version: 5.12.3
 - 
-  category: dev-qt
+  category: sys-devel
   description: ""
   license: ""
-  name: qthelp
-  
-  version: 5.12.3
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: mercurial
+  name: gdb
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtconcurrent
   
   version: 5.12.3
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtprintsupport
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
+  name: qtcore
   
   version: 5.12.3
 uri:

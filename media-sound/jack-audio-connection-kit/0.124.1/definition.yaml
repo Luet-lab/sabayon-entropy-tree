@@ -26,6 +26,20 @@ license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: lsof
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: realtime-base
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -40,17 +54,10 @@ requires:
   
   version: 1.0.27.2
 - 
-  category: sys-auth
+  category: media-libs
   description: ""
   license: ""
-  name: realtime-base
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
+  name: libffado
   
   version: ""
 - 
@@ -60,13 +67,6 @@ requires:
   name: libsndfile
   
   version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libffado
-  
-  version: ""
 - 
   category: media-libs
   description: ""

@@ -5,6 +5,13 @@ license: GPL-3 LGPL-3
 name: lightdm-gtk-greeter
 requires:
 - 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-lightdm
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -44,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: sabayon-artwork-core
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-lightdm
   
   version: ""
 uri:

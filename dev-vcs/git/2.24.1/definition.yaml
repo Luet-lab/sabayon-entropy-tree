@@ -5,62 +5,6 @@ license: GPL-2
 name: git
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
@@ -71,21 +15,14 @@ requires:
   category: dev-lang
   description: ""
   license: ""
-  name: tk
+  name: perl
   
   version: ""
 - 
-  category: dev-perl
+  category: app-crypt
   description: ""
   license: ""
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI
+  name: gnupg
   
   version: ""
 - 
@@ -93,6 +30,34 @@ requires:
   description: ""
   license: ""
   name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: emacs
   
   version: ""
 - 
@@ -106,28 +71,21 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBI
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre2[jit(+)]
+  name: libpcre
   
   version: ""
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
+  name: curl
   
   version: ""
 - 
@@ -141,7 +99,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-SQLite
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
   
   version: ""
 - 
@@ -152,17 +117,17 @@ requires:
   
   version: ""
 - 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: CGI
+  
+  version: ""
+- 
   category: app-crypt
   description: ""
   license: ""
   name: libsecret
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
   
   version: ""
 - 
@@ -173,6 +138,27 @@ requires:
   
   version: ""
 - 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Tree
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -180,10 +166,24 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: MailTools
+  name: DBD-SQLite
   
   version: ""
 - 

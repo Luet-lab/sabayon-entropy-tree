@@ -8,27 +8,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: liblinear
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libpcap
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: apr
   
   version: ""
@@ -36,7 +15,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: liblinear
   
   version: ""
 - 
@@ -47,10 +26,10 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: net-libs
   description: ""
   license: ""
-  name: subversion
+  name: libpcap
   
   version: ""
 - 
@@ -67,6 +46,27 @@ requires:
   name: lua
   
   version: "5.2"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh2
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
 uri:
 - https://nmap.org/dist/nmap-7.70.tar.bz2
 use_flags:
