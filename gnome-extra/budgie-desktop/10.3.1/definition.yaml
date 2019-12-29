@@ -5,6 +5,62 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: "3.18"
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-menus
+  
+  version: 3.10.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-0.110[introspection=]
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower[introspection=]
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-control-center
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -22,72 +78,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: wxGTK
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: "3.18"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: gtk+
   
   version: "3.16"
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower[introspection=]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-control-center
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower-pm-utils[introspection=]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-menus
-  
-  version: 3.10.1
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
 - 
   category: gnome-base
   description: ""
@@ -96,10 +89,17 @@ requires:
   
   version: 3.18.0
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: polkit-0.110[introspection=]
+  name: wxGTK
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower-pm-utils[introspection=]
   
   version: ""
 uri: []

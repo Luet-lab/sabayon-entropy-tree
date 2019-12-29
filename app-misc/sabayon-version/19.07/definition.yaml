@@ -1,6 +1,20 @@
 category: app-misc
 conflicts:
 - 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect-init
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: ""
+- 
   category: <sys-apps
   description: ""
   license: ""
@@ -14,24 +28,24 @@ conflicts:
   name: hal
   
   version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: eselect-init
-  
-  version: ""
 description: Sabayon system release virtual package
 license: GPL-2
 name: sabayon-version
 requires:
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gcc-config
+  
+  version: ""
 - 
   category: app-eselect
   description: ""
@@ -47,6 +61,13 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
   category: sys-kernel
   description: ""
   license: ""
@@ -58,27 +79,6 @@ requires:
   description: ""
   license: ""
   name: man
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc-config
   
   version: ""
 uri: []

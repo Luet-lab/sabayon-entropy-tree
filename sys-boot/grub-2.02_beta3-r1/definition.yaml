@@ -12,17 +12,10 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
+  name: sbsigntools
   
   version: ""
 - 
@@ -36,7 +29,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: powerpc-utils
+  name: ibm-powerpc-utils
   
   version: ""
 - 
@@ -47,6 +40,27 @@ requires:
   
   version: ""
 - 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
@@ -54,10 +68,10 @@ requires:
   
   version: ""
 - 
-  category: x11-themes
+  category: sys-boot
   description: ""
   license: ""
-  name: sabayon-artwork-grub
+  name: os-prober
   
   version: ""
 - 
@@ -68,17 +82,17 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r5
+- 
   category: media-libs
   description: ""
   license: ""
   name: libsdl
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: os-prober
   
   version: ""
 - 
@@ -92,23 +106,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: ibm-powerpc-utils
+  name: powerpc-utils
   
   version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: sbsigntools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.45
 uri:
 - mirror://gnu/grub-2.02_beta3-r1/grub-2.02_beta3-r1-.tar.xz
 - mirror://gentoo/grub-2.02_beta3-r1-.tar.xz

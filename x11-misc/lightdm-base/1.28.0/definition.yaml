@@ -5,13 +5,6 @@ license: GPL-3 LGPL-3
 name: lightdm-base
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -26,10 +19,38 @@ requires:
   
   version: 20101024-r2
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.44.0
+- 
   category: sys-libs
   description: ""
   license: ""
   name: pam
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -44,27 +65,6 @@ requires:
   description: ""
   license: ""
   name: audit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.44.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
   
   version: ""
 uri:

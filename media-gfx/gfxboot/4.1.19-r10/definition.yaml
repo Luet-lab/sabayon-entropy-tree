@@ -5,6 +5,27 @@ license: GPL-2
 name: gfxboot
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
+  
+  version: ""
+- 
+  category: "(\tapp-text"
+  description: ""
+  license: ""
+  name: xmlto
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
   category: app-text
   description: ""
   license: ""
@@ -39,27 +60,6 @@ requires:
   name: freetype
   
   version: "2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
-  
-  version: ""
-- 
-  category: "(\tapp-text"
-  description: ""
-  license: ""
-  name: xmlto
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
 uri:
 - download.opensuse.org/repositories/Education/SLE-11/src/gfxboot-4.1.19-.1.src.rpm
 use_flags:

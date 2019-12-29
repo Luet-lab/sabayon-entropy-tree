@@ -8,7 +8,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygtk
+  name: pyxdg
   
   version: ""
 - 
@@ -22,14 +22,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: libgnome-python
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
+  name: libwnck-python
   
   version: ""
 - 
@@ -43,14 +36,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyxdg
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libwnck-python
+  name: pygtk
   
   version: ""
 - 
@@ -65,6 +51,20 @@ requires:
   description: ""
   license: ""
   name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libgnome-python
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: keybinder
   
   version: ""
 uri:

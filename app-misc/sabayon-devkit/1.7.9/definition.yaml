@@ -5,6 +5,41 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
+  category: app-portage
+  description: ""
+  license: ""
+  name: portage-utils
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: repoman
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: eix
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
   category: app-misc
   description: ""
   license: ""
@@ -19,10 +54,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: app-portage
   description: ""
   license: ""
-  name: perl
+  name: gentoolkit
   
   version: ""
 - 
@@ -44,41 +79,6 @@ requires:
   description: ""
   license: ""
   name: docker
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: repoman
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: eix
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: gentoolkit
   
   version: ""
 uri:

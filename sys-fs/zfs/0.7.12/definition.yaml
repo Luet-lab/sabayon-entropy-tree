@@ -1,13 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: <sys-boot
   description: ""
   license: ""
@@ -21,31 +14,17 @@ conflicts:
   name: zfs-fuse
   
   version: ""
+- 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -57,49 +36,28 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
+  name: zfs-kmod
   
-  version: ""
+  version: 0.7.12
 - 
   category: virtual
   description: ""
   license: ""
-  name: modutils
+  name: udev
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
+  name: lsscsi
   
-  version: 0.7.12
+  version: ""
 - 
   category: sys-process
   description: ""
   license: ""
   name: procps
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
   
   version: ""
 - 
@@ -114,6 +72,48 @@ requires:
   description: ""
   license: ""
   name: udev-init-scripts
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 uri:

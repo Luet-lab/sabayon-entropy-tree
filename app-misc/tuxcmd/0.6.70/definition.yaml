@@ -5,6 +5,20 @@ license: GPL-2
 name: tuxcmd
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -37,20 +51,6 @@ requires:
   description: ""
   license: ""
   name: expat
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
   
   version: ""
 uri:

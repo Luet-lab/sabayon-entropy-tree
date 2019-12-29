@@ -4,14 +4,14 @@ conflicts:
   category: net-misc
   description: ""
   license: ""
-  name: mDNSResponder
+  name: howl
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: howl
+  name: mDNSResponder
   
   version: ""
 description: System which facilitates service discovery on a local network (base pkg)
@@ -22,21 +22,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libdaemon
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: glib
   
   version: ""
 - 
@@ -57,14 +43,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
+  name: pygobject
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libdaemon
   
   version: ""
 - 
@@ -75,10 +61,17 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: pygobject
+  name: dbus-python
   
   version: ""
 - 
@@ -93,6 +86,13 @@ requires:
   description: ""
   license: ""
   name: selinux-avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 uri:

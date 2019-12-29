@@ -19,13 +19,6 @@ requires:
   
   version: ""
 - 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache[apache2_modules_dav]
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
@@ -40,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: sqlite
+  name: apr
   
-  version: 3.7.12
+  version: "1.3"
 - 
   category: dev-libs
   description: ""
@@ -61,12 +54,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: apr
+  name: db
   
-  version: "1.3"
+  version: 4.0.14
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.7.12
 - 
   category: dev-libs
   description: ""
@@ -75,17 +75,10 @@ requires:
   
   version: "1.3"
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: db
-  
-  version: 4.0.14
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: file
   
   version: ""
 - 
@@ -96,10 +89,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: file
+  name: libintl
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache[apache2_modules_dav]
   
   version: ""
 uri:

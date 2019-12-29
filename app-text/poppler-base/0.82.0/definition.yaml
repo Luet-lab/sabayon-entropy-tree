@@ -8,21 +8,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: fontconfig
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: freetype
+  name: zlib
   
   version: ""
 - 
-  category: media-libs
+  category: net-misc
   description: ""
   license: ""
-  name: lcms
+  name: curl
   
   version: ""
 - 
@@ -47,17 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: app-text
   description: ""
   license: ""
-  name: zlib
+  name: poppler-data
   
   version: ""
 - 
-  category: net-misc
+  category: media-libs
   description: ""
   license: ""
-  name: curl
+  name: freetype
   
   version: ""
 - 
@@ -74,13 +81,6 @@ requires:
   name: openjpeg
   
   version: 2.3.0-r1
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-data
-  
-  version: ""
 uri:
 - https://poppler.freedesktop.org/poppler-0.82.0.tar.xz
 use_flags:

@@ -5,10 +5,24 @@ license: GPL-3
 name: autokey
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
   
   version: ""
 - 
@@ -19,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: python-xlib
+  name: libnotify
   
   version: ""
 - 
@@ -36,28 +50,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: gtksourceview
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
   
   version: ""
 - 
@@ -82,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-python
   description: ""
   license: ""
-  name: gtk+
+  name: python-xlib
   
   version: ""
 uri:

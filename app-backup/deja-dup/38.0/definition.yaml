@@ -5,33 +5,12 @@ license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gvfs
+  name: libnotify
   
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.34"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: "1.0"
+  version: "0.7"
 - 
   category: app-backup
   description: ""
@@ -39,20 +18,6 @@ requires:
   name: duplicity
   
   version: 0.7.14
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -68,12 +33,33 @@ requires:
   
   version: ""
 - 
-  category: app-admin
+  category: gnome-base
   description: ""
   license: ""
-  name: packagekit-base
+  name: gvfs
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.34"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpeas
+  
+  version: "1.0"
 - 
   category: x11-libs
   description: ""
@@ -82,17 +68,31 @@ requires:
   
   version: "3.10"
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnotify
+  name: dbus-glib
   
-  version: "0.7"
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
   name: dconf
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: packagekit-base
   
   version: ""
 uri:

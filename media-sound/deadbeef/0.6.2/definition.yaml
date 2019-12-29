@@ -13,10 +13,24 @@ license: "DeaDBeeF\n\tGPL-2\n\tLGPL-2.1\n\tpsf? ( BSD XMAME )\n\tdumb? ( DUMB-0.
 name: deadbeef
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: libmms
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
 - 
@@ -24,6 +38,13 @@ requires:
   description: ""
   license: ""
   name: libzip
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -41,10 +62,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcddb
+  name: gtk+
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: timidity-freepats
   
   version: ""
 - 
@@ -54,6 +82,69 @@ requires:
   name: libsndfile
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: imlib2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcddb
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: "0.90"
 - 
   category: virtual
   description: ""
@@ -69,48 +160,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: adplug
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmms
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmad
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
@@ -121,56 +170,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: "0.90"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: imlib2
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: timidity-freepats
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
+  name: adplug
   
   version: ""
 uri:

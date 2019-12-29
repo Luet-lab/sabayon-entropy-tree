@@ -5,19 +5,12 @@ license: GPL-3
 name: lightdm-slick-greeter
 requires:
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: cairo
+  name: freetype
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.20"
 - 
   category: x11-libs
   description: ""
@@ -26,12 +19,12 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: lightdm-base
+  name: cairo
   
-  version: "1.12"
+  version: ""
 - 
   category: dev-util
   description: ""
@@ -47,12 +40,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freetype
+  name: gtk+
   
-  version: ""
+  version: "3.20"
 - 
   category: media-libs
   description: ""
@@ -67,6 +60,13 @@ requires:
   name: pixman
   
   version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: lightdm-base
+  
+  version: "1.12"
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.6.tar.gz -> lightdm-slick-greeter-1.2.6.tar.gz
 use_flags:

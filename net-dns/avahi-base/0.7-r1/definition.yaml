@@ -26,10 +26,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libcap
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
   
   version: ""
 - 
@@ -57,21 +64,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: glib
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
   
   version: ""
 - 
@@ -82,17 +75,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: gobject-introspection
+  name: selinux-avahi
   
   version: ""
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus-python
+  name: expat
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 uri:
