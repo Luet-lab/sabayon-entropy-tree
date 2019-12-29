@@ -1,10 +1,17 @@
 category: sys-apps
 conflicts:
 - 
-  category: sys-auth
+  category: net-dns
   description: ""
   license: ""
-  name: nss-myhostname
+  name: openresolv
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev
   
   version: ""
 - 
@@ -15,13 +22,6 @@ conflicts:
   
   version: "044"
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
   category: <sys-libs
   description: ""
   license: ""
@@ -29,10 +29,10 @@ conflicts:
   
   version: "2.16"
 - 
-  category: net-dns
+  category: sys-auth
   description: ""
   license: ""
-  name: openresolv
+  name: nss-myhostname
   
   version: ""
 - 
@@ -47,12 +47,19 @@ license: GPL-2 LGPL-2.1 MIT public-domain
 name: systemd
 requires:
 - 
-  category: net-misc
+  category: sys-process
   description: ""
   license: ""
-  name: curl
+  name: audit
   
-  version: ""
+  version: "2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.1.0
 - 
   category: net-libs
   description: ""
@@ -61,19 +68,82 @@ requires:
   
   version: 3.1.4
 - 
-  category: dev-libs
+  category: sys-process
   description: ""
   license: ""
-  name: libpcre2
+  name: procps[kill(+)]
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libseccomp
+  name: sysvinit
   
-  version: 2.3.3
+  version: ""
+- 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: sabayon-dracut
+  
+  version: "1.3"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "15"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.5.3
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: 0.9.33
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: baselayout
+  
+  version: "2.2"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-base-policy
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -89,10 +159,38 @@ requires:
   
   version: "0.158"
 - 
-  category: media-gfx
+  category: dev-libs
   description: ""
   license: ""
-  name: qrencode
+  name: libgcrypt
+  
+  version: 1.4.5
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux[kill(-)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.30"
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
   
   version: ""
 - 
@@ -106,84 +204,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: baselayout
-  
-  version: "2.2"
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: "2"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: "1.6"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.5.3
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps[kill(+)]
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: 5.0.5-r1
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
+  name: coreutils[kill(-)]
   
   version: ""
 - 
@@ -197,44 +218,30 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libseccomp
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
+  version: 2.3.3
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libapparmor
+  name: libselinux
   
   version: ""
 - 
-  category: net-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libmicrohttpd
-  
-  version: 0.9.33
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux[kill(-)]
+  name: curl
   
   version: ""
 - 
-  category: sys-kernel
+  category: app-arch
   description: ""
   license: ""
-  name: sabayon-dracut
+  name: bzip2
   
-  version: "1.3"
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -243,26 +250,26 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-arch
   description: ""
   license: ""
-  name: util-linux
+  name: xz-utils
   
-  version: "2.30"
+  version: 5.0.5-r1
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: openssl
+  name: libapparmor
   
-  version: 1.1.0
+  version: ""
 - 
-  category: dev-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libgcrypt
+  name: cryptsetup
   
-  version: 1.4.5
+  version: "1.6"
 - 
   category: net-dns
   description: ""
@@ -271,17 +278,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: media-gfx
   description: ""
   license: ""
-  name: kmod
-  
-  version: "15"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[kill(-)]
+  name: qrencode
   
   version: ""
 uri:

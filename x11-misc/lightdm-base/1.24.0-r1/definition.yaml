@@ -12,20 +12,6 @@ requires:
   
   version: "5"
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -40,12 +26,26 @@ requires:
   
   version: ""
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: accountsservice
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1"
 - 
   category: sys-auth
   description: ""

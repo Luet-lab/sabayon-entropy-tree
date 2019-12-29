@@ -5,45 +5,10 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: vte
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: thunar
+  name: libXxf86vm
   
   version: ""
 - 
@@ -54,33 +19,40 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: vte
   
   version: ""
 - 
-  category: x11-misc
+  category: net-libs
   description: ""
   license: ""
-  name: cairo-dock
+  name: webkit-gtk
   
-  version: 3.4.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: vala
-  
-  version: ""
+  version: 1.4.0
 - 
   category: x11-libs
   description: ""
@@ -96,13 +68,6 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oauth
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -110,10 +75,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: dbus-glib
+  name: librsvg
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: cairo-dock
+  
+  version: 3.4.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libetpan
   
   version: ""
 - 
@@ -124,10 +110,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libetpan
+  name: simplejson
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
   
   version: ""
 - 
@@ -145,24 +138,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: webkit-gtk
-  
-  version: 1.4.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
+  name: vala
   
   version: ""
 - 
-  category: dev-python
+  category: xfce-base
   description: ""
   license: ""
-  name: simplejson
+  name: thunar
   
   version: ""
 - 
@@ -177,6 +163,20 @@ requires:
   description: ""
   license: ""
   name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oauth
   
   version: ""
 uri:

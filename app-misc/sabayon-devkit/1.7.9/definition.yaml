@@ -8,7 +8,7 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: pax-utils
+  name: querypkg
   
   version: ""
 - 
@@ -19,17 +19,17 @@ requires:
   
   version: ""
 - 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
-  
-  version: ""
-- 
   category: dev-lang
   description: ""
   license: ""
   name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -50,7 +50,21 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: querypkg
+  name: pax-utils
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: portage-utils
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: repoman
   
   version: ""
 - 
@@ -65,20 +79,6 @@ requires:
   description: ""
   license: ""
   name: gentoolkit
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: repoman
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
   
   version: ""
 uri:

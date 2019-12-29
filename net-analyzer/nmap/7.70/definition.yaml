@@ -5,24 +5,17 @@ license: GPL-2
 name: nmap
 requires:
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: apr
+  name: lua
   
-  version: ""
+  version: "5.2"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: liblinear
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
   
   version: ""
 - 
@@ -32,20 +25,6 @@ requires:
   name: libpcap
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: "5.2"
 - 
   category: net-libs
   description: ""
@@ -65,6 +44,27 @@ requires:
   description: ""
   license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

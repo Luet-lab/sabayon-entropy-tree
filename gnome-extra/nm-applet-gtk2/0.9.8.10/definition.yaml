@@ -12,12 +12,19 @@ license: GPL-2+
 name: nm-applet-gtk2
 requires:
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: iso-codes
+  name: glib
   
-  version: ""
+  version: "2.26"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: "2.20"
 - 
   category: net-misc
   description: ""
@@ -26,40 +33,12 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: virtual
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: freedesktop-icon-theme
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.6
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: modemmanager
-  
-  version: 0.7.990
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.26"
 - 
   category: dev-libs
   description: ""
@@ -68,19 +47,26 @@ requires:
   
   version: "0.88"
 - 
-  category: gnome-base
+  category: net-wireless
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: gnome-bluetooth
   
-  version: "2.20"
+  version: 2.27.6
 - 
-  category: x11-libs
+  category: net-misc
   description: ""
   license: ""
-  name: gtk+
+  name: modemmanager
   
-  version: "2.20"
+  version: 0.7.990
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -96,10 +82,31 @@ requires:
   
   version: 0.9.8
 - 
-  category: virtual
+  category: gnome-base
   description: ""
   license: ""
-  name: libgudev
+  name: gconf
+  
+  version: "2.20"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.6
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 - 
@@ -124,24 +131,17 @@ requires:
   
   version: 0.96-r1
 - 
-  category: net-wireless
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-bluetooth
-  
-  version: 2.27.6
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
+  name: gtk+
   
   version: "2.20"
 - 
-  category: virtual
+  category: app-text
   description: ""
   license: ""
-  name: freedesktop-icon-theme
+  name: iso-codes
   
   version: ""
 uri: []

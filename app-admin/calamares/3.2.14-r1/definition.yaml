@@ -5,27 +5,6 @@ license: GPL-3
 name: calamares
 requires:
 - 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: sudo
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -40,12 +19,12 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: dev-cpp
   description: ""
   license: ""
-  name: parted
+  name: yaml-cpp
   
-  version: "3.0"
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -54,10 +33,10 @@ requires:
   
   version: "1.55"
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: libpwquality
   
   version: ""
 - 
@@ -82,12 +61,33 @@ requires:
   
   version: 3.0.3
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
   name: PythonQt
   
   version: "3.1"
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: sudo
+  
+  version: ""
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.14/calamares-3.2.14.tar.gz
 use_flags:

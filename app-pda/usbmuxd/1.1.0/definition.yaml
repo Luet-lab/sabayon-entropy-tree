@@ -5,6 +5,13 @@ license: GPL-2 GPL-3 LGPL-2.1+
 name: usbmuxd
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
   category: app-pda
   description: ""
   license: ""
@@ -23,13 +30,6 @@ requires:
   description: ""
   license: ""
   name: libusb
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
   
   version: ""
 uri:

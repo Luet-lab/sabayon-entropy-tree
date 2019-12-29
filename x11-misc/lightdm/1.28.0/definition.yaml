@@ -8,16 +8,16 @@ requires:
   category: x11-misc
   description: ""
   license: ""
-  name: lightdm-base-1.28.0[introspection=]
+  name: lightdm-qt5
   
-  version: ""
+  version: 1.28.0
 - 
   category: x11-misc
   description: ""
   license: ""
-  name: lightdm-qt5
+  name: lightdm-base-1.28.0[introspection=]
   
-  version: 1.28.0
+  version: ""
 uri: []
 use_flags:
 - audit

@@ -47,12 +47,12 @@ requires:
   
   version: "1.0"
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libnotify
   
-  version: ""
+  version: "0.7"
 - 
   category: net-libs
   description: ""
@@ -68,19 +68,19 @@ requires:
   
   version: "3.10"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
   category: app-backup
   description: ""
   license: ""
   name: duplicity
   
   version: 0.7.14
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
 - 
   category: dev-libs
   description: ""

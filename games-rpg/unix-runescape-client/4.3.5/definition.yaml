@@ -5,20 +5,6 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng-compat
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-oss
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -26,10 +12,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: dev-lang
   description: ""
   license: ""
-  name: Archive-Extract
+  name: perl
   
   version: ""
 - 
@@ -37,6 +23,41 @@ requires:
   description: ""
   license: ""
   name: Config-IniFiles
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: wget
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng-compat
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: wine
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Archive-Extract
   
   version: ""
 - 
@@ -54,17 +75,10 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: media-libs
   description: ""
   license: ""
-  name: wget
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
+  name: alsa-oss
   
   version: ""
 - 
@@ -72,20 +86,6 @@ requires:
   description: ""
   license: ""
   name: p7zip
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: wine
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
   
   version: ""
 - 

@@ -4,14 +4,14 @@ conflicts:
   category: sys-boot
   description: ""
   license: ""
-  name: grub-static
+  name: grub
   
   version: ""
 - 
   category: sys-boot
   description: ""
   license: ""
-  name: grub
+  name: grub-static
   
   version: ""
 description: GNU GRUB boot loader
@@ -19,38 +19,24 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub
 requires:
 - 
-  category: app-arch
+  category: x11-themes
   description: ""
   license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ibm-powerpc-utils
-  
-  version: 1.3.5
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: sabayon-artwork-grub
   
   version: ""
 - 
   category: sys-boot
   description: ""
   license: ""
-  name: os-prober
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
   
   version: ""
 - 
@@ -68,10 +54,10 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
+  category: sys-fs
   description: ""
   license: ""
-  name: efibootmgr
+  name: fuse
   
   version: ""
 - 
@@ -82,10 +68,10 @@ requires:
   
   version: ""
 - 
-  category: x11-themes
+  category: sys-boot
   description: ""
   license: ""
-  name: sabayon-artwork-grub
+  name: os-prober
   
   version: ""
 - 
@@ -96,10 +82,17 @@ requires:
   
   version: 2.02.45
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: fuse
+  name: zfs
   
   version: ""
 - 
@@ -107,6 +100,13 @@ requires:
   description: ""
   license: ""
   name: freetype
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 uri:

@@ -22,6 +22,13 @@ requires:
   category: sys-apps
   description: ""
   license: ""
+  name: dmidecode
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
   name: pciutils
   
   version: ""
@@ -29,9 +36,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: keyboard-configuration-helpers
+  name: systemd
   
-  version: ""
+  version: 239-r2
 - 
   category: sys-apps
   description: ""
@@ -64,14 +71,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dmidecode
+  name: keyboard-configuration-helpers
   
   version: ""
 uri:

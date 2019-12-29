@@ -8,14 +8,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyxdg
+  name: pygtk
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pycairo
+  name: dbus-python
   
   version: ""
 - 
@@ -43,14 +43,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygtk
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
+  name: pyxdg
   
   version: ""
 - 
@@ -58,6 +51,13 @@ requires:
   description: ""
   license: ""
   name: libwnck-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycairo
   
   version: ""
 - 

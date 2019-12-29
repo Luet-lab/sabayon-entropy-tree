@@ -15,16 +15,23 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtdeclarative
   
   version: 5.9.4
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdeclarative
+  name: qtnetwork
   
   version: 5.9.4
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -43,14 +50,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtdbus
   
   version: 5.9.4
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtgui
   
   version: 5.9.4
 - 
@@ -79,13 +86,6 @@ requires:
   description: ""
   license: ""
   name: elogind
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 uri:

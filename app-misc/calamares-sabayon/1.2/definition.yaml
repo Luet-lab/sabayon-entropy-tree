@@ -8,28 +8,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: dosfstools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: reiserfsprogs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
   
   version: ""
 - 
@@ -47,6 +26,13 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: btrfs-progs
+  
+  version: ""
+- 
   category: app-misc
   description: ""
   license: ""
@@ -54,17 +40,31 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-fs
   description: ""
   license: ""
-  name: calamares-sabayon-branding
+  name: jfsutils
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: jfsutils
+  name: reiserfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-branding
   
   version: ""
 uri:

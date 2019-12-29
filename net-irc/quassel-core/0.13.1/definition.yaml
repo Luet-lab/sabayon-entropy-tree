@@ -5,13 +5,6 @@ license: GPL-3
 name: quassel-core
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
@@ -58,6 +51,13 @@ requires:
   description: ""
   license: ""
   name: openldap
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
   
   version: ""
 uri:
