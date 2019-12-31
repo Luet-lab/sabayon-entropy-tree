@@ -1,17 +1,17 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
+  
+  version: ""
+- 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
   
   version: ""
 - 
@@ -26,13 +26,6 @@ license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
@@ -40,10 +33,17 @@ requires:
   
   version: ""
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
+  name: mdadm
   
   version: ""
 - 
@@ -61,17 +61,17 @@ requires:
   
   version: "9999"
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: udev
+  name: util-linux
   
   version: ""
 - 
-  category: sys-block
+  category: sys-process
   description: ""
   license: ""
-  name: parted
+  name: procps
   
   version: ""
 - 
@@ -89,24 +89,24 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: util-linux
+  name: awk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
+  name: lsscsi
   
   version: ""
 uri: []

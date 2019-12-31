@@ -5,6 +5,20 @@ license: GPL-3
 name: calamares
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dmidecode
+  
+  version: ""
+- 
   category: sys-auth
   description: ""
   license: ""
@@ -19,17 +33,17 @@ requires:
   
   version: "3.1"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libatasmart
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
   name: rsync
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: yaml-cpp
   
   version: ""
 - 
@@ -47,34 +61,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dmidecode
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3.0"
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -88,6 +74,20 @@ requires:
   name: sudo
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libatasmart
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.0"
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.14/calamares-3.2.14.tar.gz
 use_flags:

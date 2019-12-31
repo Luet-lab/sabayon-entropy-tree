@@ -8,28 +8,28 @@ conflicts:
   
   version: ""
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: <sys-boot
   description: ""
   license: ""
   name: grub
   
   version: 2.00-r2
+- 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-process
+  category: sys-fs
   description: ""
   license: ""
-  name: procps
+  name: lsscsi
   
   version: ""
 - 
@@ -40,17 +40,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: virtual
   description: ""
   license: ""
-  name: bc
+  name: udev
   
   version: ""
 - 
-  category: sys-block
+  category: app-arch
   description: ""
   license: ""
-  name: parted
+  name: cpio
   
   version: ""
 - 
@@ -68,24 +68,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-process
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: procps
   
   version: ""
 - 
-  category: virtual
+  category: sys-block
   description: ""
   license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
+  name: parted
   
   version: ""
 - 
@@ -96,10 +89,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-fs
   description: ""
   license: ""
-  name: cpio
+  name: udev-init-scripts
   
   version: ""
 - 
@@ -114,6 +107,13 @@ requires:
   description: ""
   license: ""
   name: util-linux
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
   
   version: ""
 uri:

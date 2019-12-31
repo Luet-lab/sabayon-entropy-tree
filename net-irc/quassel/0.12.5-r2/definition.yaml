@@ -5,17 +5,24 @@ license: GPL-3
 name: quassel
 requires:
 - 
-  category: dev-qt
+  category: virtual
   description: ""
   license: ""
-  name: qtscript
+  name: logger
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsql
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
@@ -29,21 +36,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: ktextwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
   
   version: ""
 - 
@@ -54,6 +47,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
   category: app-crypt
   description: ""
   license: ""
@@ -61,31 +61,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-qt
   description: ""
   license: ""
-  name: logger
+  name: qtwebengine
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtscript
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcoreaddons
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifyconfig
+  name: kconfigwidgets
   
   version: ""
 - 
@@ -96,24 +89,10 @@ requires:
   
   version: 0.7.0
 - 
-  category: net-irc
+  category: kde-frameworks
   description: ""
   license: ""
-  name: quassel-common
-  
-  version: 0.12.5
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
+  name: kcoreaddons
   
   version: ""
 - 
@@ -131,17 +110,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: phonon[qt5(+)]
   
   version: ""
+- 
+  category: net-irc
+  description: ""
+  license: ""
+  name: quassel-common
+  
+  version: 0.12.5
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtsql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
   
   version: ""
 - 
@@ -152,17 +152,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: phonon[qt5(+)]
+  name: knotifications
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtwebengine
+  name: knotifyconfig
   
   version: ""
 uri:

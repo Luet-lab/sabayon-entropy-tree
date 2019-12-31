@@ -5,12 +5,12 @@ license: GPL-2 LGPL-2.1
 name: budgie-desktop
 requires:
 - 
-  category: net-wireless
+  category: gnome-base
   description: ""
   license: ""
-  name: gnome-bluetooth
+  name: gnome-control-center
   
-  version: "3.18"
+  version: ""
 - 
   category: media-sound
   description: ""
@@ -33,47 +33,12 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit-0.110[introspection=]
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower[introspection=]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-control-center
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: accountsservice
   
   version: "0.6"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -89,6 +54,34 @@ requires:
   
   version: 3.18.0
 - 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower-pm-utils[introspection=]
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower[introspection=]
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-0.110[introspection=]
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -96,10 +89,17 @@ requires:
   
   version: ""
 - 
-  category: sys-power
+  category: net-wireless
   description: ""
   license: ""
-  name: upower-pm-utils[introspection=]
+  name: gnome-bluetooth
+  
+  version: "3.18"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
   
   version: ""
 uri: []

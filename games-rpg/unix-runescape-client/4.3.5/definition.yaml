@@ -5,6 +5,20 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-IniFiles
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: p7zip
+  
+  version: ""
+- 
   category: media-sound
   description: ""
   license: ""
@@ -12,17 +26,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
-  name: Archive-Extract
+  name: Wx
   
   version: ""
 - 
@@ -40,10 +47,38 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: media-libs
   description: ""
   license: ""
-  name: p7zip
+  name: alsa-oss
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Archive-Extract
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-stringy
   
   version: ""
 - 
@@ -58,41 +93,6 @@ requires:
   description: ""
   license: ""
   name: wine
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-stringy
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Wx
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-oss
   
   version: ""
 uri:

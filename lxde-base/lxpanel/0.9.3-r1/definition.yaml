@@ -22,49 +22,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: lxde-base
-  description: ""
-  license: ""
-  name: lxmenu-data
-  
-  version: ""
-- 
-  category: lxde-base
-  description: ""
-  license: ""
-  name: menu-cache
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wireless-tools
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
+  name: libwnck
   
   version: ""
 - 
@@ -82,6 +40,34 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: keybinder
+  
+  version: ""
+- 
+  category: lxde-base
+  description: ""
+  license: ""
+  name: menu-cache
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -89,10 +75,24 @@ requires:
   
   version: ""
 - 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: wireless-tools
+  
+  version: ""
+- 
+  category: lxde-base
+  description: ""
+  license: ""
+  name: lxmenu-data
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libwnck
+  name: libXmu
   
   version: ""
 uri:

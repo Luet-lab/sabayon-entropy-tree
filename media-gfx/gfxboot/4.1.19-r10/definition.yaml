@@ -5,6 +5,20 @@ license: GPL-2
 name: gfxboot
 requires:
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: nasm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: "2"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -46,20 +60,6 @@ requires:
   name: cpio
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: nasm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: "2"
 uri:
 - download.opensuse.org/repositories/Education/SLE-11/src/gfxboot-4.1.19-.1.src.rpm
 use_flags:

@@ -12,40 +12,19 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: ""
+- 
   category: x11-misc
   description: ""
   license: ""
   name: lightdm-base
   
   version: "1.12"
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: intltool
-  
-  version: 0.35.0
 - 
   category: x11-libs
   description: ""
@@ -61,10 +40,31 @@ requires:
   
   version: "3.20"
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: pixman
+  name: libcanberra
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: intltool
+  
+  version: 0.35.0
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 uri:

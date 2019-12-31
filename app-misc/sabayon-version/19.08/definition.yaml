@@ -40,17 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-kernel
   description: ""
   license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc
+  name: sabayon-dracut
   
   version: ""
 - 
@@ -61,10 +54,10 @@ requires:
   
   version: ""
 - 
-  category: sys-kernel
+  category: sys-apps
   description: ""
   license: ""
-  name: sabayon-dracut
+  name: systemd
   
   version: ""
 - 
@@ -72,6 +65,13 @@ requires:
   description: ""
   license: ""
   name: man
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc
   
   version: ""
 - 

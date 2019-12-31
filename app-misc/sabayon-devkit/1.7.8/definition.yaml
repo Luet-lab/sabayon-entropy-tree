@@ -5,10 +5,31 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
-  category: app-misc
+  category: app-portage
   description: ""
   license: ""
-  name: pax-utils
+  name: gentoolkit
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-functions
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker
   
   version: ""
 - 
@@ -22,7 +43,7 @@ requires:
   category: app-portage
   description: ""
   license: ""
-  name: gentoolkit
+  name: eix
   
   version: ""
 - 
@@ -47,31 +68,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-misc
   description: ""
   license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: eix
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
+  name: pax-utils
   
   version: ""
 - 
