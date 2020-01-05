@@ -22,7 +22,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: xfsprogs
+  name: btrfs-progs
   
   version: ""
 - 
@@ -30,13 +30,6 @@ requires:
   description: ""
   license: ""
   name: calamares-sabayon-server-base-modules
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-server-branding
   
   version: ""
 - 
@@ -50,20 +43,6 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: ntfs3g
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: jfsutils
   
   version: ""
@@ -71,7 +50,28 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: ntfs3g
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-server-branding
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: reiserfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
   
   version: ""
 - 

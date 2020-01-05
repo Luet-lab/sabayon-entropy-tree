@@ -5,17 +5,31 @@ license: GPL-3
 name: lightdm-slick-greeter
 requires:
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: freetype
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: gtk+
+  
+  version: "3.20"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
   
   version: ""
 - 
@@ -40,13 +54,6 @@ requires:
   
   version: 0.35.0
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -54,19 +61,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libXext
   
-  version: "3.20"
+  version: ""
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.6.tar.gz -> lightdm-slick-greeter-1.2.6.tar.gz
 use_flags:

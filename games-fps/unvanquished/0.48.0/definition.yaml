@@ -5,17 +5,24 @@ license: GPL-3 CC-BY-SA-2.5 CC-BY-SA-3.0
 name: unvanquished
 requires:
 - 
-  category: games-fps
+  category: x11-libs
   description: ""
   license: ""
-  name: unvanquished-data
+  name: libX11
   
-  version: 0.48.0
+  version: ""
 - 
-  category: net-misc
+  category: app-misc
   description: ""
   license: ""
-  name: curl
+  name: screen
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
   
   version: ""
 - 
@@ -29,7 +36,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: libogg
   
   version: ""
 - 
@@ -47,31 +54,45 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: geoip
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X,opengl,video]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: glu
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
   
   version: ""
 - 
@@ -85,14 +106,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: freetype
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: openal
+  name: glew
   
   version: ""
 - 
@@ -110,13 +131,6 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: screen
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -124,24 +138,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: games-fps
   description: ""
   license: ""
-  name: geoip
+  name: unvanquished-data
   
-  version: ""
+  version: 0.48.0
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2[X,opengl,video]
+  name: ncurses
   
   version: ""
 - 
@@ -155,14 +162,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: opusfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
+  name: libvorbis
   
   version: ""
 uri:

@@ -12,17 +12,17 @@ license: Subversion
 name: mod_dav_svn
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: expat
+  name: zlib
   
   version: ""
 - 
-  category: sys-apps
+  category: www-servers
   description: ""
   license: ""
-  name: file
+  name: apache[apache2_modules_dav]
   
   version: ""
 - 
@@ -33,12 +33,47 @@ requires:
   
   version: ""
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
   name: sqlite
   
   version: 3.7.12
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: 4.0.14
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion-1.12.2[berkdb=,debug=,dso=,nls=,sasl=,http]
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -61,45 +96,10 @@ requires:
   
   version: ""
 - 
-  category: www-servers
+  category: sys-apps
   description: ""
   license: ""
-  name: apache[apache2_modules_dav]
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion-1.12.2[berkdb=,debug=,dso=,nls=,sasl=,http]
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: 4.0.14
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: file
   
   version: ""
 uri:

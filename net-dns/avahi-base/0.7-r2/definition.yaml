@@ -19,6 +19,20 @@ license: LGPL-2.1
 name: avahi-base
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: twisted
+  
+  version: 16.0.0
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-avahi
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -26,24 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: dbus
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
   
   version: ""
 - 
@@ -61,6 +61,13 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -75,26 +82,19 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-avahi
+  name: gdbm
   
   version: ""
 - 
-  category: dev-python
+  category: sys-libs
   description: ""
   license: ""
-  name: pygobject
+  name: libcap
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

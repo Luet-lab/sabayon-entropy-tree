@@ -22,16 +22,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pycairo
+  name: pygobject-base
   
-  version: 1.10.0
+  version: 3.28.3
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pygobject-base
+  name: pycairo
   
-  version: 3.28.3
+  version: 1.10.0
 uri: []
 use_flags:
 - test

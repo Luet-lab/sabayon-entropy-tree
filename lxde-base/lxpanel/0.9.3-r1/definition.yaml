@@ -8,13 +8,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libfm
   
   version: 1.2.0
@@ -22,14 +15,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libwnck
+  name: libXpm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: keybinder
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXpm
+  name: gtk+
   
   version: ""
 - 
@@ -54,10 +54,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: lxde-base
   description: ""
   license: ""
-  name: keybinder
+  name: lxmenu-data
   
   version: ""
 - 
@@ -75,17 +75,10 @@ requires:
   
   version: ""
 - 
-  category: net-wireless
+  category: x11-libs
   description: ""
   license: ""
-  name: wireless-tools
-  
-  version: ""
-- 
-  category: lxde-base
-  description: ""
-  license: ""
-  name: lxmenu-data
+  name: libwnck
   
   version: ""
 - 
@@ -93,6 +86,13 @@ requires:
   description: ""
   license: ""
   name: libXmu
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: wireless-tools
   
   version: ""
 uri:

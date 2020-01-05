@@ -8,6 +8,13 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: dosfstools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: jfsutils
   
   version: ""
@@ -15,14 +22,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: reiserfsprogs
+  name: xfsprogs
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: ntfs3g
+  name: btrfs-progs
   
   version: ""
 - 
@@ -43,6 +50,13 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: reiserfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: xfsdump
   
   version: ""
@@ -50,21 +64,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dosfstools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
+  name: ntfs3g
   
   version: ""
 uri:

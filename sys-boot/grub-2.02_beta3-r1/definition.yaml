@@ -12,24 +12,10 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: media-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: os-prober
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
+  name: gettext
   
   version: ""
 - 
@@ -47,24 +33,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: media-libs
   description: ""
   license: ""
-  name: ibm-powerpc-utils
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: freetype
   
   version: ""
 - 
@@ -96,10 +68,24 @@ requires:
   
   version: ""
 - 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: os-prober
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
   name: xz-utils
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl
   
   version: ""
 - 
@@ -109,6 +95,20 @@ requires:
   name: lvm2
   
   version: 2.02.45
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
 uri:
 - mirror://gnu/grub-2.02_beta3-r1/grub-2.02_beta3-r1-.tar.xz
 - mirror://gentoo/grub-2.02_beta3-r1-.tar.xz

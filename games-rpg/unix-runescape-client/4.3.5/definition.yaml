@@ -5,55 +5,6 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: p7zip
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Wx
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: wget
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng-compat
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-oss
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -71,14 +22,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Archive-Extract
+  name: Wx
   
   version: ""
 - 
-  category: dev-perl
+  category: media-libs
   description: ""
   license: ""
-  name: IO-stringy
+  name: libpng-compat
   
   version: ""
 - 
@@ -89,10 +40,59 @@ requires:
   
   version: ""
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: app-emulation
   description: ""
   license: ""
   name: wine
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Archive-Extract
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-IniFiles
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-stringy
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: wget
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-oss
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: p7zip
   
   version: ""
 uri:

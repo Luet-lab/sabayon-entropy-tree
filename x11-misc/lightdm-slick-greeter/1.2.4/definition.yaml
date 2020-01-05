@@ -8,7 +8,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: cairo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
@@ -19,33 +26,26 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: lightdm-base
-  
-  version: "1.12"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.20"
-- 
   category: media-libs
   description: ""
   license: ""
   name: libcanberra
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: lightdm-base
+  
+  version: "1.12"
 - 
   category: dev-util
   description: ""
@@ -61,12 +61,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freetype
+  name: gtk+
   
-  version: ""
+  version: "3.20"
 uri:
 - https://github.com/linuxmint/slick-greeter/archive/1.2.4.tar.gz -> lightdm-slick-greeter-1.2.4.tar.gz
 use_flags:

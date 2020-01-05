@@ -8,13 +8,6 @@ requires:
   category: x11-misc
   description: ""
   license: ""
-  name: lightdm-slick-greeter
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
   name: lightdm-settings
   
   version: ""
@@ -23,6 +16,13 @@ requires:
   description: ""
   license: ""
   name: sabayon-artwork-core
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: lightdm-slick-greeter
   
   version: ""
 uri: []
