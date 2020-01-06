@@ -15,7 +15,21 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: pyxdg
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: libwnck-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycairo
   
   version: ""
 - 
@@ -33,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: gnome-base
   description: ""
   license: ""
-  name: pyxdg
+  name: nautilus
   
   version: ""
 - 
@@ -50,21 +64,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pycairo
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: pygobject
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
   
   version: ""
 uri:

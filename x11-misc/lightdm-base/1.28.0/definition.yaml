@@ -5,27 +5,6 @@ license: GPL-3 LGPL-3
 name: lightdm-base
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: 20101024-r2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.44.0
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -53,6 +32,27 @@ requires:
   name: libxklavier
   
   version: "5"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: 20101024-r2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.44.0
 - 
   category: sys-process
   description: ""

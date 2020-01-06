@@ -8,14 +8,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: shadow
+  name: util-linux
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: shadow
   
   version: ""
 uri:

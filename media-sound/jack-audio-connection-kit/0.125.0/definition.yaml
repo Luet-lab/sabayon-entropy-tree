@@ -1,12 +1,12 @@
 category: media-sound
 conflicts:
 - 
-  category: app-emulation
+  category: <=app-emulation
   description: ""
   license: ""
-  name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
+  name: emul-linux-x86-soundlibs
   
-  version: ""
+  version: 20130224-r7
 - 
   category: media-sound
   description: ""
@@ -15,23 +15,16 @@ conflicts:
   
   version: ""
 - 
-  category: <=app-emulation
+  category: app-emulation
   description: ""
   license: ""
-  name: emul-linux-x86-soundlibs
+  name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
   
-  version: 20130224-r7
+  version: ""
 description: A low-latency audio server
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.0
 - 
   category: sys-process
   description: ""
@@ -40,19 +33,19 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: db
+  name: realtime-base
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: readline
+  name: libsndfile
   
-  version: ""
+  version: 1.0.0
 - 
   category: media-libs
   description: ""
@@ -75,10 +68,17 @@ requires:
   
   version: 0.1.8-r1
 - 
-  category: sys-auth
+  category: sys-libs
   description: ""
   license: ""
-  name: realtime-base
+  name: db
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
   
   version: ""
 uri:

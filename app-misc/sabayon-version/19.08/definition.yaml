@@ -8,10 +8,10 @@ conflicts:
   
   version: "1000"
 - 
-  category: app-admin
+  category: sys-apps
   description: ""
   license: ""
-  name: eselect-init
+  name: hal
   
   version: ""
 - 
@@ -22,10 +22,10 @@ conflicts:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-admin
   description: ""
   license: ""
-  name: hal
+  name: eselect-init
   
   version: ""
 description: Sabayon system release virtual package
@@ -33,10 +33,17 @@ license: GPL-2
 name: sabayon-version
 requires:
 - 
-  category: app-eselect
+  category: dev-lang
   description: ""
   license: ""
-  name: eselect-python
+  name: python
+  
+  version: ""
+- 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: sabayon-dracut
   
   version: ""
 - 
@@ -54,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: app-eselect
   description: ""
   license: ""
-  name: python
+  name: eselect-python
   
   version: ""
 - 
@@ -65,13 +72,6 @@ requires:
   description: ""
   license: ""
   name: systemd
-  
-  version: ""
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
   
   version: ""
 - 

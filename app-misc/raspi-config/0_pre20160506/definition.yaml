@@ -5,20 +5,6 @@ license: MIT
 name: raspi-config
 requires:
 - 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: "5.1"
-- 
   category: app-misc
   description: ""
   license: ""
@@ -32,6 +18,20 @@ requires:
   name: newt
   
   version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: "5.1"
 uri: []
 use_flags:
 - ""

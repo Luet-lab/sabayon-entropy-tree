@@ -19,20 +19,6 @@ license: GPL-2
 name: sabayon-live
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dmidecode
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
@@ -43,14 +29,21 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: gawk
+  name: keyboard-configuration-helpers
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: keyboard-configuration-helpers
+  name: sed
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dmidecode
   
   version: ""
 - 
@@ -71,7 +64,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: systemd
+  
+  version: 239-r2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gawk
   
   version: ""
 uri:

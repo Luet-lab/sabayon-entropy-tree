@@ -12,13 +12,6 @@ license: GPL-2
 name: gxneur
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libappindicator
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -53,6 +46,13 @@ requires:
   name: gtk+
   
   version: "2.18"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libappindicator
+  
+  version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/gxneur_0.20.0.orig.tar.gz
 use_flags:

@@ -1,17 +1,17 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
+  
+  version: ""
+- 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
   
   version: ""
 - 
@@ -33,19 +33,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: udev
+  name: zfs-kmod
   
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
+  version: "9999"
 - 
   category: app-arch
   description: ""
@@ -54,38 +47,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: zfs-kmod
+  name: udev
   
-  version: "9999"
+  version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
   name: util-linux
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
   
   version: ""
 - 
@@ -107,6 +79,34 @@ requires:
   description: ""
   license: ""
   name: lsscsi
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
   
   version: ""
 uri: []

@@ -5,31 +5,10 @@ license: GPL-2
 name: unix-runescape-client
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
   name: Wx
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng-compat
   
   version: ""
 - 
@@ -40,6 +19,13 @@ requires:
   
   version: ""
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: p7zip
+  
+  version: ""
+- 
   category: media-sound
   description: ""
   license: ""
@@ -47,17 +33,17 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: wine
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
   name: Archive-Extract
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -85,14 +71,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libpng-compat
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: alsa-oss
   
   version: ""
 - 
-  category: app-arch
+  category: app-emulation
   description: ""
   license: ""
-  name: p7zip
+  name: wine
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
   
   version: ""
 uri:

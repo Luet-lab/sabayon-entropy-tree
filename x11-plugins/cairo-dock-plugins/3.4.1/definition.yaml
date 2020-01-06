@@ -5,10 +5,45 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-menus
+  name: libzeitgeist
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libetpan
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: cairo-dock
+  
+  version: 3.4.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdelibs
   
   version: ""
 - 
@@ -19,6 +54,13 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
@@ -26,10 +68,17 @@ requires:
   
   version: 1.4.0
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libzeitgeist
+  name: libxklavier
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: simplejson
   
   version: ""
 - 
@@ -50,21 +99,35 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: cairo
   
   version: ""
 - 
-  category: media-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: alsa-lib
+  name: thunar
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libindicator
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: vala
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxklavier
+  name: libXxf86vm
   
   version: ""
 - 
@@ -78,56 +141,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: thunar
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oauth
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libetpan
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
@@ -138,13 +159,6 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: cairo-dock
-  
-  version: 3.4.1
-- 
   category: media-libs
   description: ""
   license: ""
@@ -152,31 +166,17 @@ requires:
   
   version: ""
 - 
-  category: kde-frameworks
+  category: gnome-base
   description: ""
   license: ""
-  name: kdelibs
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: vala
+  name: gnome-menus
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: simplejson
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libindicator
+  name: oauth
   
   version: ""
 uri:

@@ -19,6 +19,13 @@ license: GPL-2
 name: sabayon-live
 requires:
 - 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opengl
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -37,13 +44,6 @@ requires:
   description: ""
   license: ""
   name: dmidecode
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opengl
   
   version: ""
 - 

@@ -5,17 +5,17 @@ license: CC-BY-SA-4.0
 name: calamares-sabayon
 requires:
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: dosfstools
+  name: calamares-sabayon-base-modules
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: jfsutils
+  name: dosfstools
   
   version: ""
 - 
@@ -29,14 +29,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-base-modules
+  name: xfsdump
   
   version: ""
 - 
@@ -50,6 +43,13 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: jfsutils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: reiserfsprogs
   
   version: ""
@@ -57,14 +57,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: xfsdump
+  name: ntfs3g
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: ntfs3g
+  name: btrfs-progs
   
   version: ""
 uri:

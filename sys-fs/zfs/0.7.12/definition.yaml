@@ -26,27 +26,6 @@ license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -54,31 +33,10 @@ requires:
   
   version: ""
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
+  name: mdadm
   
   version: ""
 - 
@@ -89,10 +47,38 @@ requires:
   
   version: 0.7.12
 - 
-  category: sys-devel
+  category: sys-apps
   description: ""
   license: ""
-  name: bc
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
   
   version: ""
 - 
@@ -106,14 +92,28 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
+  name: udev-init-scripts
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: modutils
+  name: awk
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
   
   version: ""
 uri:

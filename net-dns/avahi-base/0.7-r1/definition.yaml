@@ -22,30 +22,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: twisted
   
   version: 16.0.0
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -68,17 +47,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
   
   version: ""
 - 
@@ -93,6 +72,27 @@ requires:
   description: ""
   license: ""
   name: libdaemon
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-avahi
   
   version: ""
 uri:

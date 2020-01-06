@@ -5,20 +5,6 @@ license: GPL-2+
 name: authconfig
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: newt
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -53,6 +39,20 @@ requires:
   name: libpwquality
   
   version: "0.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: newt
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
+  
+  version: ""
 uri:
 - https://pagure.io/releases/authconfig/authconfig-6.2.10.tar.bz2
 use_flags:

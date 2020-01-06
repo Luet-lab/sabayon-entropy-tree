@@ -4,69 +4,20 @@ conflicts:
   category: net-misc
   description: ""
   license: ""
-  name: howl
+  name: mDNSResponder
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: mDNSResponder
+  name: howl
   
   version: ""
 description: System which facilitates service discovery on a local network (base pkg)
 license: LGPL-2.1
 name: avahi-base
 requires:
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -82,6 +33,34 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: twisted
+  
+  version: 16.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -93,6 +72,27 @@ requires:
   description: ""
   license: ""
   name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-avahi
   
   version: ""
 uri:

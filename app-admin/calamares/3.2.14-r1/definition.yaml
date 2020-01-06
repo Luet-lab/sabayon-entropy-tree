@@ -5,6 +5,13 @@ license: GPL-3
 name: calamares
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -19,6 +26,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: kpmcore
+  
+  version: 3.0.3
+- 
   category: dev-python
   description: ""
   license: ""
@@ -26,12 +40,19 @@ requires:
   
   version: "3.1"
 - 
-  category: app-admin
+  category: dev-libs
   description: ""
   license: ""
-  name: sudo
+  name: libatasmart
   
   version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.0"
 - 
   category: dev-cpp
   description: ""
@@ -47,27 +68,6 @@ requires:
   
   version: "1.55"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3.0"
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -75,17 +75,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: app-admin
   description: ""
   license: ""
-  name: kpmcore
+  name: sudo
   
-  version: 3.0.3
+  version: ""
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libatasmart
+  name: rsync
   
   version: ""
 uri:

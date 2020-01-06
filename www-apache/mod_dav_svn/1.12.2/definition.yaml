@@ -12,6 +12,13 @@ license: Subversion
 name: mod_dav_svn
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -26,31 +33,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
   name: lz4
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.7.12
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
   
   version: ""
 - 
@@ -61,10 +47,24 @@ requires:
   
   version: 4.0.14
 - 
-  category: dev-vcs
+  category: dev-db
   description: ""
   license: ""
-  name: subversion-1.12.2[berkdb=,debug=,dso=,nls=,sasl=,http]
+  name: sqlite
+  
+  version: 3.7.12
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -96,10 +96,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-vcs
   description: ""
   license: ""
-  name: file
+  name: subversion-1.12.2[berkdb=,debug=,dso=,nls=,sasl=,http]
   
   version: ""
 uri:

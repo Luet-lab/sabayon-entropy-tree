@@ -20,24 +20,10 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
+  category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-alsa
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "5.0"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: gst-plugins-good
   
   version: ""
 - 
@@ -47,20 +33,6 @@ requires:
   name: gstreamer
   
   version: 0.10.6
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: 1.0.17
 - 
   category: x11-libs
   description: ""
@@ -83,12 +55,33 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXtst
   
-  version: "1.1"
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
+  
+  version: 1.0.17
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-alsa
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -104,12 +97,19 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gst-plugins-good
+  name: libpcre
   
-  version: ""
+  version: "5.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: "1.1"
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.17.0.orig.tar.gz
 use_flags:

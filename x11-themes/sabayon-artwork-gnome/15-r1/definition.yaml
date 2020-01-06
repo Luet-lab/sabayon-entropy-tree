@@ -8,20 +8,6 @@ requires:
   category: x11-themes
   description: ""
   license: ""
-  name: equinox-themes
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: elementary-icon-theme
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
   name: arc-theme
   
   version: ""
@@ -51,6 +37,20 @@ requires:
   description: ""
   license: ""
   name: sabayon-artwork-core
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: equinox-themes
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: elementary-icon-theme
   
   version: ""
 uri:

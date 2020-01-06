@@ -12,12 +12,12 @@ license: GPL-2+
 name: nm-applet-gtk2
 requires:
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: dbus-glib
+  name: gconf
   
-  version: "0.88"
+  version: "2.26"
 - 
   category: gnome-base
   description: ""
@@ -26,26 +26,26 @@ requires:
   
   version: "2.20"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.4.1
+- 
   category: net-misc
   description: ""
   license: ""
-  name: mobile-broadband-provider-info
+  name: networkmanager
+  
+  version: 0.9.8
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
   
   version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: 2.27.6
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: modemmanager
-  
-  version: 0.7.990
 - 
   category: dev-libs
   description: ""
@@ -54,12 +54,33 @@ requires:
   
   version: "2.26"
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: dbus-glib
   
-  version: 1.4.1
+  version: "0.88"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
 - 
   category: sys-auth
   description: ""
@@ -75,12 +96,12 @@ requires:
   
   version: "2.20"
 - 
-  category: x11-libs
+  category: net-wireless
   description: ""
   license: ""
-  name: libnotify
+  name: gnome-bluetooth
   
-  version: 0.7.0
+  version: 2.27.6
 - 
   category: dev-libs
   description: ""
@@ -88,20 +109,6 @@ requires:
   name: gobject-introspection
   
   version: 0.9.6
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.26"
 - 
   category: app-text
   description: ""
@@ -113,9 +120,9 @@ requires:
   category: net-misc
   description: ""
   license: ""
-  name: networkmanager
+  name: mobile-broadband-provider-info
   
-  version: 0.9.8
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -131,19 +138,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-misc
   description: ""
   license: ""
-  name: freedesktop-icon-theme
+  name: modemmanager
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
+  version: 0.7.990
 uri: []
 use_flags:
 - bluetooth
