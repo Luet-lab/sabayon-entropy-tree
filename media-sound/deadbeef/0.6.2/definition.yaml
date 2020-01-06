@@ -16,23 +16,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: adplug
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libzip
+  name: flac
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: "0.90"
 - 
   category: x11-libs
   description: ""
@@ -48,17 +41,24 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libmad
+  name: libmms
   
   version: ""
 - 
   category: media-sound
   description: ""
   license: ""
-  name: pulseaudio
+  name: musepack-tools
   
   version: ""
 - 
@@ -69,10 +69,59 @@ requires:
   
   version: ""
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzip
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
   name: faad2
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: timidity-freepats
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: "0.90"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: imlib2
   
   version: ""
 - 
@@ -83,10 +132,10 @@ requires:
   
   version: "9"
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: flac
+  name: pulseaudio
   
   version: ""
 - 
@@ -114,55 +163,6 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libcddb
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: timidity-freepats
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmms
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: adplug
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: alsa-lib
   
   version: ""
@@ -170,7 +170,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: imlib2
+  name: libcddb
   
   version: ""
 uri:

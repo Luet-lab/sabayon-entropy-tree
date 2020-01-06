@@ -10,6 +10,20 @@ requires:
   license: ""
   name: ncurses
   
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
   version: 5.7-r5
 - 
   category: app-eselect
@@ -39,20 +53,6 @@ requires:
   name: libgcrypt
   
   version: 1.6.3
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
 uri:
 - mirror://gnupg/pinentry/pinentry-1.0.0.tar.bz2
 use_flags:

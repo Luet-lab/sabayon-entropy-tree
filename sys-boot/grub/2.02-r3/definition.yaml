@@ -4,14 +4,14 @@ conflicts:
   category: sys-boot
   description: ""
   license: ""
-  name: grub-static
+  name: grub
   
   version: ""
 - 
   category: sys-boot
   description: ""
   license: ""
-  name: grub
+  name: grub-static
   
   version: ""
 description: GNU GRUB boot loader
@@ -19,17 +19,38 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub
 requires:
 - 
-  category: sys-boot
+  category: sys-fs
   description: ""
   license: ""
-  name: efibootmgr
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
   
   version: ""
 - 
-  category: x11-themes
+  category: media-libs
   description: ""
   license: ""
-  name: sabayon-artwork-grub
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: sbsigntools
   
   version: ""
 - 
@@ -50,7 +71,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: libsdl
   
   version: ""
 - 
@@ -61,45 +82,17 @@ requires:
   
   version: 1.3.5
 - 
-  category: app-crypt
+  category: sys-boot
   description: ""
   license: ""
-  name: sbsigntools
+  name: efibootmgr
   
   version: ""
 - 
-  category: sys-fs
+  category: x11-themes
   description: ""
   license: ""
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: sabayon-artwork-grub
   
   version: ""
 - 
@@ -109,6 +102,13 @@ requires:
   name: os-prober
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r5
 uri:
 - 'mirror://gnu/grub/grub-2.02.tar.xz fonts? ( mirror://gnu/unifont/unifont-9.0.06/unifont-9.0.06.pcf.gz '
 - 'mirror://sourceforge/dejavu/dejavu-sans-ttf-2.37.zip '

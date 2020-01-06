@@ -33,10 +33,10 @@ license: GPL-2
 name: sabayon-version
 requires:
 - 
-  category: sys-devel
+  category: app-eselect
   description: ""
   license: ""
-  name: gcc-config
+  name: eselect-python
   
   version: ""
 - 
@@ -64,14 +64,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-python
+  name: gcc-config
   
   version: ""
 - 
@@ -79,6 +72,13 @@ requires:
   description: ""
   license: ""
   name: man
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc
   
   version: ""
 uri: []

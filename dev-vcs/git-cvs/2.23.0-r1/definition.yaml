@@ -5,17 +5,10 @@ license: GPL-2
 name: git-cvs
 requires:
 - 
-  category: dev-perl
+  category: dev-vcs
   description: ""
   license: ""
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
+  name: subversion
   
   version: ""
 - 
@@ -26,10 +19,45 @@ requires:
   
   version: ""
 - 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: git
+  
+  version: 2.23.0
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libpcre
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
@@ -40,10 +68,52 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: Error
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBI
   
   version: ""
 - 
@@ -64,35 +134,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: CGI
+  name: Error
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: libressl
   
   version: ""
 - 
@@ -103,24 +152,24 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: dev-perl
   description: ""
   license: ""
-  name: subversion
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: zlib
+  name: perl
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libiconv
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -131,17 +180,10 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: dev-perl
   description: ""
   license: ""
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
+  name: Authen-SASL
   
   version: ""
 - 
@@ -152,52 +194,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: sys-libs
   description: ""
   license: ""
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
+  name: zlib
   
   version: ""
 uri:

@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
+  
+  version: ""
+- 
   category: <sys-boot
   description: ""
   license: ""
@@ -14,22 +21,15 @@ conflicts:
   name: grep-2.13*
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-process
+  category: sys-fs
   description: ""
   license: ""
-  name: procps
+  name: mdadm
   
   version: ""
 - 
@@ -40,6 +40,13 @@ requires:
   
   version: ""
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
   category: app-misc
   description: ""
   license: ""
@@ -47,12 +54,12 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-block
   description: ""
   license: ""
-  name: zfs-kmod
+  name: parted
   
-  version: 0.7.13
+  version: ""
 - 
   category: sys-devel
   description: ""
@@ -68,27 +75,6 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -96,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: virtual
   description: ""
   license: ""
-  name: parted
+  name: awk
   
   version: ""
 - 
@@ -110,10 +96,24 @@ requires:
   
   version: ""
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.7.13
+- 
   category: virtual
   description: ""
   license: ""
-  name: awk
+  name: udev
   
   version: ""
 uri:

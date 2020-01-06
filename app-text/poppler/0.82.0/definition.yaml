@@ -8,7 +8,7 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[cxx=]
+  name: poppler-base-0.82.0[jpeg=]
   
   version: ""
 - 
@@ -22,7 +22,7 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[utils=]
+  name: poppler-base-0.82.0[lcms=]
   
   version: ""
 - 
@@ -50,14 +50,21 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[jpeg=]
+  name: poppler-base-0.82.0[tiff=]
   
   version: ""
 - 
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[lcms=]
+  name: poppler-base-0.82.0[utils=]
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-base-0.82.0[cxx=]
   
   version: ""
 - 
@@ -65,13 +72,6 @@ requires:
   description: ""
   license: ""
   name: poppler-base-0.82.0[png=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[tiff=]
   
   version: ""
 uri: []

@@ -19,10 +19,10 @@ license: GPL-2
 name: sabayon-live
 requires:
 - 
-  category: dev-util
+  category: sys-apps
   description: ""
   license: ""
-  name: dialog
+  name: gawk
   
   version: ""
 - 
@@ -36,9 +36,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: systemd
   
-  version: ""
+  version: 239-r2
 - 
   category: sys-apps
   description: ""
@@ -47,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: dev-util
   description: ""
   license: ""
-  name: eselect-opengl
+  name: dialog
   
   version: ""
 - 
@@ -64,14 +64,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: sed
   
-  version: 239-r2
+  version: ""
 - 
-  category: sys-apps
+  category: app-eselect
   description: ""
   license: ""
-  name: gawk
+  name: eselect-opengl
   
   version: ""
 uri:

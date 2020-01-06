@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -14,38 +21,10 @@ conflicts:
   name: grep-2.13*
   
   version: ""
-- 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: "9999"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -61,13 +40,6 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
   category: sys-block
   description: ""
   license: ""
@@ -75,24 +47,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-arch
   description: ""
   license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
+  name: cpio
   
   version: ""
 - 
@@ -103,10 +61,52 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
   category: app-misc
   description: ""
   license: ""
   name: pax-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: "9999"
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
   
   version: ""
 uri: []

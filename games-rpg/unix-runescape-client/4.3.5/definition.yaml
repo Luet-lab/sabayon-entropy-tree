@@ -8,49 +8,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Wx
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: p7zip
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
   name: Archive-Extract
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-IniFiles
   
   version: ""
 - 
@@ -75,13 +33,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-oss
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
@@ -93,6 +44,55 @@ requires:
   description: ""
   license: ""
   name: jre
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-IniFiles
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Wx
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-oss
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: p7zip
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
 uri:

@@ -12,45 +12,10 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: x11-themes
+  category: sys-devel
   description: ""
   license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ibm-powerpc-utils
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: sbsigntools
+  name: gettext
   
   version: ""
 - 
@@ -68,10 +33,17 @@ requires:
   
   version: 5.2-r5
 - 
-  category: media-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: freetype
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
   
   version: ""
 - 
@@ -79,6 +51,20 @@ requires:
   description: ""
   license: ""
   name: powerpc-utils
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
   
   version: ""
 - 
@@ -96,10 +82,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: sys-boot
   description: ""
   license: ""
-  name: gettext
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
   
   version: ""
 - 
@@ -107,6 +100,13 @@ requires:
   description: ""
   license: ""
   name: zfs
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 uri:

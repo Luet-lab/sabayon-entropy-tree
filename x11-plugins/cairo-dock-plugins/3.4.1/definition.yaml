@@ -5,33 +5,26 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libzeitgeist
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libetpan
+  name: oauth
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libindicator
   
   version: ""
 - 
-  category: x11-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: cairo-dock
+  name: dbus-glib
   
-  version: 3.4.1
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -40,24 +33,10 @@ requires:
   
   version: ""
 - 
-  category: kde-frameworks
+  category: media-libs
   description: ""
   license: ""
-  name: kdelibs
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: vte
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: libexif
   
   version: ""
 - 
@@ -68,10 +47,10 @@ requires:
   
   version: 1.4.0
 - 
-  category: x11-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: libxklavier
+  name: thunar
   
   version: ""
 - 
@@ -82,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: net-libs
   description: ""
   license: ""
-  name: librsvg
+  name: libetpan
   
   version: ""
 - 
@@ -103,17 +82,17 @@ requires:
   
   version: ""
 - 
-  category: xfce-base
+  category: x11-libs
   description: ""
   license: ""
-  name: thunar
+  name: gtkglext
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libindicator
+  name: vte
   
   version: ""
 - 
@@ -121,13 +100,6 @@ requires:
   description: ""
   license: ""
   name: vala
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
   
   version: ""
 - 
@@ -141,28 +113,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: glib
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: glib
+  name: librsvg
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
+  name: gtk+
   
   version: ""
 - 
@@ -173,10 +138,45 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: oauth
+  name: libxklavier
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzeitgeist
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: cairo-dock
+  
+  version: 3.4.1
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdelibs
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXxf86vm
   
   version: ""
 uri:

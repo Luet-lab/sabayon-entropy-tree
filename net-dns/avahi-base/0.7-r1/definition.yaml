@@ -19,31 +19,10 @@ license: LGPL-2.1
 name: avahi-base
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm
+  name: libcap
   
   version: ""
 - 
@@ -57,21 +36,28 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
+  name: pygobject
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pygobject
+  name: twisted
   
-  version: ""
+  version: 16.0.0
 - 
   category: dev-libs
   description: ""
   license: ""
   name: libdaemon
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
   
   version: ""
 - 
@@ -82,10 +68,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libcap
+  name: dbus-python
   
   version: ""
 - 
@@ -93,6 +79,20 @@ requires:
   description: ""
   license: ""
   name: selinux-avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 uri:

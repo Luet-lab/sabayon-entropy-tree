@@ -5,17 +5,17 @@ license: GPL-3
 name: cairo-dock
 requires:
 - 
-  category: gnome-base
+  category: net-misc
   description: ""
   license: ""
-  name: librsvg
+  name: curl
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: cairo
+  name: dbus
   
   version: ""
 - 
@@ -29,14 +29,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: glib
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: pango
   
   version: ""
 - 
@@ -57,14 +57,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: cairo
   
   version: ""
 - 
@@ -78,21 +71,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
   
   version: ""
 - 
@@ -103,10 +96,17 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: gnome-base
   description: ""
   license: ""
-  name: curl
+  name: librsvg
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
   
   version: ""
 uri:

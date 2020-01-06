@@ -5,17 +5,24 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
-  category: app-portage
+  category: app-misc
   description: ""
   license: ""
-  name: layman
+  name: querypkg
   
   version: ""
 - 
   category: app-portage
   description: ""
   license: ""
-  name: portage-utils
+  name: gentoolkit
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -26,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
+  category: app-misc
   description: ""
   license: ""
-  name: docker
+  name: pax-utils
   
   version: ""
 - 
@@ -43,7 +50,14 @@ requires:
   category: app-portage
   description: ""
   license: ""
-  name: gentoolkit
+  name: layman
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: portage-utils
   
   version: ""
 - 
@@ -61,24 +75,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: app-emulation
   description: ""
   license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: querypkg
+  name: docker
   
   version: ""
 uri:

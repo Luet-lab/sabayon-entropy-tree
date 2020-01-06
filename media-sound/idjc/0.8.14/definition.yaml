@@ -5,31 +5,10 @@ license: GPL-2
 name: idjc
 requires:
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: twolame
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: mysql-python
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: mpg123
   
   version: ""
 - 
@@ -43,21 +22,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
+  name: opus
   
   version: ""
 - 
@@ -75,10 +40,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: pygtk
+  name: mutagen
   
   version: ""
 - 
@@ -89,6 +54,48 @@ requires:
   
   version: 0.116.0
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: twolame
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mpg123
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -96,10 +103,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-python
   description: ""
   license: ""
-  name: opus
+  name: pygtk
   
   version: ""
 - 
@@ -107,13 +114,6 @@ requires:
   description: ""
   license: ""
   name: libsamplerate
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mutagen
   
   version: ""
 uri:
