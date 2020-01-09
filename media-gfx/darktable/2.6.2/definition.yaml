@@ -5,10 +5,59 @@ license: GPL-3 CC-BY-3.0
 name: darktable
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
+  name: pango
+  
+  version: ""
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: osm-gps-map
+  
+  version: 1.1.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwallet
+  
+  version: 5.34.0-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.14"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lensfun
+  
+  version: 0.2.3
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
   
   version: ""
 - 
@@ -19,10 +68,24 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libgphoto2
+  name: sqlite
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: exiv2
+  
+  version: 0.25-r2
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
   
   version: ""
 - 
@@ -36,7 +99,35 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: pugixml
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flickcurl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgphoto2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -54,10 +145,24 @@ requires:
   
   version: ""
 - 
-  category: net-print
+  category: app-crypt
   description: ""
   license: ""
-  name: cups
+  name: libsecret
+  
+  version: "0.18"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openexr
   
   version: ""
 - 
@@ -71,107 +176,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: openjpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.14"
-- 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: osm-gps-map
-  
-  version: 1.1.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.18"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flickcurl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openexr
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: lcms
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwallet
-  
-  version: 5.34.0-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lensfun
-  
-  version: 0.2.3
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: exiv2
-  
-  version: 0.25-r2
 - 
   category: net-libs
   description: ""
@@ -180,31 +187,24 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: media-libs
   description: ""
   license: ""
-  name: curl
+  name: libwebp
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: pugixml
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: json-glib
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
+  name: tiff
   
   version: ""
 uri:

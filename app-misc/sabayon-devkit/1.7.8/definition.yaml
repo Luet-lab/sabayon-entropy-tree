@@ -5,6 +5,13 @@ license: GPL-2
 name: sabayon-devkit
 requires:
 - 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker
+  
+  version: ""
+- 
   category: app-misc
   description: ""
   license: ""
@@ -19,17 +26,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
   category: app-portage
   description: ""
   license: ""
-  name: gentoolkit
+  name: eix
   
   version: ""
 - 
@@ -47,13 +47,6 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -61,24 +54,31 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: eix
-  
-  version: ""
-- 
   category: app-portage
   description: ""
   license: ""
   name: layman
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gentoolkit
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
   
   version: ""
 uri:

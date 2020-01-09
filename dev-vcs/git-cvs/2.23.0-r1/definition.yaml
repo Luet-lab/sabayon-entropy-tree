@@ -5,31 +5,10 @@ license: GPL-2
 name: git-cvs
 requires:
 - 
-  category: dev-vcs
+  category: dev-perl
   description: ""
   license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: git
-  
-  version: 2.23.0
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
+  name: Authen-SASL
   
   version: ""
 - 
@@ -40,10 +19,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-perl
   description: ""
   license: ""
-  name: libpcre
+  name: MailTools
   
   version: ""
 - 
@@ -51,6 +30,27 @@ requires:
   description: ""
   license: ""
   name: curl
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 - 
@@ -68,52 +68,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: app-crypt
   description: ""
   license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBI
+  name: gnupg
   
   version: ""
 - 
@@ -131,10 +89,66 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
   name: Error
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: git
+  
+  version: 2.23.0
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -145,6 +159,27 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBI
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
@@ -152,45 +187,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
   category: dev-lang
   description: ""
   license: ""
   name: perl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: highlight
   
   version: ""
 - 

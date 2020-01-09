@@ -8,6 +8,27 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: eyeD3
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: mysql-python
   
   version: ""
@@ -19,6 +40,13 @@ requires:
   
   version: ""
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -26,17 +54,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: speex
+  name: twolame
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: eyeD3
+  name: pygtk
   
   version: ""
 - 
@@ -54,10 +82,24 @@ requires:
   
   version: 0.116.0
 - 
-  category: media-sound
+  category: virtual
   description: ""
   license: ""
-  name: twolame
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
   
   version: ""
 - 
@@ -71,49 +113,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
+  name: speex
   
   version: ""
 uri:

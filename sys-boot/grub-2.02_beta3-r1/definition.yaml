@@ -12,45 +12,17 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: os-prober
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ibm-powerpc-utils
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: powerpc-utils
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 - 
@@ -61,12 +33,47 @@ requires:
   
   version: ""
 - 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: os-prober
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
   name: xz-utils
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r5
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.45
 - 
   category: media-libs
   description: ""
@@ -78,7 +85,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: fuse
+  name: zfs
   
   version: ""
 - 
@@ -89,17 +96,10 @@ requires:
   
   version: ""
 - 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: zfs
+  name: fuse
   
   version: ""
 - 

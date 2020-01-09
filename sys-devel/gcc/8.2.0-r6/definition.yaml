@@ -8,14 +8,35 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[openmp?]
+  name: base-gcc-8.2.0[altivec?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[altivec?]
+  name: base-gcc-8.2.0[fixed-point?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[objc++?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[nls?]
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: base-gcc-8.2.0[openmp?]
   
   version: ""
 - 
@@ -29,28 +50,14 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[hardened?]
+  name: base-gcc-8.2.0[graphite?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[cxx?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[objc?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[objc++?]
+  name: base-gcc-8.2.0[vanilla?]
   
   version: ""
 - 
@@ -71,14 +78,7 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[fixed-point?]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: base-gcc-8.2.0[graphite?]
+  name: base-gcc-8.2.0[hardened?]
   
   version: ""
 - 
@@ -92,14 +92,14 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[vanilla?]
+  name: base-gcc-8.2.0[cxx?]
   
   version: ""
 - 
   category: sys-devel
   description: ""
   license: ""
-  name: base-gcc-8.2.0[nls?]
+  name: base-gcc-8.2.0[objc?]
   
   version: ""
 uri: []

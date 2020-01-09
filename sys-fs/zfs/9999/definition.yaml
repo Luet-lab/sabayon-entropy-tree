@@ -8,23 +8,51 @@ conflicts:
   
   version: 2.00-r2
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
-- 
   category: =sys-apps
   description: ""
   license: ""
   name: grep-2.13*
   
   version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
+  
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -47,31 +75,17 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: app-misc
   description: ""
   license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
+  name: pax-utils
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
+  name: awk
   
   version: ""
 - 
@@ -82,31 +96,17 @@ requires:
   
   version: "9999"
 - 
-  category: sys-devel
+  category: app-arch
   description: ""
   license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
+  name: cpio
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: awk
+  name: modutils
   
   version: ""
 uri: []

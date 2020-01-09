@@ -16,14 +16,105 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: adplug
+  name: libcddb
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
+  name: imlib2
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: timidity-freepats
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: adplug
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzip
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: "0.90"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: "9"
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmms
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: musepack-tools
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
   
   version: ""
 - 
@@ -51,91 +142,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmms
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libzip
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: timidity-freepats
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libmad
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: "0.90"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: imlib2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "9"
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
   
   version: ""
 - 
@@ -146,17 +153,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: libsamplerate
   
   version: ""
 - 
@@ -170,7 +170,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libcddb
+  name: libvorbis
   
   version: ""
 uri:

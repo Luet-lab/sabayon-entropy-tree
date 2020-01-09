@@ -33,6 +33,27 @@ license: GPL-2
 name: sabayon-version
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: sabayon-dracut
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gcc-config
+  
+  version: ""
+- 
   category: app-eselect
   description: ""
   license: ""
@@ -47,13 +68,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -61,24 +75,10 @@ requires:
   
   version: ""
 - 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
   name: base-gcc
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc-config
   
   version: ""
 uri: []

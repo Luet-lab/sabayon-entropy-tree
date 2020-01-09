@@ -13,19 +13,19 @@ license: "\n\tGPL-2+\n\tbranding? ( CC-BY-SA-4.0 )\n"
 name: gdm
 requires:
 - 
-  category: sys-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libselinux
+  name: gnome-settings-daemon
   
-  version: ""
+  version: 3.1.4
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libcanberra
   
-  version: ""
+  version: "0.4"
 - 
   category: x11-apps
   description: ""
@@ -34,12 +34,61 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: iso-codes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.91.1
+- 
   category: gnome-base
   description: ""
   license: ""
   name: dconf
   
   version: "0.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "186"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
 - 
   category: sys-boot
   description: ""
@@ -55,38 +104,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libXext
+  name: gsettings-desktop-schemas
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "186"
 - 
   category: x11-base
   description: ""
   license: ""
   name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
   
   version: ""
 - 
@@ -104,10 +132,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: pam
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: sessreg
   
   version: ""
 - 
@@ -118,12 +153,54 @@ requires:
   
   version: ""
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: fprintd
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
+  
+  version: 0.6.35
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
   
   version: 0.9.12
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXau
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -135,14 +212,14 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: gnome-shell
   
-  version: ""
+  version: 3.1.90
 - 
-  category: x11-libs
+  category: gnome-extra
   description: ""
   license: ""
-  name: libX11
+  name: mousetweaks
   
   version: ""
 - 
@@ -153,12 +230,12 @@ requires:
   
   version: "3.10"
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: fprintd
+  name: glib
   
-  version: ""
+  version: "2.36"
 - 
   category: media-libs
   description: ""
@@ -167,24 +244,10 @@ requires:
   
   version: 2.5.0
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-shell
-  
-  version: 3.1.90
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.4"
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: sessreg
+  name: libXi
   
   version: ""
 - 
@@ -194,69 +257,6 @@ requires:
   name: xdg-utils
   
   version: 1.0.2-r3
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: mousetweaks
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: 3.1.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: 0.6.35
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.36"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.91.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
-  
-  version: ""
 - 
   category: sys-apps
   description: ""

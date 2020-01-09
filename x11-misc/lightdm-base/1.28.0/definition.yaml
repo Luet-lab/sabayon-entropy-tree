@@ -8,16 +8,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: glib
+  
+  version: 2.44.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libxml2
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-process
   description: ""
   license: ""
-  name: pam
+  name: audit
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1"
 - 
   category: sys-auth
   description: ""
@@ -26,12 +40,12 @@ requires:
   
   version: 20101024-r2
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: glib
+  name: pam
   
-  version: 2.44.0
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -47,26 +61,12 @@ requires:
   
   version: "5"
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: accountsservice
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1"
 uri:
 - https://github.com/CanonicalLtd/lightdm/releases/download/1.28.0/lightdm-1.28.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

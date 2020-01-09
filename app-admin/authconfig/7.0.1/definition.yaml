@@ -5,6 +5,13 @@ license: GPL-2+
 name: authconfig
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -37,13 +44,6 @@ requires:
   description: ""
   license: ""
   name: hicolor-icon-theme
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 uri:

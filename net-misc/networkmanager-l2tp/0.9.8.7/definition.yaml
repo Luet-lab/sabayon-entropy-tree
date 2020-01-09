@@ -5,20 +5,6 @@ license: GPL-2+
 name: networkmanager-l2tp
 requires:
 - 
-  category: net-dialup
-  description: ""
-  license: ""
-  name: ppp
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: 0.9.6.4
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -53,6 +39,20 @@ requires:
   name: glib
   
   version: ""
+- 
+  category: net-dialup
+  description: ""
+  license: ""
+  name: ppp
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: 0.9.6.4
 uri:
 - https://github.com/seriyps/NetworkManager-l2tp/archive/0.9.8.7.tar.gz -> networkmanager-l2tp-0.9.8.7.tar.gz
 use_flags:

@@ -8,35 +8,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libatasmart
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: kpmcore
-  
-  version: 3.0.3
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: sudo
+  name: libpwquality
   
   version: ""
 - 
@@ -47,12 +19,12 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-libs
   description: ""
   license: ""
-  name: polkit-qt[qt5(+)]
+  name: kpmcore
   
-  version: ""
+  version: 3.0.3
 - 
   category: dev-python
   description: ""
@@ -61,12 +33,19 @@ requires:
   
   version: "3.1"
 - 
-  category: sys-block
+  category: app-admin
   description: ""
   license: ""
-  name: parted
+  name: sudo
   
-  version: "3.0"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libatasmart
+  
+  version: ""
 - 
   category: dev-cpp
   description: ""
@@ -82,10 +61,31 @@ requires:
   
   version: "1.55"
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libpwquality
+  name: rsync
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-qt[qt5(+)]
   
   version: ""
 uri:

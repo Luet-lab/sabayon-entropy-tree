@@ -5,10 +5,59 @@ license: GPL-3 CC-BY-SA-2.5 CC-BY-SA-3.0
 name: unvanquished
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: nettle
+  name: gmp
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libtheora
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X,opengl,video]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
   
   version: ""
 - 
@@ -26,6 +75,13 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -33,10 +89,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libX11
+  name: freetype
   
   version: ""
 - 
@@ -44,6 +100,20 @@ requires:
   description: ""
   license: ""
   name: screen
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
   
   version: ""
 - 
@@ -64,56 +134,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2[X,opengl,video]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libtheora
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openal
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: geoip
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: nettle
   
   version: ""
 - 
@@ -127,7 +148,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: glew
   
   version: ""
 - 
@@ -138,31 +159,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: opusfile
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
+  name: geoip
   
   version: ""
 uri:

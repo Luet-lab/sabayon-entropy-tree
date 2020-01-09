@@ -8,13 +8,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: fltk
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXpm
   
   version: ""
@@ -39,6 +32,13 @@ requires:
   name: jack-audio-connection-kit
   
   version: 0.100.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: fltk
+  
+  version: ""
 uri:
 - mirror://sourceforge/rakarrack/rakarrack-0.6.1.tar.bz2
 use_flags:

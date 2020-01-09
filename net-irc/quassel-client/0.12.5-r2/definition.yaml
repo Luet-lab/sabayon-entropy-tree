@@ -6,27 +6,6 @@ license: GPL-3
 name: quassel-client
 requires:
 - 
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.12.5
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -34,10 +13,45 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: knotifyconfig
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: phonon[qt5(+)]
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: sonnet
   
   version: ""
 - 
@@ -47,6 +61,13 @@ requires:
   name: snorenotify
   
   version: 0.7.0
+- 
+  category: net-irc
+  description: ""
+  license: ""
+  name: quassel-common
+  
+  version: 0.12.5
 - 
   category: sys-libs
   description: ""
@@ -65,13 +86,6 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifyconfig
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: ktextwidgets
   
   version: ""
@@ -79,28 +93,28 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
+  name: kwidgetsaddons
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: sonnet
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
+  name: kconfigwidgets
   
   version: ""
 - 
@@ -115,20 +129,6 @@ requires:
   description: ""
   license: ""
   name: knotifications
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: phonon[qt5(+)]
   
   version: ""
 uri:

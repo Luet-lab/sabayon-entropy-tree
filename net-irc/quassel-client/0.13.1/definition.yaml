@@ -9,7 +9,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtmultimedia
+  name: qtgui
   
   version: ""
 - 
@@ -17,6 +17,20 @@ requires:
   description: ""
   license: ""
   name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
@@ -30,7 +44,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcoreaddons
+  name: kconfigwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
   
   version: ""
 - 
@@ -51,35 +72,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
+  name: qtmultimedia
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: ktextwidgets
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+  name: kcoreaddons
   
   version: ""
 - 
@@ -87,13 +87,6 @@ requires:
   description: ""
   license: ""
   name: kwidgetsaddons
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
   
   version: ""
 - 
@@ -111,17 +104,10 @@ requires:
   
   version: 0.7.0
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: kconfigwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
+  name: qtcore
   
   version: ""
 - 
@@ -129,6 +115,20 @@ requires:
   description: ""
   license: ""
   name: knotifyconfig
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
   
   version: ""
 uri:

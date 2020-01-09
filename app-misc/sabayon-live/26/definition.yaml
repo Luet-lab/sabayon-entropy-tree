@@ -22,28 +22,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: gawk
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyboard-configuration-helpers
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: 239-r2
-- 
-  category: sys-apps
-  description: ""
-  license: ""
   name: dmidecode
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opengl
   
   version: ""
 - 
@@ -51,6 +37,13 @@ requires:
   description: ""
   license: ""
   name: dialog
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gawk
   
   version: ""
 - 
@@ -68,12 +61,19 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: sys-apps
   description: ""
   license: ""
-  name: eselect-opengl
+  name: keyboard-configuration-helpers
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: 239-r2
 uri:
 - https://github.com/Sabayon/sabayon-live/archive/v26.tar.gz -> 26.tar.gz
 use_flags:
