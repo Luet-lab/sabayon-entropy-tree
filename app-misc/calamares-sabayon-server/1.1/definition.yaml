@@ -1,30 +1,23 @@
 category: app-misc
 conflicts:
 - 
-  category: '!app-admin'
-  description: ""
-  license: ""
-  name: anaconda
-  
-  version: ""
-- 
   category: '!app-misc'
   description: ""
   license: ""
   name: calamares-sabayon
   
   version: ""
+- 
+  category: '!app-admin'
+  description: ""
+  license: ""
+  name: anaconda
+  
+  version: ""
 description: Sabayon Official Installer
 license: CC-BY-SA-4.0
 name: calamares-sabayon-server
 requires:
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: jfsutils
-  
-  version: ""
 - 
   category: sys-fs
   description: ""
@@ -43,13 +36,6 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: calamares-sabayon-server-base-modules
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
   name: calamares-sabayon-server-branding
   
   version: ""
@@ -57,7 +43,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: dosfstools
+  name: xfsdump
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: jfsutils
   
   version: ""
 - 
@@ -75,10 +68,17 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-server-base-modules
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: xfsdump
+  name: dosfstools
   
   version: ""
 uri: []

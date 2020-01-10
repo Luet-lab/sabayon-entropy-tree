@@ -8,14 +8,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pycairo
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libgnome-python
+  name: pyxdg
   
   version: ""
 - 
@@ -36,14 +29,21 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygtk
+  name: pygobject
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pyxdg
+  name: libgnome-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
   
   version: ""
 - 
@@ -64,7 +64,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygobject
+  name: pycairo
   
   version: ""
 uri:

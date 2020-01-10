@@ -8,14 +8,14 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[cxx=]
+  name: poppler-base-0.82.0[nss=]
   
   version: ""
 - 
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[debug=]
+  name: poppler-base-0.82.0[cxx=]
   
   version: ""
 - 
@@ -64,14 +64,14 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[jpeg2k=]
+  name: poppler-base-0.82.0[debug=]
   
   version: ""
 - 
   category: app-text
   description: ""
   license: ""
-  name: poppler-base-0.82.0[nss=]
+  name: poppler-base-0.82.0[jpeg2k=]
   
   version: ""
 uri: []

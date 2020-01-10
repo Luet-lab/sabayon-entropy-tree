@@ -19,10 +19,38 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: dbus-glib
+  
+  version: "0.88"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: 0.9.8
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: "2.26"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
   
   version: "2.20"
 - 
@@ -36,30 +64,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
-  
-  version: 0.9.6
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: glib
   
   version: "2.26"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: "2.20"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.4.1
 - 
   category: sys-auth
   description: ""
@@ -67,13 +74,6 @@ requires:
   name: polkit
   
   version: 0.96-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: 0.7.0
 - 
   category: net-wireless
   description: ""
@@ -85,7 +85,21 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: gconf
+  
+  version: "2.20"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.6
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
   
   version: ""
 - 
@@ -96,19 +110,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: dbus-glib
+  name: dbus
   
-  version: "0.88"
+  version: 1.4.1
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gconf
+  name: gtk+
   
-  version: "2.26"
+  version: "2.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.0
 - 
   category: app-text
   description: ""
@@ -120,28 +141,7 @@ requires:
   category: net-misc
   description: ""
   license: ""
-  name: networkmanager
-  
-  version: 0.9.8
-- 
-  category: net-misc
-  description: ""
-  license: ""
   name: mobile-broadband-provider-info
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.20"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: freedesktop-icon-theme
   
   version: ""
 uri: []

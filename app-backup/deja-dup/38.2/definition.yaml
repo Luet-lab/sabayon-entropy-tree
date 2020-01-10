@@ -5,10 +5,10 @@ license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: dbus-glib
   
   version: ""
 - 
@@ -26,10 +26,10 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: app-admin
   description: ""
   license: ""
-  name: libsecret
+  name: packagekit-base
   
   version: ""
 - 
@@ -39,6 +39,13 @@ requires:
   name: glib
   
   version: "2.34"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpeas
+  
+  version: "1.0"
 - 
   category: x11-libs
   description: ""
@@ -54,26 +61,12 @@ requires:
   
   version: 0.7.14
 - 
-  category: dev-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: dbus-glib
+  name: libsecret
   
   version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: packagekit-base
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: "1.0"
 - 
   category: x11-libs
   description: ""
@@ -81,6 +74,13 @@ requires:
   name: libnotify
   
   version: "0.7"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: ""
 - 
   category: dev-libs
   description: ""

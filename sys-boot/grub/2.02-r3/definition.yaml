@@ -19,19 +19,19 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub
 requires:
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
   name: lvm2
   
   version: 2.02.45
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
 - 
   category: sys-boot
   description: ""
@@ -40,10 +40,24 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-fs
   description: ""
   license: ""
-  name: xz-utils
+  name: zfs
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
   
   version: ""
 - 
@@ -53,6 +67,13 @@ requires:
   name: ncurses
   
   version: 5.2-r5
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
 - 
   category: media-libs
   description: ""
@@ -68,20 +89,6 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -89,17 +96,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-boot
   description: ""
   license: ""
-  name: ibm-powerpc-utils
-  
-  version: 1.3.5
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: sbsigntools
+  name: efibootmgr
   
   version: ""
 - 

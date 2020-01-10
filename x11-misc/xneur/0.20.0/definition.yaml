@@ -15,41 +15,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: "1.1"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xosd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "5.0"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXtst
   
   version: ""
@@ -61,12 +26,54 @@ requires:
   
   version: 1.0.1
 - 
-  category: media-sound
+  category: x11-libs
   description: ""
   license: ""
-  name: alsa-utils
+  name: libnotify
   
-  version: 1.0.17
+  version: 0.4.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: "5.0"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xosd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: "1.1"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
 - 
   category: app-text
   description: ""
@@ -89,13 +96,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: 0.4.0
-- 
   category: media-libs
   description: ""
   license: ""
@@ -110,12 +110,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: media-sound
   description: ""
   license: ""
-  name: gtk+
+  name: alsa-utils
   
-  version: ""
+  version: 1.0.17
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.20.0.orig.tar.gz
 use_flags:

@@ -12,6 +12,13 @@ license: GPL-2
 name: gxneur
 requires:
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: 0.16.1
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -46,13 +53,6 @@ requires:
   name: libglade
   
   version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: 0.16.1
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/gxneur_0.20.0.orig.tar.gz
 use_flags:

@@ -19,6 +19,27 @@ license: LGPL-2.1
 name: avahi-base
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdaemon
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -33,17 +54,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
+  name: dbus-python
   
   version: ""
 - 
@@ -75,24 +89,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libdaemon
+  name: gobject-introspection
   
   version: ""
 uri:

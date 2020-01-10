@@ -5,17 +5,38 @@ license: GPL-3
 name: cairo-dock-plugins
 requires:
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: oauth
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libindicator
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
   
   version: ""
 - 
@@ -25,20 +46,6 @@ requires:
   name: cairo-dock
   
   version: 3.4.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: vte
-  
-  version: ""
 - 
   category: dev-lang
   description: ""
@@ -54,13 +61,6 @@ requires:
   
   version: 1.4.0
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -75,6 +75,20 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: simplejson
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -82,24 +96,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-menus
+  name: gtk+
   
   version: ""
 - 
@@ -117,24 +117,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: simplejson
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
   
   version: ""
 - 
@@ -145,10 +131,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libxklavier
+  name: gnome-menus
   
   version: ""
 - 
@@ -159,10 +145,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libindicator
+  name: oauth
   
   version: ""
 - 
@@ -173,10 +159,24 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtkglext
+  name: vte
   
   version: ""
 uri:

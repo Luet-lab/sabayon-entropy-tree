@@ -12,52 +12,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: mysql-python
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
   name: gettext
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: twolame
   
   version: ""
 - 
@@ -71,7 +29,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: mutagen
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
   
   version: ""
 - 
@@ -82,10 +47,52 @@ requires:
   
   version: 0.116.0
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speex
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mutagen
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: ffmpeg
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mpg123
   
   version: ""
 - 
@@ -106,14 +113,7 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: mpg123
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
+  name: twolame
   
   version: ""
 uri:

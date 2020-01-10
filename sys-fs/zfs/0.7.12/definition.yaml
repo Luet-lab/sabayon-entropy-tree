@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
+  
+  version: ""
+- 
   category: <sys-boot
   description: ""
   license: ""
@@ -14,36 +21,36 @@ conflicts:
   name: grep-2.13*
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-devel
+  category: sys-fs
   description: ""
   license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
+  name: lsscsi
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: mdadm
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.7.12
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 - 
@@ -57,14 +64,35 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
+  name: mdadm
   
-  version: 0.7.12
+  version: ""
 - 
   category: app-arch
   description: ""
   license: ""
   name: cpio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 - 
@@ -75,20 +103,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -96,24 +110,10 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: virtual
   description: ""
   license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
+  name: modutils
   
   version: ""
 uri:

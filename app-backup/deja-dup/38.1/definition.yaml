@@ -5,45 +5,10 @@ license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.34"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
-  name: dconf
+  name: gvfs
   
   version: ""
 - 
@@ -54,12 +19,26 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: glib
   
-  version: "3.10"
+  version: "2.34"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
 - 
   category: app-backup
   description: ""
@@ -67,6 +46,13 @@ requires:
   name: duplicity
   
   version: 0.7.14
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -82,10 +68,10 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: app-crypt
   description: ""
   license: ""
-  name: gvfs
+  name: libsecret
   
   version: ""
 - 
@@ -95,6 +81,20 @@ requires:
   name: libpeas
   
   version: "1.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.10"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
 uri:
 - https://launchpad.net/deja-dup/38/38.1/+download/deja-dup-38.1.tar.xz
 use_flags:

@@ -5,13 +5,6 @@ license: ""
 name: enman
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: LWP-Protocol-https
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -58,6 +51,13 @@ requires:
   description: ""
   license: ""
   name: App-Cmd
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: LWP-Protocol-https
   
   version: ""
 uri:
