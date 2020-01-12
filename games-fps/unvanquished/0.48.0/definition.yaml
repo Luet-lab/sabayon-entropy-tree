@@ -8,7 +8,70 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: openal
+  name: glew
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X,opengl,video]
   
   version: ""
 - 
@@ -26,73 +89,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: nettle
+  name: libwebp
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2[X,opengl,video]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libtheora
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
+  name: openal
   
   version: ""
 - 
@@ -110,10 +117,24 @@ requires:
   
   version: ""
 - 
+  category: games-fps
+  description: ""
+  license: ""
+  name: unvanquished-data
+  
+  version: 0.48.0
+- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
   
   version: ""
 - 
@@ -124,45 +145,24 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: media-libs
   description: ""
   license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: games-fps
-  description: ""
-  license: ""
-  name: unvanquished-data
-  
-  version: 0.48.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: libogg
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
+  name: libpng
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: opusfile
+  name: libtheora
   
   version: ""
 uri:

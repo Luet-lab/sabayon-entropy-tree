@@ -5,6 +5,27 @@ license: GPL-2+
 name: networkmanager-l2tp
 requires:
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: 0.9.6.4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -30,27 +51,6 @@ requires:
   description: ""
   license: ""
   name: ppp
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: 0.9.6.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
   
   version: ""
 uri:

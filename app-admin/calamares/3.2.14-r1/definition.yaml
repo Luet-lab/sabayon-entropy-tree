@@ -5,10 +5,52 @@ license: GPL-3
 name: calamares
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: PythonQt
+  
+  version: "3.1"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: rsync
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.55"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: dmidecode
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit-qt[qt5(+)]
   
   version: ""
 - 
@@ -18,13 +60,6 @@ requires:
   name: kpmcore
   
   version: 3.0.3
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: PythonQt
-  
-  version: "3.1"
 - 
   category: app-admin
   description: ""
@@ -40,10 +75,10 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: dev-cpp
   description: ""
   license: ""
-  name: rsync
+  name: yaml-cpp
   
   version: ""
 - 
@@ -53,41 +88,6 @@ requires:
   name: parted
   
   version: "3.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.55"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit-qt[qt5(+)]
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.14/calamares-3.2.14.tar.gz
 use_flags:

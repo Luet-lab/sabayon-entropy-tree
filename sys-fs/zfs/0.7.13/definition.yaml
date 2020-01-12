@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -14,36 +21,22 @@ conflicts:
   name: grub
   
   version: 2.00-r2
-- 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
   name: bc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
   
   version: ""
 - 
@@ -57,21 +50,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: 0.7.13
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
+  name: modutils
   
   version: ""
 - 
@@ -82,10 +61,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: udev
+  name: zfs-kmod
+  
+  version: 0.7.13
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
   
   version: ""
 - 
@@ -103,10 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-block
   description: ""
   license: ""
-  name: util-linux
+  name: parted
   
   version: ""
 - 
@@ -114,6 +100,20 @@ requires:
   description: ""
   license: ""
   name: pax-utils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
   
   version: ""
 uri:

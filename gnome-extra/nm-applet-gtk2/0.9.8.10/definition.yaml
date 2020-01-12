@@ -12,26 +12,12 @@ license: GPL-2+
 name: nm-applet-gtk2
 requires:
 - 
-  category: app-crypt
+  category: sys-auth
   description: ""
   license: ""
-  name: libsecret
+  name: polkit
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.88"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: 0.9.8
+  version: 0.96-r1
 - 
   category: gnome-base
   description: ""
@@ -39,20 +25,6 @@ requires:
   name: libgnome-keyring
   
   version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.26"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: "2.20"
 - 
   category: net-misc
   description: ""
@@ -64,16 +36,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: dbus-glib
   
-  version: "2.26"
+  version: "0.88"
 - 
-  category: sys-auth
+  category: gnome-base
   description: ""
   license: ""
-  name: polkit
+  name: libgnome-keyring
   
-  version: 0.96-r1
+  version: "2.20"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.4.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "2.20"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: mobile-broadband-provider-info
+  
+  version: ""
 - 
   category: net-wireless
   description: ""
@@ -89,12 +82,26 @@ requires:
   
   version: "2.20"
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: glib
   
-  version: 0.9.6
+  version: "2.26"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: "2.26"
 - 
   category: virtual
   description: ""
@@ -103,26 +110,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: app-crypt
   description: ""
   license: ""
-  name: libgudev
+  name: libsecret
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.4.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.20"
 - 
   category: x11-libs
   description: ""
@@ -141,9 +134,16 @@ requires:
   category: net-misc
   description: ""
   license: ""
-  name: mobile-broadband-provider-info
+  name: networkmanager
   
-  version: ""
+  version: 0.9.8
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.6
 uri: []
 use_flags:
 - bluetooth

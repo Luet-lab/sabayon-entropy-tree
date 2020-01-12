@@ -5,13 +5,6 @@ license: GPL-3
 name: citadel
 requires:
 - 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: postfix
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -58,6 +51,13 @@ requires:
   description: ""
   license: ""
   name: mailbase
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: postfix
   
   version: ""
 uri:

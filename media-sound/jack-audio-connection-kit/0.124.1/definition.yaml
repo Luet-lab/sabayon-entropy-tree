@@ -1,19 +1,19 @@
 category: media-sound
 conflicts:
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-cvs
-  
-  version: ""
-- 
   category: <=app-emulation
   description: ""
   license: ""
   name: emul-linux-x86-soundlibs
   
   version: 20130224-r7
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: jack-cvs
+  
+  version: ""
 - 
   category: app-emulation
   description: ""
@@ -26,24 +26,31 @@ license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: realtime-base
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: readline
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libffado
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: lsof
   
   version: ""
 - 
@@ -61,17 +68,10 @@ requires:
   
   version: 0.1.8-r1
 - 
-  category: media-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libffado
+  name: realtime-base
   
   version: ""
 uri:

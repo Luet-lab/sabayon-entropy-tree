@@ -5,20 +5,6 @@ license: LGPL-2.1+
 name: pygobject-cairo
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.48"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -46,6 +32,20 @@ requires:
   name: pycairo
   
   version: 1.11.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.48"
 uri: []
 use_flags:
 - examples

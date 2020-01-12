@@ -5,6 +5,27 @@ license: GPL-3
 name: lightdm-slick-greeter
 requires:
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -40,31 +61,10 @@ requires:
   
   version: "3.20"
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: libcanberra
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
   
   version: ""
 uri:

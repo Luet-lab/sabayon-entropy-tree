@@ -8,21 +8,28 @@ requires:
   category: app-misc
   description: ""
   license: ""
-  name: querypkg
+  name: pax-utils
   
   version: ""
 - 
   category: app-portage
   description: ""
   license: ""
-  name: repoman
+  name: eix
   
   version: ""
 - 
-  category: sys-apps
+  category: app-portage
   description: ""
   license: ""
-  name: gentoo-functions
+  name: layman
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -30,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: docker
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
   
   version: ""
 - 
@@ -54,10 +54,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: app-portage
   description: ""
   license: ""
-  name: perl
+  name: repoman
   
   version: ""
 - 
@@ -75,17 +75,17 @@ requires:
   
   version: ""
 - 
-  category: app-portage
+  category: sys-apps
   description: ""
   license: ""
-  name: eix
+  name: gentoo-functions
   
   version: ""
 - 
-  category: app-portage
+  category: app-misc
   description: ""
   license: ""
-  name: layman
+  name: querypkg
   
   version: ""
 uri:

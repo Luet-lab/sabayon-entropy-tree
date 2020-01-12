@@ -8,20 +8,6 @@ requires:
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-soup
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-taglib
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
   name: gst-plugins-libmms
   
   version: ""
@@ -58,6 +44,20 @@ requires:
   description: ""
   license: ""
   name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-soup
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-taglib
   
   version: ""
 uri:

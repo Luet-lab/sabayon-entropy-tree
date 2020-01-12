@@ -12,45 +12,10 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.45
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: os-prober
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: sbsigntools
+  name: freetype
   
   version: ""
 - 
@@ -75,17 +40,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libsdl
   
-  version: 5.2-r5
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.45
 - 
   category: sys-fs
   description: ""
   license: ""
   name: zfs
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: os-prober
   
   version: ""
 - 
@@ -96,12 +82,26 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: freetype
+  name: sbsigntools
   
   version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r5
 - 
   category: sys-devel
   description: ""

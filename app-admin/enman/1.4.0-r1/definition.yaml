@@ -8,6 +8,13 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: libintl-perl
   
   version: ""
@@ -51,13 +58,6 @@ requires:
   description: ""
   license: ""
   name: perl-Encode
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
   
   version: ""
 uri:

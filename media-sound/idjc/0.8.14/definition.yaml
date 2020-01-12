@@ -5,24 +5,31 @@ license: GPL-2
 name: idjc
 requires:
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: eyeD3
+  name: libsndfile
   
   version: ""
 - 
-  category: sys-devel
+  category: media-sound
   description: ""
   license: ""
-  name: gettext
+  name: lame
   
   version: ""
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: pygtk
+  name: speex
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: twolame
   
   version: ""
 - 
@@ -36,7 +43,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: mutagen
   
   version: ""
 - 
@@ -47,59 +54,10 @@ requires:
   
   version: 0.116.0
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: mysql-python
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mutagen
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: ffmpeg
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: mpg123
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
   
   version: ""
 - 
@@ -113,7 +71,49 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: twolame
+  name: mpg123
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: eyeD3
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygtk
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
   
   version: ""
 uri:

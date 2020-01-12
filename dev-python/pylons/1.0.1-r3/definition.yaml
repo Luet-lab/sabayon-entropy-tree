@@ -15,44 +15,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: simplejson
+  name: webhelpers
   
-  version: 2.0.8
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: genshi
-  
-  version: 0.4.4
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: beaker
-  
-  version: "1.3"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: decorator
-  
-  version: 2.3.2
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pastescript
-  
-  version: 1.7.3
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: tempita
-  
-  version: "0.2"
+  version: 0.6.4
 - 
   category: dev-python
   description: ""
@@ -60,6 +25,20 @@ requires:
   name: webob
   
   version: 0.9.6.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: jinja
+  
+  version: "2"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: beaker
+  
+  version: "1.3"
 - 
   category: dev-python
   description: ""
@@ -78,30 +57,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pastedeploy
+  name: pastescript
   
-  version: 1.3.3
+  version: 1.7.3
 - 
   category: dev-python
   description: ""
   license: ""
-  name: routes
+  name: webtest
   
-  version: "1.12"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: weberror
-  
-  version: 0.10.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jinja
-  
-  version: "2"
+  version: "1.1"
 - 
   category: dev-python
   description: ""
@@ -113,6 +78,41 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: pastedeploy
+  
+  version: 1.3.3
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: tempita
+  
+  version: "0.2"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: weberror
+  
+  version: 0.10.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: genshi
+  
+  version: 0.4.4
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: decorator
+  
+  version: 2.3.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: repoze-lru
   
   version: "0.3"
@@ -120,16 +120,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: webhelpers
+  name: routes
   
-  version: 0.6.4
+  version: "1.12"
 - 
   category: dev-python
   description: ""
   license: ""
-  name: webtest
+  name: simplejson
   
-  version: "1.1"
+  version: 2.0.8
 uri:
 - mirror://pypi/P/Pylons/Pylons-1.0.1.tar.gz
 use_flags:
