@@ -1,13 +1,16 @@
+ID: 0
 category: app-crypt
 conflicts:
-- 
+- ID: 0
+  
   category: app-crypt
   description: ""
   license: ""
   name: pinentry-base
   
   version: ""
-- 
+- ID: 0
+  
   category: app-crypt
   description: ""
   license: ""
@@ -18,46 +21,52 @@ description: Qt5 frontend for pinentry
 license: GPL-2
 name: pinentry-qt5
 requires:
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+- ID: 0
   
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
   name: qtwidgets
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
   
   version: ""
-- 
+- ID: 0
+  
   category: app-crypt
   description: ""
   license: ""
   name: pinentry-base
   
   version: 1.1.0
-- 
+- ID: 0
+  
   category: sys-libs
   description: ""
   license: ""
   name: libcap
+  
+  version: ""
+- ID: 0
+  
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- ID: 0
+  
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
   
   version: ""
 uri:

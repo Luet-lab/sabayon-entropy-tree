@@ -1,31 +1,36 @@
+ID: 0
 category: app-text
 conflicts: []
 description: Qt5 bindings for poppler
 license: GPL-2
 name: poppler-qt5
 requires:
-- 
+- ID: 0
+  
   category: dev-qt
   description: ""
   license: ""
   name: qtcore
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-qt
   description: ""
   license: ""
   name: qtgui
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-qt
   description: ""
   license: ""
   name: qtxml
   
   version: ""
-- 
+- ID: 0
+  
   category: app-text
   description: ""
   license: ""

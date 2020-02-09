@@ -1,77 +1,88 @@
+ID: 0
 category: media-sound
 conflicts:
-- 
-  category: <=app-emulation
-  description: ""
-  license: ""
-  name: emul-linux-x86-soundlibs
+- ID: 0
   
-  version: 20130224-r7
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-cvs
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
   name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
   
   version: ""
+- ID: 0
+  
+  category: media-sound
+  description: ""
+  license: ""
+  name: jack-cvs
+  
+  version: ""
+- ID: 0
+  
+  category: <=app-emulation
+  description: ""
+  license: ""
+  name: emul-linux-x86-soundlibs
+  
+  version: 20130224-r7
 description: A low-latency audio server
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
+- ID: 0
   
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: libsndfile
   
   version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libffado
+- ID: 0
   
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: alsa-lib
   
   version: 1.0.27.2
-- 
+- ID: 0
+  
+  category: sys-auth
+  description: ""
+  license: ""
+  name: realtime-base
+  
+  version: ""
+- ID: 0
+  
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libffado
+  
+  version: ""
+- ID: 0
+  
   category: media-libs
   description: ""
   license: ""
   name: libsamplerate
   
   version: 0.1.8-r1
-- 
-  category: sys-auth
+- ID: 0
+  
+  category: sys-process
   description: ""
   license: ""
-  name: realtime-base
+  name: lsof
   
   version: ""
 uri:

@@ -1,10 +1,12 @@
+ID: 0
 category: dev-libs
 conflicts: []
 description: Lightweight cross platform C++ GUID/UUID library
 license: MIT
 name: crossguid
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""

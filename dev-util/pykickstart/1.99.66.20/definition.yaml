@@ -1,21 +1,24 @@
+ID: 0
 category: dev-util
 conflicts: []
 description: a python library that is used for reading and writing kickstart files.
 license: GPL-2
 name: pykickstart
 requires:
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: transifex-client
+- ID: 0
   
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
   name: gettext
+  
+  version: ""
+- ID: 0
+  
+  category: app-i18n
+  description: ""
+  license: ""
+  name: transifex-client
   
   version: ""
 uri:

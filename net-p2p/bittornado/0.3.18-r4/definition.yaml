@@ -1,10 +1,12 @@
+ID: 0
 category: net-p2p
 conflicts: []
 description: TheShad0w's experimental BitTorrent client
 license: MIT
 name: bittornado
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

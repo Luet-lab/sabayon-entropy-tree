@@ -1,10 +1,12 @@
+ID: 0
 category: app-admin
 conflicts: []
 description: Background service for managing ssh keys and users.
 license: Apache-2.0
 name: google-daemon
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""

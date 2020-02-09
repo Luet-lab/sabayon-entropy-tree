@@ -1,119 +1,136 @@
+ID: 0
 category: sys-fs
 conflicts:
-- 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
+- ID: 0
   
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
   
   version: ""
-- 
+- ID: 0
+  
   category: <sys-boot
   description: ""
   license: ""
   name: grub
   
   version: 2.00-r2
+- ID: 0
+  
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- 
-  category: sys-apps
+- ID: 0
+  
+  category: virtual
   description: ""
   license: ""
-  name: util-linux
+  name: udev
   
   version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
+- ID: 0
   
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
   name: procps
   
   version: ""
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: modutils
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
+- ID: 0
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: 0.7.13
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
   name: pax-utils
   
   version: ""
-- 
+- ID: 0
+  
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: awk
   
   version: ""
-- 
-  category: virtual
+- ID: 0
+  
+  category: sys-apps
   description: ""
   license: ""
-  name: udev
+  name: util-linux
+  
+  version: ""
+- ID: 0
+  
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- ID: 0
+  
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.7.13
+- ID: 0
+  
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- ID: 0
+  
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- ID: 0
+  
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- ID: 0
+  
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 uri:

@@ -1,17 +1,20 @@
+ID: 0
 category: x11-themes
 conflicts: []
 description: Official Sabayon Linux SDDM Artwork
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-sddm-default
 requires:
-- 
+- ID: 0
+  
   category: x11-themes
   description: ""
   license: ""
   name: sabayon-artwork-sddm-base
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""

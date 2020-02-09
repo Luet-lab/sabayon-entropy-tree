@@ -1,45 +1,52 @@
+ID: 0
 category: dev-python
 conflicts: []
 description: Python bindings for GObject Introspection
 license: LGPL-2.1+
 name: pygobject-cairo
 requires:
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
   
   version: "1.54"
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: libffi
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygobject-base
   
   version: 3.32.0
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pycairo
   
   version: 1.11.1
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: cairo
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""

@@ -1,31 +1,36 @@
+ID: 0
 category: net-p2p
 conflicts: []
 description: A torrent searching application
 license: GPL-3
 name: torrent-search
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: httplib2
   
   version: 0.6.0
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygtk
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: dbus-python
   
   version: "0.83"
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""

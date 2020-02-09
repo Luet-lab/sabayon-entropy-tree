@@ -1,6 +1,8 @@
+ID: 0
 category: x11-themes
 conflicts:
-- 
+- ID: 0
+  
   category: <x11-themes
   description: ""
   license: ""
@@ -11,14 +13,16 @@ description: Official Sabayon Linux Plymouth base Artwork
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-base
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: findutils
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-boot
   description: ""
   license: ""

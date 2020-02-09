@@ -1,17 +1,20 @@
+ID: 0
 category: app-admin
 conflicts: []
 description: Entropy Package Manager text-based client
 license: GPL-2
 name: equo
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: entropy
   
   version: "322"
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""

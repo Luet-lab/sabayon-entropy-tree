@@ -1,3 +1,4 @@
+ID: 0
 category: x11-misc
 conflicts: []
 description: Service providing elegant and stable means of managing Optimus graphics
@@ -5,21 +6,24 @@ description: Service providing elegant and stable means of managing Optimus grap
 license: GPL-3
 name: bumblebee
 requires:
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: opengl
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-misc
   description: ""
   license: ""
   name: virtualgl
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-power
   description: ""
   license: ""

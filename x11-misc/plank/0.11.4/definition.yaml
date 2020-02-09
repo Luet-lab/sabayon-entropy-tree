@@ -1,56 +1,64 @@
+ID: 0
 category: x11-misc
 conflicts: []
 description: Dock panel famious docky
 license: LGPL-3
 name: plank
 requires:
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+- ID: 0
   
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libdbusmenu
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: libwnck
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: "2.32"
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: libgee
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: bamf
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 uri:

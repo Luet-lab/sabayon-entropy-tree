@@ -1,35 +1,40 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon Welcome screen
 license: GPL-2
 name: sabayon-greeter
 requires:
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject-base
+- ID: 0
   
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: simplejson
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
   name: webkit-gtk
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject-base
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: simplejson
   
   version: ""
 uri:

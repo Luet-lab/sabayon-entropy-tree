@@ -1,24 +1,28 @@
+ID: 0
 category: media-libs
 conflicts: []
 description: FFADO backend for JACK Audio Connection Kit
 license: GPL-2
 name: jackd-firewire
 requires:
-- 
+- ID: 0
+  
   category: media-libs
   description: ""
   license: ""
   name: alsa-lib
   
   version: 1.0.18
-- 
+- ID: 0
+  
   category: media-libs
   description: ""
   license: ""
   name: libffado
   
   version: ""
-- 
+- ID: 0
+  
   category: media-sound
   description: ""
   license: ""

@@ -1,6 +1,8 @@
+ID: 0
 category: app-misc
 conflicts:
-- 
+- ID: 0
+  
   category: '!app-misc'
   description: ""
   license: ""
@@ -11,7 +13,8 @@ description: Sabayon Official Calamares server branding
 license: CC-BY-SA-4.0
 name: calamares-sabayon-server-branding
 requires:
-- 
+- ID: 0
+  
   category: app-admin
   description: ""
   license: ""

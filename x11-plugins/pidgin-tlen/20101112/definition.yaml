@@ -1,10 +1,12 @@
+ID: 0
 category: x11-plugins
 conflicts: []
 description: Pidgin plugin for adding Tlen.pl support
 license: as-is
 name: pidgin-tlen
 requires:
-- 
+- ID: 0
+  
   category: net-im
   description: ""
   license: ""

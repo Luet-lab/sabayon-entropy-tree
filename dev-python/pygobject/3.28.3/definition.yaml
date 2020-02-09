@@ -1,13 +1,16 @@
+ID: 0
 category: dev-python
 conflicts:
-- 
+- ID: 0
+  
   category: <dev-python
   description: ""
   license: ""
   name: pygtk
   
   version: "2.13"
-- 
+- ID: 0
+  
   category: <dev-python
   description: ""
   license: ""
@@ -18,14 +21,16 @@ description: GLib's GObject library bindings for Python, meta package
 license: LGPL-2.1+
 name: pygobject
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygobject-base-3.28.3[examples=,]
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

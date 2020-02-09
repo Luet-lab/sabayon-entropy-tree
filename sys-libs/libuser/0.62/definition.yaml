@@ -1,42 +1,48 @@
+ID: 0
 category: sys-libs
 conflicts: []
 description: A user and group account administration library
 license: GPL-2
 name: libuser
 requires:
-- 
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- ID: 0
+  
   category: sys-libs
   description: ""
   license: ""
   name: libselinux
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: ""
-- 
+- ID: 0
+  
   category: net-nds
   description: ""
   license: ""
   name: openldap
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: popt
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
   
   version: ""
 uri:

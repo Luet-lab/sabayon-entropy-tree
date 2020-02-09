@@ -1,0 +1,52 @@
+ID: 0
+category: dev-python
+conflicts: []
+description: Web Error handling and exception catching
+license: MIT
+name: weberror
+requires:
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: paste
+  
+  version: 1.7.1
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygments
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: tempita
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: webob
+  
+  version: ""
+uri:
+- mirror://pypi/W/WebError/WebError-0.13.1.tar.gz
+use_flags:
+- test
+version: 0.13.1

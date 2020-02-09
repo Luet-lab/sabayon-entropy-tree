@@ -1,10 +1,12 @@
+ID: 0
 category: net-vpn
 conflicts: []
 description: Simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
 license: GPL-2
 name: wireguard
 requires:
-- 
+- ID: 0
+  
   category: net-libs
   description: ""
   license: ""

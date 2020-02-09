@@ -1,10 +1,12 @@
+ID: 0
 category: net-p2p
 conflicts: []
 description: A BitTorrent client (meta package)
 license: ""
 name: transmission
 requires:
-- 
+- ID: 0
+  
   category: net-p2p
   description: ""
   license: ""

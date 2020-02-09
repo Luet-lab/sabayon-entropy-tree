@@ -1,3 +1,4 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: |-
@@ -6,7 +7,8 @@ description: |-
 license: EPL-1.0 LGPL-3
 name: xmind-portable
 requires:
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""

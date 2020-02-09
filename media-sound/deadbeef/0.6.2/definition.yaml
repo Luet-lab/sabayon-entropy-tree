@@ -1,6 +1,8 @@
+ID: 0
 category: media-sound
 conflicts:
-- 
+- ID: 0
+  
   category: media-plugins
   description: ""
   license: ""
@@ -12,165 +14,188 @@ license: "DeaDBeeF\n\tGPL-2\n\tLGPL-2.1\n\tpsf? ( BSD XMAME )\n\tdumb? ( DUMB-0.
   )\n\tshn? ( shorten )"
 name: deadbeef
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
+- ID: 0
   
-  version: "0.90"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcddb
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: imlib2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmad
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
-  name: wavpack
+  name: pulseaudio
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libzip
+- ID: 0
   
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: zlib
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
+- ID: 0
   
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: adplug
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
+- ID: 0
   
-  version: "9"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: alsa-lib
   
   version: ""
-- 
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: "9"
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: ""
-- 
-  category: sys-apps
+- ID: 0
+  
+  category: media-libs
   description: ""
   license: ""
-  name: dbus
+  name: libmad
   
   version: ""
-- 
-  category: media-sound
+- ID: 0
+  
+  category: net-misc
   description: ""
   license: ""
-  name: timidity-freepats
+  name: curl
   
   version: ""
-- 
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: "0.90"
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
+  
+  version: ""
+- ID: 0
+  
   category: media-libs
   description: ""
   license: ""
   name: libmms
   
   version: ""
-- 
+- ID: 0
+  
   category: media-sound
   description: ""
   license: ""
-  name: pulseaudio
+  name: musepack-tools
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- ID: 0
+  
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: imlib2
+  
+  version: ""
+- ID: 0
+  
+  category: media-sound
+  description: ""
+  license: ""
+  name: timidity-freepats
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzip
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcddb
+  
+  version: ""
+- ID: 0
+  
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
   
   version: ""
 uri:

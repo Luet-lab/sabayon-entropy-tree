@@ -1,42 +1,48 @@
+ID: 0
 category: sys-apps
 conflicts: []
 description: Entropy Client DBus Services, aka RigoDaemon
 license: GPL-3
 name: rigo-daemon
 requires:
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+- ID: 0
   
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: dbus-python
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygobject
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: entropy
   
   version: "323"
-- 
+- ID: 0
+  
   category: sys-auth
   description: ""
   license: ""
   name: polkit
+  
+  version: ""
+- ID: 0
+  
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 uri:

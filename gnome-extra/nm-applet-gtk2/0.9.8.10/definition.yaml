@@ -1,6 +1,8 @@
+ID: 0
 category: gnome-extra
 conflicts:
-- 
+- ID: 0
+  
   category: gnome-extra
   description: ""
   license: ""
@@ -11,139 +13,158 @@ description: GNOME applet for NetworkManager, gtk+-2 flavour
 license: GPL-2+
 name: nm-applet-gtk2
 requires:
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
+- ID: 0
   
-  version: 0.96-r1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: modemmanager
-  
-  version: 0.7.990
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.88"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: "2.20"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.4.1
-- 
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: "2.20"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: mobile-broadband-provider-info
+- ID: 0
   
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: 2.27.6
-- 
   category: gnome-base
   description: ""
   license: ""
   name: gconf
   
   version: "2.20"
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: libgudev
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+- ID: 0
   
-  version: "2.26"
-- 
   category: gnome-base
   description: ""
   license: ""
-  name: gconf
+  name: libgnome-keyring
   
-  version: "2.26"
-- 
+  version: "2.20"
+- ID: 0
+  
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: 2.27.6
+- ID: 0
+  
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: freedesktop-icon-theme
   
   version: ""
-- 
+- ID: 0
+  
+  category: net-misc
+  description: ""
+  license: ""
+  name: modemmanager
+  
+  version: 0.7.990
+- ID: 0
+  
   category: app-crypt
   description: ""
   license: ""
   name: libsecret
   
   version: ""
-- 
-  category: x11-libs
+- ID: 0
+  
+  category: dev-libs
   description: ""
   license: ""
-  name: libnotify
+  name: glib
   
-  version: 0.7.0
-- 
-  category: app-text
+  version: "2.26"
+- ID: 0
+  
+  category: sys-apps
   description: ""
   license: ""
-  name: iso-codes
+  name: dbus
   
-  version: ""
-- 
+  version: 1.4.1
+- ID: 0
+  
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: 0.96-r1
+- ID: 0
+  
   category: net-misc
   description: ""
   license: ""
-  name: networkmanager
+  name: mobile-broadband-provider-info
   
-  version: 0.9.8
-- 
+  version: ""
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
   
   version: 0.9.6
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.88"
+- ID: 0
+  
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: "2.26"
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.0
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: iso-codes
+  
+  version: ""
+- ID: 0
+  
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: 0.9.8
 uri: []
 use_flags:
 - bluetooth

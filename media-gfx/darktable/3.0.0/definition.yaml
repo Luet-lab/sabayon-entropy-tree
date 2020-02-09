@@ -1,0 +1,277 @@
+ID: 0
+category: media-gfx
+conflicts: []
+description: A virtual lighttable and darkroom for photographers
+license: GPL-3 CC-BY-3.0
+name: darktable
+requires:
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: lensfun
+  
+  version: 0.2.3
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.14"
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
+  
+  version: ""
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: openexr
+  
+  version: ""
+- ID: 0
+  
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- ID: 0
+  
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- ID: 0
+  
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- ID: 0
+  
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: ""
+- ID: 0
+  
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: pugixml
+  
+  version: ""
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- ID: 0
+  
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: osm-gps-map
+  
+  version: 1.1.0
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: flickcurl
+  
+  version: ""
+- ID: 0
+  
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.18"
+- ID: 0
+  
+  category: media-gfx
+  description: ""
+  license: ""
+  name: graphicsmagick
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgphoto2
+  
+  version: ""
+- ID: 0
+  
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: colord-gtk
+  
+  version: ""
+- ID: 0
+  
+  category: media-gfx
+  description: ""
+  license: ""
+  name: exiv2
+  
+  version: 0.25-r2
+- ID: 0
+  
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwallet
+  
+  version: 5.34.0-r1
+uri:
+- https://github.com/darktable-org/darktable/releases/download/release-3.0.0/darktable-3.0.0.tar.xz
+use_flags:
+- colord
+- +cpudetection
+- cups
+- cpu_flags_x86_sse3
+- doc
+- flickr
+- geolocation
+- gnome-keyring
+- gphoto2
+- graphicsmagick
+- jpeg2k
+- |-
+  kwallet
+  nls
+- opencl
+- openmp
+- openexr
+- pax_kernel
+- |
+  webp
+- l10n_ca
+- l10n_cs
+- l10n_de
+- l10n_es
+- l10n_fi
+- l10n_fr
+- l10n_hu
+- l10n_ja
+- l10n_nb
+- l10n_nl
+- l10n_pl
+- l10n_pt-BR
+- l10n_ru
+- l10n_sl
+version: 3.0.0

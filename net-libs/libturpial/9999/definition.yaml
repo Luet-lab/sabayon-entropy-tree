@@ -1,35 +1,40 @@
+ID: 0
 category: net-libs
 conflicts: []
 description: A powerful microblogging library written in Python
 license: GPL-3
 name: libturpial
 requires:
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oauth
+- ID: 0
   
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: requests
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: simplejson
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: setuptools
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: oauth
   
   version: ""
 uri: []

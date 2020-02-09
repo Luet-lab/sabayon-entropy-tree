@@ -1,38 +1,44 @@
+ID: 0
 category: dev-db
 conflicts: []
 description: OpenDBX - A database abstraction layer
 license: LGPL-2.1
 name: opendbx
 requires:
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: mysql
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-db
   description: ""
   license: ""
   name: postgresql
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-db
   description: ""
   license: ""
   name: sqlite
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-db
   description: ""
   license: ""
   name: oracle-instantclient-basic
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-db
   description: ""
   license: ""

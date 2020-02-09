@@ -1,23 +1,26 @@
+ID: 0
 category: app-admin
 conflicts: []
 description: Automated Packages Builder for Portage and Entropy
 license: GPL-2
 name: matter
 requires:
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: file
+- ID: 0
   
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: entropy
   
   version: "322"
+- ID: 0
+  
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-322.tar.bz2
 use_flags:

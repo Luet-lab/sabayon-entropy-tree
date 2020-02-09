@@ -1,10 +1,12 @@
+ID: 0
 category: app-eselect
 conflicts: []
 description: Eselect module for making easy to switch between LightDM greeters
 license: GPL-2
 name: eselect-lightdm
 requires:
-- 
+- ID: 0
+  
   category: app-admin
   description: ""
   license: ""

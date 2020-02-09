@@ -1,17 +1,20 @@
+ID: 0
 category: net-dns
 conflicts: []
 description: System which facilitates service discovery on a local network (gtk pkg)
 license: LGPL-2.1
 name: avahi-gtk
 requires:
-- 
+- ID: 0
+  
   category: net-dns
   description: ""
   license: ""
   name: avahi-base-0.7[dbus=,gdbm=,nls=]
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""

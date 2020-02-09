@@ -1,10 +1,12 @@
+ID: 0
 category: net-p2p
 conflicts: []
 description: A Fast, Easy and Free BitTorrent client - daemon
 license: ""
 name: transmission-daemon
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""

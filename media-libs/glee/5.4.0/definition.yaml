@@ -1,10 +1,12 @@
+ID: 0
 category: media-libs
 conflicts: []
 description: OpenGL Easy Extension library
 license: BSD-2
 name: glee
 requires:
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""

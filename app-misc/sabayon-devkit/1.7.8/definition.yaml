@@ -1,80 +1,92 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon Development Kit
 license: GPL-2
 name: sabayon-devkit
 requires:
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
+- ID: 0
   
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: querypkg
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: eix
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: repoman
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: layman
-  
-  version: ""
-- 
   category: app-portage
   description: ""
   license: ""
   name: gentoolkit
   
   version: ""
-- 
+- ID: 0
+  
   category: app-portage
   description: ""
   license: ""
   name: portage-utils
   
   version: ""
-- 
+- ID: 0
+  
+  category: app-portage
+  description: ""
+  license: ""
+  name: repoman
+  
+  version: ""
+- ID: 0
+  
   category: dev-lang
   description: ""
   license: ""
   name: perl
   
   version: ""
-- 
+- ID: 0
+  
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-functions
+  
+  version: ""
+- ID: 0
+  
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker
+  
+  version: ""
+- ID: 0
+  
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- ID: 0
+  
+  category: app-portage
+  description: ""
+  license: ""
+  name: layman
+  
+  version: ""
+- ID: 0
+  
+  category: app-misc
+  description: ""
+  license: ""
+  name: querypkg
+  
+  version: ""
+- ID: 0
+  
+  category: app-portage
+  description: ""
+  license: ""
+  name: eix
+  
+  version: ""
+- ID: 0
+  
   category: dev-perl
   description: ""
   license: ""

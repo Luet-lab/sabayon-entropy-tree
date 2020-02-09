@@ -1,10 +1,12 @@
+ID: 0
 category: sys-libs
 conflicts: []
 description: Tools and library to manipulate EFI variables
 license: GPL-2
 name: efivar
 requires:
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""

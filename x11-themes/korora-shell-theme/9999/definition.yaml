@@ -1,17 +1,20 @@
+ID: 0
 category: x11-themes
 conflicts: []
 description: a Korora tweaked Gnome shell theme
 license: GPL-2
 name: korora-shell-theme
 requires:
-- 
+- ID: 0
+  
   category: gnome-extra
   description: ""
   license: ""
   name: gnome-shell-extensions
   
   version: ""
-- 
+- ID: 0
+  
   category: gnome-base
   description: ""
   license: ""

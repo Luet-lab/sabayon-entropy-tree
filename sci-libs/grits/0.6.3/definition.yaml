@@ -1,24 +1,28 @@
+ID: 0
 category: sci-libs
 conflicts: []
 description: Virtual Globe library
 license: GPL-3
 name: grits
 requires:
-- 
+- ID: 0
+  
   category: net-libs
   description: ""
   license: ""
   name: libsoup
   
   version: "2.26"
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""

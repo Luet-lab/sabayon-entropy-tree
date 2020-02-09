@@ -1,10 +1,12 @@
+ID: 0
 category: virtual
 conflicts: []
 description: Virtual for Linux kernel binaries
 license: ""
 name: linux-binary
 requires:
-- 
+- ID: 0
+  
   category: sys-kernel
   description: ""
   license: ""

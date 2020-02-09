@@ -1,6 +1,8 @@
+ID: 0
 category: x11-themes
 conflicts:
-- 
+- ID: 0
+  
   category: <x11-themes
   description: ""
   license: ""
@@ -11,14 +13,16 @@ description: Sabayon Linux Official MATE artwork
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-mate
 requires:
-- 
+- ID: 0
+  
   category: media-fonts
   description: ""
   license: ""
   name: ubuntu-font-family
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-themes
   description: ""
   license: ""

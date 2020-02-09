@@ -1,0 +1,12 @@
+ID: 0
+category: app-admin
+conflicts: []
+description: Rigo, the Sabayon Application Browser
+license: GPL-3
+name: rigo
+requires: []
+uri:
+- mirror://sabayon/sys-apps/entropy-324.tar.bz2
+use_flags:
+- +passwordless-upgrade
+version: "324"

@@ -1,24 +1,28 @@
+ID: 0
 category: media-fonts
 conflicts: []
 description: Meta Package to install the Sabayon Artwork fonts
 license: GPL-2
 name: sabayon-fonts
 requires:
-- 
+- ID: 0
+  
   category: media-fonts
   description: ""
   license: ""
   name: asenine
   
   version: ""
-- 
+- ID: 0
+  
   category: media-fonts
   description: ""
   license: ""
   name: animal-tracks
   
   version: ""
-- 
+- ID: 0
+  
   category: media-fonts
   description: ""
   license: ""

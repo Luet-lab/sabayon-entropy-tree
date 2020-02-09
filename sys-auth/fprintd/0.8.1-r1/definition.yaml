@@ -1,38 +1,44 @@
+ID: 0
 category: sys-auth
 conflicts: []
 description: D-Bus service to access fingerprint readers
 license: GPL-2
 name: fprintd
 requires:
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: dbus-glib
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-auth
   description: ""
   license: ""
   name: libfprint
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-auth
   description: ""
   license: ""
   name: polkit
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-libs
   description: ""
   license: ""

@@ -1,17 +1,20 @@
+ID: 0
 category: x11-themes
 conflicts: []
 description: Ozon Gnome shell theme
 license: GPL-3+
 name: ozon-shell-theme
 requires:
-- 
+- ID: 0
+  
   category: gnome-base
   description: ""
   license: ""
   name: gnome-shell
   
   version: "3.12"
-- 
+- ID: 0
+  
   category: gnome-extra
   description: ""
   license: ""

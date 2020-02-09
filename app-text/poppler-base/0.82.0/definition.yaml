@@ -1,84 +1,96 @@
+ID: 0
 category: app-text
 conflicts: []
 description: PDF rendering library based on the xpdf-3.0 code base
 license: GPL-2
 name: poppler-base
 requires:
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
+- ID: 0
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openjpeg
-  
-  version: 2.3.0-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-data
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: zlib
   
   version: ""
-- 
+- ID: 0
+  
   category: net-misc
   description: ""
   license: ""
   name: curl
   
   version: ""
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: jpeg
   
   version: ""
-- 
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
+  
+  version: 2.3.0-r1
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: nss
   
   version: "3.19"
-- 
+- ID: 0
+  
   category: media-libs
   description: ""
   license: ""
   name: libpng
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-data
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 uri:

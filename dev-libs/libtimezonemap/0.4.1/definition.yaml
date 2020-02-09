@@ -1,42 +1,48 @@
+ID: 0
 category: dev-libs
 conflicts: []
 description: GTK+3 timezone map widget used by the Unity desktop
 license: GPL-2
 name: libtimezonemap
 requires:
-- 
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: json-glib
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: cairo
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gdk-pixbuf
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
   
   version: ""
 uri:

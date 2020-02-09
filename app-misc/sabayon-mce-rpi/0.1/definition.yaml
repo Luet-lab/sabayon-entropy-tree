@@ -1,6 +1,8 @@
+ID: 0
 category: app-misc
 conflicts:
-- 
+- ID: 0
+  
   category: media-video
   description: ""
   license: ""
@@ -11,14 +13,16 @@ description: RaspberryPi MCE package
 license: GPL-2
 name: sabayon-mce-rpi
 requires:
-- 
+- ID: 0
+  
   category: media-video
   description: ""
   license: ""
   name: raspberrypi-omxplayer
   
   version: ""
-- 
+- ID: 0
+  
   category: app-misc
   description: ""
   license: ""

@@ -1,70 +1,80 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon Official Installer
 license: CC-BY-SA-4.0
 name: calamares-sabayon
 requires:
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: calamares-sabayon-branding
+- ID: 0
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dosfstools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: jfsutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
   name: btrfs-progs
   
   version: ""
-- 
-  category: app-misc
+- ID: 0
+  
+  category: sys-fs
   description: ""
   license: ""
-  name: calamares-sabayon-base-modules
+  name: jfsutils
   
   version: ""
-- 
+- ID: 0
+  
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
+  
+  version: ""
+- ID: 0
+  
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
+  
+  version: ""
+- ID: 0
+  
   category: sys-fs
   description: ""
   license: ""
   name: reiserfsprogs
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-fs
   description: ""
   license: ""
   name: xfsdump
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-fs
   description: ""
   license: ""
   name: ntfs3g
+  
+  version: ""
+- ID: 0
+  
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-base-modules
+  
+  version: ""
+- ID: 0
+  
+  category: app-misc
+  description: ""
+  license: ""
+  name: calamares-sabayon-branding
   
   version: ""
 uri:

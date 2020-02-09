@@ -1,24 +1,28 @@
+ID: 0
 category: app-pda
 conflicts: []
 description: A tool to interact with the installation_proxy of an Apple's iDevice
 license: GPL-2
 name: ideviceinstaller
 requires:
-- 
+- ID: 0
+  
   category: app-pda
   description: ""
   license: ""
   name: libplist
   
   version: "1.8"
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: libzip
   
   version: "0.8"
-- 
+- ID: 0
+  
   category: app-pda
   description: ""
   license: ""

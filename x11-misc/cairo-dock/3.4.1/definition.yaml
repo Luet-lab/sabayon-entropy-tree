@@ -1,112 +1,128 @@
+ID: 0
 category: x11-misc
 conflicts: []
 description: Cairo-dock is a fast, responsive, Mac OS X-like dock.
 license: GPL-3
 name: cairo-dock
 requires:
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
+- ID: 0
   
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
   name: libXtst
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
+- ID: 0
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: glib
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: dbus
   
   version: ""
-- 
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- ID: 0
+  
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- ID: 0
+  
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: cairo
   
   version: ""
-- 
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- ID: 0
+  
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtkglext
   
   version: ""
 uri:

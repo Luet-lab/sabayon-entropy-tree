@@ -1,10 +1,12 @@
+ID: 0
 category: x11-themes
 conflicts: []
 description: Sleek GTK Theme engine
 license: GPL-2
 name: gtk-engines-equinox
 requires:
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""

@@ -1,17 +1,20 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: An open source Evernote clone
 license: GPL-2
 name: nixnote
 requires:
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
   name: jdk
   
   version: "1.5"
-- 
+- ID: 0
+  
   category: media-libs
   description: ""
   license: ""

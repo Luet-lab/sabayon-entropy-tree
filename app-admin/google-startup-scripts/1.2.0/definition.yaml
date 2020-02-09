@@ -1,3 +1,4 @@
+ID: 0
 category: app-admin
 conflicts: []
 description: Google provided startup scripts that interact with the virtual machine
@@ -5,7 +6,8 @@ description: Google provided startup scripts that interact with the virtual mach
 license: Apache-2.0
 name: google-startup-scripts
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""

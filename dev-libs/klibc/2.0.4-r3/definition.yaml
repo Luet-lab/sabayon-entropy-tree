@@ -1,10 +1,12 @@
+ID: 0
 category: dev-libs
 conflicts: []
 description: A minimal libc subset for use with initramfs
 license: '|| ( GPL-2 LGPL-2 )'
 name: klibc
 requires:
-- 
+- ID: 0
+  
   category: dev-lang
   description: ""
   license: ""

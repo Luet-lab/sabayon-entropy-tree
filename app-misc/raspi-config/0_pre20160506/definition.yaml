@@ -1,35 +1,40 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Raspberry Pi config tool
 license: MIT
 name: raspi-config
 requires:
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
+- ID: 0
   
-  version: ""
-- 
   category: dev-lang
   description: ""
   license: ""
   name: lua
   
   version: "5.1"
-- 
+- ID: 0
+  
   category: app-misc
   description: ""
   license: ""
   name: triggerhappy
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: newt
+  
+  version: ""
+- ID: 0
+  
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 uri: []

@@ -1,49 +1,56 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon Automated Repository Kit
 license: GPL-2
 name: sabayon-sark
 requires:
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: shyaml
+- ID: 0
   
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: pkgs-checker
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: sabayon-devkit
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
   name: tini
   
   version: ""
-- 
+- ID: 0
+  
   category: app-emulation
   description: ""
   license: ""
   name: docker
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-lang
   description: ""
   license: ""
   name: perl
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: shyaml
+  
+  version: ""
+- ID: 0
+  
+  category: dev-util
+  description: ""
+  license: ""
+  name: pkgs-checker
+  
+  version: ""
+- ID: 0
+  
+  category: app-misc
+  description: ""
+  license: ""
+  name: sabayon-devkit
   
   version: ""
 uri:

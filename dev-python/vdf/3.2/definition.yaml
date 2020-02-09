@@ -1,17 +1,20 @@
+ID: 0
 category: dev-python
 conflicts: []
 description: Package for working with Valve's text and binary KeyValue format
 license: MIT
 name: vdf
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: mock
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

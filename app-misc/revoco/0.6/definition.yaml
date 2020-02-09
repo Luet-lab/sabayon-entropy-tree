@@ -1,10 +1,12 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Tool for controlling Logitech MX Revolution mouses
 license: public-domain
 name: revoco
 requires:
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""

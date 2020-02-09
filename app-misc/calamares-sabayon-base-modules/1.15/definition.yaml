@@ -1,23 +1,26 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon Official Calamares base modules
 license: CC-BY-SA-4.0
 name: calamares-sabayon-base-modules
 requires:
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: calamares
+- ID: 0
   
-  version: ""
-- 
   category: sys-kernel
   description: ""
   license: ""
   name: dracut
   
   version: "049"
+- ID: 0
+  
+  category: app-admin
+  description: ""
+  license: ""
+  name: calamares
+  
+  version: ""
 uri:
 - https://github.com/Sabayon/calamares-sabayon/archive/v1.15.tar.gz -> calamares-sabayon-base-modules-1.15.tar.gz
 use_flags:

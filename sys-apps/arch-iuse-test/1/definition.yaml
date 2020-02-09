@@ -1,3 +1,4 @@
+ID: 0
 category: sys-apps
 conflicts: []
 description: Dummy ebuild that prints the arch name in pkg_setup

@@ -1,10 +1,12 @@
+ID: 0
 category: net-analyzer
 conflicts: []
 description: Graphical frontend for nmap
 license: GPL-2
 name: zenmap
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

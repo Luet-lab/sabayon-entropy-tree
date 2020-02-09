@@ -1,17 +1,20 @@
+ID: 0
 category: app-emulation
 conflicts: []
 description: A simple wrapper that does winetricks things for Proton enabled games
 license: GPL-3
 name: protontricks
 requires:
-- 
+- ID: 0
+  
   category: app-emulation
   description: ""
   license: ""
   name: winetricks
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

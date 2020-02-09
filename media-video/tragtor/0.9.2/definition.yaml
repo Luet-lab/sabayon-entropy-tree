@@ -1,24 +1,28 @@
+ID: 0
 category: media-video
 conflicts: []
 description: traGtor is a graphical user interface (GUI) for ffmpeg
 license: LGPL-2.1
 name: tragtor
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygtk
   
   version: ""
-- 
+- ID: 0
+  
   category: media-video
   description: ""
   license: ""
   name: ffmpeg
   
   version: ""
-- 
+- ID: 0
+  
   category: media-sound
   description: ""
   license: ""

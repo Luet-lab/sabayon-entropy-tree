@@ -1,51 +1,58 @@
+ID: 0
 category: x11-terms
 conflicts: []
 description: A GTK/Pango-based terminal that uses libvterm to provide terminal emulation
 license: MIT
 name: pangoterm
 requires:
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+- ID: 0
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libvterm
-  
-  version: 0.0_pre20151022
-- 
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: cairo
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gdk-pixbuf
   
   version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libvterm
+  
+  version: 0.0_pre20151022
 uri:
 - https://dev.gentoo.org/~tranquility/distfiles/pangoterm-0.0.tar.gz
 use_flags:

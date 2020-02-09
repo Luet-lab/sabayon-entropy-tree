@@ -1,24 +1,28 @@
+ID: 0
 category: x11-misc
 conflicts: []
 description: Entropy Package Manager notification applet GTK2 frontend
 license: GPL-2
 name: magneto-gtk
 requires:
-- 
+- ID: 0
+  
   category: app-misc
   description: ""
   license: ""
   name: magneto-loader
   
   version: "320"
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: notify-python
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

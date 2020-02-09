@@ -1,77 +1,88 @@
+ID: 0
 category: app-text
 conflicts: []
 description: PDF rendering library based on the xpdf-3.0 code base (meta package)
 license: GPL-2
 name: poppler
 requires:
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[cxx=]
+- ID: 0
   
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
   name: poppler-base-0.82.0[curl=]
   
   version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[debug=]
+- ID: 0
   
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[jpeg2k=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[lcms=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[png=]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[nss=]
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
   name: poppler-base-0.82.0[jpeg=]
   
   version: ""
-- 
+- ID: 0
+  
   category: app-text
   description: ""
   license: ""
   name: poppler-base-0.82.0[tiff=]
   
   version: ""
-- 
+- ID: 0
+  
   category: app-text
   description: ""
   license: ""
   name: poppler-base-0.82.0[utils=]
+  
+  version: ""
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-base-0.82.0[png=]
+  
+  version: ""
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-base-0.82.0[nss=]
+  
+  version: ""
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-base-0.82.0[cxx=]
+  
+  version: ""
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-base-0.82.0[debug=]
+  
+  version: ""
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-base-0.82.0[jpeg2k=]
+  
+  version: ""
+- ID: 0
+  
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler-base-0.82.0[lcms=]
   
   version: ""
 uri: []

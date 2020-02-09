@@ -1,6 +1,8 @@
+ID: 0
 category: sys-boot
 conflicts:
-- 
+- ID: 0
+  
   category: <sys-kernel
   description: ""
   license: ""
@@ -11,55 +13,62 @@ description: Graphical boot animation (splash) and logger
 license: GPL-2
 name: plymouth
 requires:
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
+- ID: 0
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: "1.21"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: 1.2.16
-- 
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: "3.14"
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
   name: cairo
   
   version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: "1.21"
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: 1.2.16
 uri:
 - https://www.freedesktop.org/software/plymouth/releases/plymouth-0.9.4.tar.xz
 use_flags:

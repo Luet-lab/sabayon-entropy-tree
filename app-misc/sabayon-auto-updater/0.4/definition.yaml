@@ -1,3 +1,4 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon Automatic Updater systemd service. Do not use in production or

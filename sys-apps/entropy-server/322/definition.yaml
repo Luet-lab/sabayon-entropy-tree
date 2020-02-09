@@ -1,17 +1,20 @@
+ID: 0
 category: sys-apps
 conflicts: []
 description: Entropy Package Manager server-side tools
 license: GPL-2
 name: entropy-server
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: entropy
   
   version: "322"
-- 
+- ID: 0
+  
   category: app-admin
   description: ""
   license: ""

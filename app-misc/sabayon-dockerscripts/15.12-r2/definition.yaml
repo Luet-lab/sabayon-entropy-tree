@@ -1,21 +1,24 @@
+ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon live image scripts and tools
 license: GPL-2
 name: sabayon-dockerscripts
 requires:
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
+- ID: 0
   
-  version: ""
-- 
   category: games-misc
   description: ""
   license: ""
   name: cowsay
+  
+  version: ""
+- ID: 0
+  
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker
   
   version: ""
 uri:

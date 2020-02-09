@@ -1,10 +1,12 @@
+ID: 0
 category: dev-haskell
 conflicts: []
 description: Simple ANSI terminal support, with Windows compatibility
 license: BSD
 name: ansi-terminal
 requires:
-- 
+- ID: 0
+  
   category: dev-lang
   description: ""
   license: ""

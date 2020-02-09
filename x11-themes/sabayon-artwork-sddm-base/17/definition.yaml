@@ -1,17 +1,20 @@
+ID: 0
 category: x11-themes
 conflicts: []
 description: Official Sabayon Linux SDDM base Artwork
 license: GPL-2
 name: sabayon-artwork-sddm-base
 requires:
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: findutils
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-misc
   description: ""
   license: ""

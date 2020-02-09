@@ -1,24 +1,28 @@
+ID: 0
 category: dev-python
 conflicts: []
 description: YAML for command line
 license: BSD-2
 name: shyaml
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pyyaml
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: setuptools
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

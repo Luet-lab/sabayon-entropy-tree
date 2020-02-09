@@ -1,10 +1,12 @@
+ID: 0
 category: net-p2p
 conflicts: []
 description: Tool for distributing files via a distributed network of nodes
 license: BitTorrent
 name: bittorrent
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

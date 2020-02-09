@@ -1,6 +1,8 @@
+ID: 0
 category: x11-drivers
 conflicts:
-- 
+- ID: 0
+  
   category: media-video
   description: ""
   license: ""
@@ -11,167 +13,190 @@ description: NVIDIA X11 userspace libraries and applications
 license: GPL-2 NVIDIA-r2
 name: nvidia-userspace
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
+- ID: 0
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXv
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango[X]
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: 1.20.99
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: "1.0"
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opencl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: 2.6.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
   name: pax-utils
   
   version: ""
-- 
+- ID: 0
+  
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: 1.20.99
+- ID: 0
+  
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opencl
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXxf86vm
+  
+  version: ""
+- ID: 0
+  
   category: app-eselect
   description: ""
   license: ""
   name: eselect-opengl
   
   version: 1.0.9
-- 
+- ID: 0
+  
   category: x11-libs
   description: ""
   license: ""
-  name: libX11-1.6.2[abi_x86_32]
+  name: gtk+
   
   version: ""
-- 
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango[X]
+  
+  version: ""
+- ID: 0
+  
+  category: sys-power
+  description: ""
+  license: ""
+  name: acpid
+  
+  version: ""
+- ID: 0
+  
   category: sys-libs
   description: ""
   license: ""
   name: zlib
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
+- ID: 0
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
   name: libXext-1.3.2[abi_x86_32]
   
   version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf[X]
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
+- ID: 0
+  
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: 2.6.1
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXv
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11-1.6.2[abi_x86_32]
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: "1.0"
 uri:
 - 'https://us.download.nvidia.com/XFree86/FreeBSD-x86_64/390.116/NVIDIA-FreeBSD-x86_64-390.116.tar.gz '
 - 'https://us.download.nvidia.com/XFree86/Linux-x86_64/390.116/NVIDIA-Linux-x86_64-390.116.run '

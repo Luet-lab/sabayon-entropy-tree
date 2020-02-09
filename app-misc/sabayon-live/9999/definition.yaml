@@ -1,13 +1,16 @@
+ID: 0
 category: app-misc
 conflicts:
-- 
+- ID: 0
+  
   category: app-misc
   description: ""
   license: ""
   name: livecd-tools
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
@@ -18,56 +21,64 @@ description: Sabayon live image scripts and tools
 license: GPL-2
 name: sabayon-live
 requires:
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyboard-configuration-helpers
+- ID: 0
   
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: gawk
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: pciutils
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: sed
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: systemd
   
   version: 239-r2
-- 
+- ID: 0
+  
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyboard-configuration-helpers
+  
+  version: ""
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: dmidecode
   
   version: ""
-- 
+- ID: 0
+  
   category: app-eselect
   description: ""
   license: ""
   name: eselect-opengl
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-util
   description: ""
   license: ""

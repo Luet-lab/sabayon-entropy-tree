@@ -1,23 +1,26 @@
+ID: 0
 category: x11-misc
 conflicts: []
 description: LightDM meta package
 license: GPL-3 LGPL-3
 name: lightdm
 requires:
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: lightdm-base-1.24.0[introspection=,vala=]
+- ID: 0
   
-  version: ""
-- 
   category: x11-misc
   description: ""
   license: ""
   name: lightdm-qt5
   
   version: 1.24.0
+- ID: 0
+  
+  category: x11-misc
+  description: ""
+  license: ""
+  name: lightdm-base-1.24.0[introspection=,vala=]
+  
+  version: ""
 uri: []
 use_flags:
 - audit

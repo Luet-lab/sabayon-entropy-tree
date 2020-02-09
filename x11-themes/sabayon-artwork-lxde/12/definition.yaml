@@ -1,10 +1,12 @@
+ID: 0
 category: x11-themes
 conflicts: []
 description: Sabayon LXDE Artwork
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-lxde
 requires:
-- 
+- ID: 0
+  
   category: x11-themes
   description: ""
   license: ""

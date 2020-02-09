@@ -1,31 +1,36 @@
+ID: 0
 category: sys-fs
 conflicts:
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: spl
+- ID: 0
   
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
   
   version: ""
+- ID: 0
+  
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: spl
+  
+  version: ""
 description: Linux ZFS kernel module for sys-fs/zfs
 license: CDDL debug? ( GPL-2+ )
 name: zfs-kmod
 requires:
-- 
+- ID: 0
+  
   category: dev-lang
   description: ""
   license: ""
   name: perl
   
   version: ""
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""

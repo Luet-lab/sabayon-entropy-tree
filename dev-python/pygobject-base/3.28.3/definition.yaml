@@ -1,13 +1,16 @@
+ID: 0
 category: dev-python
 conflicts:
-- 
+- ID: 0
+  
   category: <dev-python
   description: ""
   license: ""
   name: pygtk
   
   version: "2.13"
-- 
+- ID: 0
+  
   category: <dev-python
   description: ""
   license: ""
@@ -18,27 +21,30 @@ description: GLib's GObject library bindings for Python
 license: LGPL-2.1+
 name: pygobject-base
 requires:
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libffi
+- ID: 0
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.38"
-- 
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
   
   version: 1.46.0
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: libffi
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.38"
 uri: []
 use_flags:
 - examples

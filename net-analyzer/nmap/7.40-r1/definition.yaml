@@ -1,63 +1,72 @@
+ID: 0
 category: net-analyzer
 conflicts: []
 description: A utility for network discovery and security auditing
 license: GPL-2
 name: nmap
 requires:
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
+- ID: 0
   
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: libressl
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: liblinear
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: libpcre
   
   version: ""
-- 
+- ID: 0
+  
   category: net-libs
   description: ""
   license: ""
   name: libpcap
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-lang
   description: ""
   license: ""
   name: lua
   
   version: "5.2"
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: apr
+  
+  version: ""
+- ID: 0
+  
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
   
   version: ""
 uri:

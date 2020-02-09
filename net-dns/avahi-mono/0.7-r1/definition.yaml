@@ -1,24 +1,28 @@
+ID: 0
 category: net-dns
 conflicts: []
 description: System which facilitates service discovery on a local network (mono pkg)
 license: LGPL-2.1
 name: avahi-mono
 requires:
-- 
+- ID: 0
+  
   category: net-dns
   description: ""
   license: ""
   name: avahi-base-0.7[dbus=,gdbm=,introspection=,nls=,python=]
   
   version: ""
-- 
+- ID: 0
+  
   category: net-dns
   description: ""
   license: ""
   name: avahi-gtk-0.7[dbus=,gdbm=,nls=]
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-dotnet
   description: ""
   license: ""

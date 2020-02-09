@@ -1,168 +1,192 @@
+ID: 0
 category: games-fps
 conflicts: []
 description: Daemon engine, a fork of OpenWolf which powers the game Unvanquished
 license: GPL-3 CC-BY-SA-2.5 CC-BY-SA-3.0
 name: unvanquished
 requires:
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
+- ID: 0
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opusfile
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2[X,opengl,video]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: screen
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openal
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: geoip
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: games-fps
-  description: ""
-  license: ""
-  name: unvanquished-data
-  
-  version: 0.48.0
-- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
+- ID: 0
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: libpng
   
   version: ""
-- 
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X,opengl,video]
+  
+  version: ""
+- ID: 0
+  
   category: media-libs
   description: ""
   license: ""
   name: libtheora
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
+  
+  version: ""
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: ""
+- ID: 0
+  
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- ID: 0
+  
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: ""
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- ID: 0
+  
+  category: games-fps
+  description: ""
+  license: ""
+  name: unvanquished-data
+  
+  version: 0.48.0
+- ID: 0
+  
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
+  
+  version: ""
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- ID: 0
+  
+  category: media-libs
+  description: ""
+  license: ""
+  name: glew
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- ID: 0
+  
+  category: app-misc
+  description: ""
+  license: ""
+  name: screen
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: geoip
   
   version: ""
 uri:

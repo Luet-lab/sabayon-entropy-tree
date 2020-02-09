@@ -1,56 +1,64 @@
+ID: 0
 category: net-irc
 conflicts: []
 description: Qt/KDE IRC client - the "core" (server) component
 license: GPL-3
 name: quassel-core
 requires:
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: qca
+- ID: 0
   
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: logger
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: zlib
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-qt
   description: ""
   license: ""
   name: qtscript
+  
+  version: ""
+- ID: 0
+  
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
+  
+  version: ""
+- ID: 0
+  
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
+  
+  version: ""
+- ID: 0
+  
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: logger
+  
+  version: ""
+- ID: 0
+  
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
   
   version: ""
 uri:

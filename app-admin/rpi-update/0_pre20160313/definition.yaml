@@ -1,10 +1,12 @@
+ID: 0
 category: app-admin
 conflicts: []
 description: Raspberry Pi kernel updater tool
 license: MIT
 name: rpi-update
 requires:
-- 
+- ID: 0
+  
   category: net-misc
   description: ""
   license: ""

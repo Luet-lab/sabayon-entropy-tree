@@ -1,63 +1,72 @@
+ID: 0
 category: app-admin
 conflicts: []
 description: a layman equivalent for entropy repositories
 license: ""
 name: enman
 requires:
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: JSON
+- ID: 0
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Term-ANSIColor
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Module-Build
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: App-Cmd
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: LWP-Protocol-https
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: perl-Encode
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-perl
   description: ""
   license: ""
   name: libwww-perl
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-perl
   description: ""
   license: ""
   name: libintl-perl
+  
+  version: ""
+- ID: 0
+  
+  category: dev-perl
+  description: ""
+  license: ""
+  name: JSON
+  
+  version: ""
+- ID: 0
+  
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Term-ANSIColor
+  
+  version: ""
+- ID: 0
+  
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Module-Build
+  
+  version: ""
+- ID: 0
+  
+  category: dev-perl
+  description: ""
+  license: ""
+  name: App-Cmd
+  
+  version: ""
+- ID: 0
+  
+  category: dev-perl
+  description: ""
+  license: ""
+  name: LWP-Protocol-https
   
   version: ""
 uri:

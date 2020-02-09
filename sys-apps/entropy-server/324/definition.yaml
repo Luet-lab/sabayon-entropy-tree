@@ -1,0 +1,28 @@
+ID: 0
+category: sys-apps
+conflicts: []
+description: Entropy Package Manager server-side tools
+license: GPL-2
+name: entropy-server
+requires:
+- ID: 0
+  
+  category: sys-apps
+  description: ""
+  license: ""
+  name: entropy
+  
+  version: "324"
+- ID: 0
+  
+  category: app-admin
+  description: ""
+  license: ""
+  name: matter
+  
+  version: "324"
+uri:
+- mirror://sabayon/sys-apps/entropy-324.tar.bz2
+use_flags:
+- +matter
+version: "324"

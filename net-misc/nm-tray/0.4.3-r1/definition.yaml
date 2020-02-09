@@ -1,10 +1,12 @@
+ID: 0
 category: net-misc
 conflicts: []
 description: Pure Qt NetworkManager front-end residing in panels
 license: GPL-2
 name: nm-tray
 requires:
-- 
+- ID: 0
+  
   category: x11-terms
   description: ""
   license: ""

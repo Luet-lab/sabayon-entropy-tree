@@ -1,6 +1,8 @@
+ID: 0
 category: net-dns
 conflicts:
-- 
+- ID: 0
+  
   category: <net-dns
   description: ""
   license: ""
@@ -11,46 +13,52 @@ description: System which facilitates service discovery on a local network (gtk3
 license: LGPL-2.1
 name: avahi-gtk3
 requires:
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+- ID: 0
   
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: dbus-python
   
   version: ""
-- 
+- ID: 0
+  
   category: sys-apps
   description: ""
   license: ""
   name: dbus
   
   version: ""
-- 
+- ID: 0
+  
   category: net-dns
   description: ""
   license: ""
   name: avahi-base-0.7[bookmarks=,dbus=,gdbm=,introspection=,nls=,python=]
+  
+  version: ""
+- ID: 0
+  
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- ID: 0
+  
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- ID: 0
+  
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
   
   version: ""
 uri:

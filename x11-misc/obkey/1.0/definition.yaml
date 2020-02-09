@@ -1,24 +1,28 @@
+ID: 0
 category: x11-misc
 conflicts: []
 description: Openbox Key Editor
 license: MIT
 name: obkey
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygobject
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygtk
   
   version: ""
-- 
+- ID: 0
+  
   category: x11-wm
   description: ""
   license: ""

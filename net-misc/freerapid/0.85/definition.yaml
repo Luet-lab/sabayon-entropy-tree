@@ -1,3 +1,4 @@
+ID: 0
 category: net-misc
 conflicts: []
 description: FreeRapid is a simple Java downloader that supports downloading from
@@ -5,7 +6,8 @@ description: FreeRapid is a simple Java downloader that supports downloading fro
 license: GPL
 name: freerapid
 requires:
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""

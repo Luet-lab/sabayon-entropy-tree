@@ -1,31 +1,36 @@
+ID: 0
 category: dev-python
 conflicts: []
 description: A Material Design theme for MkDocs
 license: MIT
 name: mkdocs-material
 requires:
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: setuptools
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: mkdocs
   
   version: 1.0.1
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""
   name: pygments
   
   version: ""
-- 
+- ID: 0
+  
   category: dev-python
   description: ""
   license: ""

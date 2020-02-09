@@ -1,10 +1,12 @@
+ID: 0
 category: games-misc
 conflicts: []
 description: configurable talking ASCII cow (and other characters)
 license: GPL-2
 name: cowsay
 requires:
-- 
+- ID: 0
+  
   category: dev-lang
   description: ""
   license: ""

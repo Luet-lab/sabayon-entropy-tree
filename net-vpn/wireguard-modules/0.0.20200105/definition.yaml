@@ -1,6 +1,8 @@
+ID: 0
 category: net-vpn
 conflicts:
-- 
+- ID: 0
+  
   category: <virtual
   description: ""
   license: ""

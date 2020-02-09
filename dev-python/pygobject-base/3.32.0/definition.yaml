@@ -1,24 +1,28 @@
+ID: 0
 category: dev-python
 conflicts: []
 description: Python bindings for GObject Introspection
 license: LGPL-2.1+
 name: pygobject-base
 requires:
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: "2.48"
-- 
+- ID: 0
+  
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
   
   version: "1.54"
-- 
+- ID: 0
+  
   category: virtual
   description: ""
   license: ""
