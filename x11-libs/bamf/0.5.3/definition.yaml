@@ -1,66 +1,66 @@
-ID: 0
 category: x11-libs
 conflicts: []
 description: BAMF Application Matching Framework
+id: 0
 license: LGPL-3
 name: bamf
 requires:
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- ID: 0
-  
+- 
   category: dev-util
   description: ""
+  id: 0
   license: ""
   name: gdbus-codegen
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
   version: ""
-- ID: 0
-  
+- 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: libgtop
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libX11
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libwnck
   
   version: 3.4.7
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-glib
+  
+  version: ""
 uri:
 - http://launchpad.net/bamf/0.5/0.5.3/+download/bamf-0.5.3.tar.gz
 use_flags:

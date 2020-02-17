@@ -1,62 +1,62 @@
-ID: 0
 category: x11-misc
 conflicts: []
 description: LightDM GTK+ Greeter
+id: 0
 license: GPL-3 LGPL-3
 name: lightdm-gtk-greeter
 requires:
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: lightdm
   
   version: 1.2.2
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: gnome-themes-standard
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: adwaita-icon-theme
   
   version: 3.14.1
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: sabayon-artwork-core
   
   version: ""
-- ID: 0
-  
+- 
   category: app-eselect
   description: ""
+  id: 0
   license: ""
   name: eselect-lightdm
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libindicator
   

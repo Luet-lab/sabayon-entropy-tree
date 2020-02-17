@@ -1,40 +1,40 @@
-ID: 0
 category: app-text
 conflicts: []
 description: Glib bindings for poppler
+id: 0
 license: GPL-2
 name: poppler-glib
 requires:
-- ID: 0
-  
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler-base-0.82.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
-  
-  version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: cairo
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: gobject-introspection
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  id: 0
+  license: ""
+  name: poppler-base-0.82.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
   
   version: ""
 uri:

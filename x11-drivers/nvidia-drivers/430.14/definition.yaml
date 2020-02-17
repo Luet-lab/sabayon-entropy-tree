@@ -1,118 +1,118 @@
-ID: 0
 category: x11-drivers
 conflicts: []
 description: NVIDIA X11 userspace libraries and applications
+id: 0
 license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
-- ID: 0
-  
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: sabayon-dracut
-  
-  version: "1.3"
-- ID: 0
-  
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: 1.20.99
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext-1.3.2[abi_x86_32]
-  
-  version: ""
-- ID: 0
-  
+- 
   category: app-eselect
   description: ""
+  id: 0
   license: ""
   name: eselect-opencl
   
   version: ""
-- ID: 0
-  
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: wayland
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libvdpau
   
   version: "1.0"
-- ID: 0
-  
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opengl
-  
-  version: 1.0.9
-- ID: 0
-  
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- ID: 0
-  
+- 
   category: x11-drivers
   description: ""
+  id: 0
   license: ""
   name: nvidia-userspace
   
   version: "430.14"
-- ID: 0
-  
-  category: sys-libs
+- 
+  category: sys-power
   description: ""
+  id: 0
   license: ""
-  name: glibc
+  name: acpid
   
-  version: 2.6.1
-- ID: 0
-  
+  version: ""
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libX11-1.6.2[abi_x86_32]
   
   version: ""
-- ID: 0
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libXext-1.3.2[abi_x86_32]
   
+  version: ""
+- 
   category: x11-drivers
   description: ""
+  id: 0
   license: ""
   name: nvidia-userspace-430.14[tools=]
   
   version: ""
-- ID: 0
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glibc
   
+  version: 2.6.1
+- 
+  category: sys-kernel
+  description: ""
+  id: 0
+  license: ""
+  name: sabayon-dracut
+  
+  version: "1.3"
+- 
+  category: app-eselect
+  description: ""
+  id: 0
+  license: ""
+  name: eselect-opengl
+  
+  version: 1.0.9
+- 
+  category: app-misc
+  description: ""
+  id: 0
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-server
+  
+  version: 1.20.99
+- 
   category: x11-drivers
   description: ""
+  id: 0
   license: ""
   name: nvidia-userspace-430.14[X=]
   

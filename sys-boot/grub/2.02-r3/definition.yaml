@@ -1,130 +1,130 @@
-ID: 0
 category: sys-boot
 conflicts:
-- ID: 0
-  
+- 
   category: sys-boot
   description: ""
-  license: ""
-  name: grub-static
-  
-  version: ""
-- ID: 0
-  
-  category: sys-boot
-  description: ""
+  id: 0
   license: ""
   name: grub
   
   version: ""
+- 
+  category: sys-boot
+  description: ""
+  id: 0
+  license: ""
+  name: grub-static
+  
+  version: ""
 description: GNU GRUB boot loader
+id: 0
 license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub
 requires:
-- ID: 0
-  
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sabayon-artwork-grub
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
-- ID: 0
-  
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.45
-- ID: 0
-  
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: ""
-- ID: 0
-  
-  category: app-crypt
-  description: ""
-  license: ""
-  name: sbsigntools
-  
-  version: ""
-- ID: 0
-  
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
-- ID: 0
-  
+- 
   category: sys-boot
   description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
-- ID: 0
-  
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- ID: 0
-  
-  category: sys-boot
-  description: ""
+  id: 0
   license: ""
   name: os-prober
   
   version: ""
-- ID: 0
-  
-  category: app-arch
+- 
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: xz-utils
+  name: ncurses
   
-  version: ""
-- ID: 0
-  
+  version: 5.2-r5
+- 
   category: sys-fs
   description: ""
+  id: 0
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
   license: ""
   name: zfs
   
   version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: ibm-powerpc-utils
   
   version: 1.3.5
+- 
+  category: app-crypt
+  description: ""
+  id: 0
+  license: ""
+  name: sbsigntools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: lvm2
+  
+  version: 2.02.45
+- 
+  category: x11-themes
+  description: ""
+  id: 0
+  license: ""
+  name: sabayon-artwork-grub
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsdl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  id: 0
+  license: ""
+  name: efibootmgr
+  
+  version: ""
 uri:
 - 'mirror://gnu/grub/grub-2.02.tar.xz fonts? ( mirror://gnu/unifont/unifont-9.0.06/unifont-9.0.06.pcf.gz '
 - 'mirror://sourceforge/dejavu/dejavu-sans-ttf-2.37.zip '

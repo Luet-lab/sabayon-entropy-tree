@@ -1,72 +1,72 @@
-ID: 0
 category: media-sound
 conflicts: []
 description: Modern music player and library organizer based on Amarok 1.4 and Qt
+id: 0
 license: GPL-3
 name: clementine
 requires:
-- ID: 0
-  
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-libmms
-  
-  version: ""
-- ID: 0
-  
+- 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: gvfs
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-fs
   description: ""
+  id: 0
   license: ""
   name: udisks
   
   version: ""
-- ID: 0
-  
+- 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: qca
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-db
   description: ""
+  id: 0
   license: ""
   name: sqlite
   
   version: ""
-- ID: 0
-  
+- 
   category: media-plugins
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-meta
   
   version: ""
-- ID: 0
-  
+- 
   category: media-plugins
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-soup
   
   version: ""
-- ID: 0
-  
+- 
   category: media-plugins
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-taglib
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  id: 0
+  license: ""
+  name: gst-plugins-libmms
   
   version: ""
 uri:

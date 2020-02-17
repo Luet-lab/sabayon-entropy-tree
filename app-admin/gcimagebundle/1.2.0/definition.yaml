@@ -1,8 +1,8 @@
-ID: 0
 category: app-admin
 conflicts: []
 description: Image Bundle is a python package that allows users to create an image
   from the current state of the running virtual machine.
+id: 0
 license: Apache-2.0
 name: gcimagebundle
 requires: []

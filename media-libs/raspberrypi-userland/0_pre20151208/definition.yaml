@@ -1,6 +1,6 @@
-ID: 0
 category: media-libs
 description: Raspberry Pi userspace tools and libraries
+id: 0
 license: BSD
 name: raspberrypi-userland
 uri:

@@ -1,56 +1,56 @@
-ID: 0
 category: dev-libs
 conflicts: []
 description: Code shared across all the components of a Citadel system
+id: 0
 license: GPL-3
 name: libcitadel
 requires:
-- ID: 0
-  
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
+  id: 0
   license: ""
   name: libical
   
   version: ""
-- ID: 0
-  
+- 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl
   
   version: ""
-- ID: 0
-  
+- 
   category: mail-filter
   description: ""
+  id: 0
   license: ""
   name: libsieve
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: db
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: expat
   
   version: ""
 uri:

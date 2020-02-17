@@ -1,42 +1,42 @@
-ID: 0
 category: dev-python
 conflicts: []
 description: A Material Design theme for MkDocs
+id: 0
 license: MIT
 name: mkdocs-material
 requires:
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
-  license: ""
-  name: setuptools
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: mkdocs
-  
-  version: 1.0.1
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygments
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
+  id: 0
   license: ""
   name: pymdown-extensions
   
   version: "4.11"
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: setuptools
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: mkdocs
+  
+  version: 1.0.1
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pygments
+  
+  version: ""
 uri:
 - mirror://pypi/m/mkdocs-material/mkdocs-material-4.1.1.tar.gz
 use_flags:

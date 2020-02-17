@@ -1,64 +1,64 @@
-ID: 0
 category: x11-themes
 conflicts: []
 description: Sabayon Linux Official GNOME artwork
+id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-gnome
 requires:
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
-  license: ""
-  name: equinox-themes
-  
-  version: ""
-- ID: 0
-  
-  category: x11-themes
-  description: ""
+  id: 0
   license: ""
   name: elementary-icon-theme
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: arc-theme
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: numix-icon-theme-circle
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: numix-icon-theme
   
   version: ""
-- ID: 0
-  
+- 
   category: gnome-extra
   description: ""
+  id: 0
   license: ""
   name: gnome-shell-extensions
   
   version: "3.12"
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: sabayon-artwork-core
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  id: 0
+  license: ""
+  name: equinox-themes
   
   version: ""
 uri:

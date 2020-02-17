@@ -1,170 +1,170 @@
-ID: 0
 category: gnome-extra
 conflicts:
-- ID: 0
-  
+- 
   category: gnome-extra
   description: ""
+  id: 0
   license: ""
   name: nm-applet
   
   version: ""
 description: GNOME applet for NetworkManager, gtk+-2 flavour
+id: 0
 license: GPL-2+
 name: nm-applet-gtk2
 requires:
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.20"
-- ID: 0
-  
+- 
   category: gnome-base
   description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.20"
-- ID: 0
-  
-  category: virtual
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- ID: 0
-  
-  category: gnome-base
-  description: ""
+  id: 0
   license: ""
   name: libgnome-keyring
   
   version: "2.20"
-- ID: 0
-  
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: 2.27.6
-- ID: 0
-  
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: ""
-- ID: 0
-  
-  category: virtual
-  description: ""
-  license: ""
-  name: freedesktop-icon-theme
-  
-  version: ""
-- ID: 0
-  
-  category: net-misc
-  description: ""
-  license: ""
-  name: modemmanager
-  
-  version: 0.7.990
-- ID: 0
-  
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.26"
-- ID: 0
-  
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.4.1
-- ID: 0
-  
+- 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: polkit
   
   version: 0.96-r1
-- ID: 0
-  
-  category: net-misc
-  description: ""
-  license: ""
-  name: mobile-broadband-provider-info
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.6
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.88"
-- ID: 0
-  
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: "2.26"
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libnotify
   
   version: 0.7.0
-- ID: 0
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: freedesktop-icon-theme
   
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  id: 0
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: "2.20"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-glib
+  
+  version: "0.88"
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  
+  version: 1.4.1
+- 
+  category: net-wireless
+  description: ""
+  id: 0
+  license: ""
+  name: gnome-bluetooth
+  
+  version: 2.27.6
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: gconf
+  
+  version: "2.20"
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: libgnome-keyring
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: modemmanager
+  
+  version: 0.7.990
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: "2.26"
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: gconf
+  
+  version: "2.26"
+- 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: iso-codes
   
   version: ""
-- ID: 0
-  
+- 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: networkmanager
   
   version: 0.9.8
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: mobile-broadband-provider-info
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.6
 uri: []
 use_flags:
 - bluetooth

@@ -1,112 +1,112 @@
-ID: 0
 category: app-backup
 conflicts: []
 description: Simple backup tool using duplicity back-end
+id: 0
 license: GPL-3
 name: deja-dup
 requires:
-- ID: 0
-  
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: ""
-- ID: 0
-  
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gvfs
-  
-  version: ""
-- ID: 0
-  
+- 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: libsecret
   
   version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.34"
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: "1.0"
-- ID: 0
-  
-  category: app-backup
-  description: ""
-  license: ""
-  name: duplicity
-  
-  version: 0.7.14
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- ID: 0
-  
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: ""
-- ID: 0
-  
-  category: app-admin
-  description: ""
-  license: ""
-  name: packagekit-base
-  
-  version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: "3.10"
-- ID: 0
+- 
+  category: app-backup
+  description: ""
+  id: 0
+  license: ""
+  name: duplicity
   
+  version: 0.7.14
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: gvfs
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: nautilus
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  id: 0
+  license: ""
+  name: packagekit-base
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: "2.34"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libpeas
+  
+  version: "1.0"
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libnotify
   
   version: "0.7"
-- ID: 0
-  
-  category: dev-libs
+- 
+  category: net-libs
   description: ""
+  id: 0
   license: ""
-  name: appstream-glib
+  name: gnome-online-accounts
   
   version: ""
-- ID: 0
-  
-  category: gnome-base
+- 
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: dconf
+  name: appstream-glib
   
   version: ""
 uri:

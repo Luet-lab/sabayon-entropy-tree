@@ -1,46 +1,46 @@
-ID: 0
 category: app-misc
 conflicts: []
 description: A simple CLI interface to packages.sabayon.org
+id: 0
 license: MIT
 name: querypkg
 requires:
-- ID: 0
-  
+- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: perl
   
   version: "5.10"
-- ID: 0
-  
+- 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: JSON-XS
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: URI
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: libwww-perl
   
   version: ""
-- ID: 0
-  
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: perl-Scalar-List-Utils
   

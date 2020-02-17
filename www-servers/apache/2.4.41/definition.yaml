@@ -1,38 +1,38 @@
-ID: 0
 category: www-servers
 conflicts: []
 description: The Apache Web Server
+id: 0
 license: Apache-2.0 Apache-1.1
 name: apache
 requires:
-- ID: 0
-  
+- 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: brotli
   
   version: 0.6.0
-- ID: 0
-  
+- 
   category: net-libs
   description: ""
+  id: 0
   license: ""
   name: nghttp2
   
   version: 1.2.1
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: jansson
   
   version: "2.10"
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: apr-util
   

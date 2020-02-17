@@ -1,42 +1,42 @@
-ID: 0
 category: app-misc
 conflicts: []
 description: Tux Commander - Fast and Small filemanager - VFS modules
+id: 0
 license: GPL-2 unrar? ( unRAR )
 name: tuxcmd-modules
 requires:
-- ID: 0
-  
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: 2.5.5
-- ID: 0
-  
+- 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: tuxcmd
   
   version: 0.6.70
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
   version: 2.18.0
-- ID: 0
-  
+- 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: gvfs
   
   version: 1.2.0
+- 
+  category: app-arch
+  description: ""
+  id: 0
+  license: ""
+  name: libarchive
+  
+  version: 2.5.5
 uri:
 - mirror://sourceforge/tuxcmd/tuxcmd-modules-0.6.70.tar.bz2
 - 'mirror://sourceforge/tuxcmd/tuxcmd-modules-unrar-0.6.70.tar.bz2 '

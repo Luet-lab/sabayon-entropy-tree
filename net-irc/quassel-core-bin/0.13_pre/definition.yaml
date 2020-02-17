@@ -1,14 +1,14 @@
-ID: 0
 category: net-irc
 conflicts: []
 description: Qt/KDE IRC client - "core" (server) component (static build, no Qt dependency)
+id: 0
 license: GPL-3
 name: quassel-core-bin
 requires:
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: zlib
   

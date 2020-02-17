@@ -1,8 +1,8 @@
-ID: 0
 category: app-emulation
 conflicts: []
 description: Packer is a tool for creating machine and container images for multiple
   platforms
+id: 0
 license: MIT
 name: packer-bin
 requires: []

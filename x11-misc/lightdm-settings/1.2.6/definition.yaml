@@ -1,64 +1,64 @@
-ID: 0
 category: x11-misc
 conflicts: []
 description: LightDM settings app
+id: 0
 license: GPL-3
 name: lightdm-settings
 requires:
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
-  license: ""
-  name: setproctitle
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
+  id: 0
   license: ""
   name: pygobject
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: polkit
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: xapp
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: hicolor-icon-theme
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: lsb-release
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: lightdm-slick-greeter
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: setproctitle
   
   version: ""
 uri:

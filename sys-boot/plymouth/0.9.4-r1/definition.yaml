@@ -1,70 +1,70 @@
-ID: 0
 category: sys-boot
 conflicts:
-- ID: 0
-  
+- 
   category: <sys-kernel
   description: ""
+  id: 0
   license: ""
   name: dracut
   
   version: 0.37-r3
 description: Graphical boot animation (splash) and logger
+id: 0
 license: GPL-2
 name: plymouth
 requires:
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: "3.14"
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: cairo
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libdrm
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: pango
   
   version: "1.21"
-- ID: 0
-  
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: udev
   
   version: ""
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libpng
   

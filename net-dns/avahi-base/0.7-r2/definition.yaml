@@ -1,114 +1,114 @@
-ID: 0
 category: net-dns
 conflicts:
-- ID: 0
-  
+- 
   category: net-misc
   description: ""
-  license: ""
-  name: mDNSResponder
-  
-  version: ""
-- ID: 0
-  
-  category: net-misc
-  description: ""
+  id: 0
   license: ""
   name: howl
   
   version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: mDNSResponder
+  
+  version: ""
 description: System which facilitates service discovery on a local network (base pkg)
+id: 0
 license: LGPL-2.1
 name: avahi-base
 requires:
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
-- ID: 0
-  
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
-  
-  version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
-  license: ""
-  name: libdaemon
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
+  id: 0
   license: ""
   name: expat
   
   version: ""
-- ID: 0
-  
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- ID: 0
-  
-  category: sys-libs
-  description: ""
+  id: 0
   license: ""
   name: gdbm
   
   version: ""
-- ID: 0
-  
-  category: dev-libs
+- 
+  category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: gobject-introspection
+  name: dbus
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: dbus-python
   
   version: ""
+- 
+  category: sec-policy
+  description: ""
+  id: 0
+  license: ""
+  name: selinux-avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libdaemon
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: twisted
+  
+  version: 16.0.0
 uri:
 - https://github.com/lathiat/avahi/archive/v0.7.tar.gz -> avahi-0.7.tar.gz
 use_flags:

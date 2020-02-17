@@ -1,22 +1,22 @@
-ID: 0
 category: app-admin
 conflicts: []
 description: Automated Packages Builder for Portage and Entropy
+id: 0
 license: GPL-2
 name: matter
 requires:
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: entropy
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: file
   

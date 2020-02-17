@@ -1,46 +1,46 @@
-ID: 0
 category: app-crypt
 conflicts:
-- ID: 0
-  
+- 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: pinentry-base
   
   version: ""
 description: Gtk+2 frontend for pinentry
+id: 0
 license: GPL-2
 name: pinentry-gtk2
 requires:
-- ID: 0
-  
+- 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: pinentry-base
   
   version: 1.1.0
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: libcap
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: ncurses
   

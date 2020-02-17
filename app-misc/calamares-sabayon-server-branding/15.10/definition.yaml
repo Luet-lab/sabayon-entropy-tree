@@ -1,22 +1,22 @@
-ID: 0
 category: app-misc
 conflicts:
-- ID: 0
-  
+- 
   category: '!app-misc'
   description: ""
+  id: 0
   license: ""
   name: calamares-sabayon-branding
   
   version: ""
 description: Sabayon Official Calamares server branding
+id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon-server-branding
 requires:
-- ID: 0
-  
+- 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: calamares
   

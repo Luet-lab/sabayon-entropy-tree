@@ -1,16 +1,16 @@
-ID: 0
 category: app-misc
 conflicts: []
 description: |-
   XMind is the world's coolest brainstorming and mind mapping
   software and the best way to share your ideas.
+id: 0
 license: EPL-1.0 LGPL-3
 name: xmind-portable
 requires:
-- ID: 0
-  
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: jre
   

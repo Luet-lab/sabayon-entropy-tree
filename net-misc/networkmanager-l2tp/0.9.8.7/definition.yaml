@@ -1,64 +1,64 @@
-ID: 0
 category: net-misc
 conflicts: []
 description: NetworkManager L2TP plugin
+id: 0
 license: GPL-2+
 name: networkmanager-l2tp
 requires:
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- ID: 0
-  
+- 
   category: net-dialup
   description: ""
+  id: 0
   license: ""
   name: ppp
   
   version: ""
-- ID: 0
-  
+- 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: networkmanager
   
   version: 0.9.6.4
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: dbus
   
   version: ""
-- ID: 0
-  
+- 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: libgnome-keyring
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
   
   version: ""
 uri:

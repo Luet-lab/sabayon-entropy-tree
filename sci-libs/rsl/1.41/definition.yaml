@@ -1,22 +1,22 @@
-ID: 0
 category: sci-libs
 conflicts: []
 description: Radar Software Library
+id: 0
 license: LGPL-2
 name: rsl
 requires:
-- ID: 0
-  
+- 
   category: sci-libs
   description: ""
+  id: 0
   license: ""
   name: hdf
   
   version: ""
-- ID: 0
-  
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: jpeg
   

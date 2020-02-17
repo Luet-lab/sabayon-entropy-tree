@@ -1,6 +1,6 @@
-ID: 0
 category: app-misc
 description: a lightweight hotkey daemon
+id: 0
 license: GPL-3
 name: triggerhappy
 uri:

@@ -1,56 +1,56 @@
-ID: 0
 category: x11-misc
 conflicts: []
 description: Desktop automation utility for Linux and X11
+id: 0
 license: GPL-3
 name: autokey
 requires:
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyatspi
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
+  id: 0
   license: ""
   name: pygtksourceview
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: python-xlib
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: pygtk
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: pyinotify
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pyatspi
   
   version: ""
 uri:

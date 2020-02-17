@@ -1,62 +1,62 @@
-ID: 0
 category: media-gfx
 conflicts: []
 description: gfxboot allows you to create gfx menus for bootmanagers.
+id: 0
 license: GPL-2
 name: gfxboot
 requires:
-- ID: 0
-  
+- 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: docbook-xml-dtd
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: HTML-Parser
   
   version: ""
-- ID: 0
-  
+- 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: cpio
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: nasm
   
   version: ""
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: freetype
   
   version: "2"
-- ID: 0
-  
+- 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: xmlto
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libxslt
   

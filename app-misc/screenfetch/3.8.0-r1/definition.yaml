@@ -1,30 +1,30 @@
-ID: 0
 category: app-misc
 conflicts: []
 description: Bash Screenshot Information Tool
+id: 0
 license: GPL-3
 name: screenfetch
 requires:
-- ID: 0
-  
+- 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl
   
   version: ""
-- ID: 0
-  
+- 
   category: media-gfx
   description: ""
+  id: 0
   license: ""
   name: scrot
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-apps
   description: ""
+  id: 0
   license: ""
   name: xdpyinfo
   

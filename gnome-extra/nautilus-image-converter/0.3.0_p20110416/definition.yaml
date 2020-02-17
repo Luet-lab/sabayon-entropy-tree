@@ -1,32 +1,32 @@
-ID: 0
 category: gnome-extra
 conflicts: []
 description: Adds 'Resize Images' and 'Rotate Images' items to context menu for images
+id: 0
 license: GPL-2
 name: nautilus-image-converter
 requires:
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- ID: 0
-  
+- 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: nautilus
   
   version: "3"
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
   
   version: ""
 uri:

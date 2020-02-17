@@ -1,48 +1,48 @@
-ID: 0
 category: app-crypt
 conflicts: []
 description: GNOME 3 frontend for pinentry
+id: 0
 license: GPL-2
 name: pinentry-gnome
 requires:
-- ID: 0
-  
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- ID: 0
-  
+- 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: gcr
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: ncurses
   
   version: ""
-- ID: 0
-  
+- 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: pinentry-base
   
   version: 1.1.0
-- ID: 0
-  
+- 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: libsecret
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libcap
   
   version: ""
 uri:

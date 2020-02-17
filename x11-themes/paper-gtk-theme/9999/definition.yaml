@@ -1,24 +1,24 @@
-ID: 0
 category: x11-themes
 conflicts: []
 description: the Paper gtk theme by snwh
+id: 0
 license: GPL-3
 name: paper-gtk-theme
 requires:
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: gtk-engines
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gdk-pixbuf
   
   version: ""
 uri: []

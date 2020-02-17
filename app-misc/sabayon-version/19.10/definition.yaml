@@ -1,96 +1,96 @@
-ID: 0
 category: app-misc
 conflicts:
-- ID: 0
-  
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: ""
-- ID: 0
-  
+- 
   category: <sys-apps
   description: ""
+  id: 0
   license: ""
   name: sysvinit
   
   version: "1000"
-- ID: 0
-  
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hal
-  
-  version: ""
-- ID: 0
-  
+- 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: eselect-init
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: hal
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: consolekit
+  
+  version: ""
 description: Sabayon system release virtual package
+id: 0
 license: GPL-2
 name: sabayon-version
 requires:
-- ID: 0
-  
-  category: virtual
-  description: ""
-  license: ""
-  name: man
-  
-  version: ""
-- ID: 0
-  
+- 
   category: sys-devel
   description: ""
+  id: 0
   license: ""
   name: base-gcc
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-devel
   description: ""
+  id: 0
   license: ""
   name: gcc-config
   
   version: ""
-- ID: 0
+- 
+  category: app-eselect
+  description: ""
+  id: 0
+  license: ""
+  name: eselect-python
   
+  version: ""
+- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: python
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: systemd
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-kernel
   description: ""
+  id: 0
   license: ""
   name: sabayon-dracut
   
   version: ""
-- ID: 0
-  
-  category: app-eselect
+- 
+  category: virtual
   description: ""
+  id: 0
   license: ""
-  name: eselect-python
+  name: man
   
   version: ""
 uri: []

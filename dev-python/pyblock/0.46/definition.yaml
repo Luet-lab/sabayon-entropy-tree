@@ -1,6 +1,6 @@
-ID: 0
 category: dev-python
 description: Python interface for working with block devices
+id: 0
 license: GPL-2
 name: pyblock
 uri:

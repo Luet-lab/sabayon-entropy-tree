@@ -1,127 +1,127 @@
-ID: 0
 category: x11-misc
 conflicts:
-- ID: 0
-  
+- 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: gxneur
   
   version: ""
 description: In-place conversion of text typed in with a wrong keyboard layout (Punto
   Switcher replacement)
+id: 0
 license: GPL-2
 name: xneur
 requires:
-- ID: 0
-  
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- ID: 0
-  
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-alsa
-  
-  version: ""
-- ID: 0
-  
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libX11
   
   version: "1.1"
-- ID: 0
-  
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: 1.0.17
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xosd
-  
-  version: ""
-- ID: 0
-  
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "5.0"
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: freealut
   
   version: 1.0.1
-- ID: 0
-  
-  category: x11-libs
+- 
+  category: app-text
   description: ""
+  id: 0
   license: ""
-  name: gtk+
+  name: enchant
   
   version: ""
-- ID: 0
-  
-  category: x11-libs
+- 
+  category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: libnotify
+  name: gst-plugins-good
   
-  version: 0.4.0
-- ID: 0
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
   
+  version: ""
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libXtst
   
   version: ""
-- ID: 0
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libnotify
   
+  version: 0.4.0
+- 
+  category: media-plugins
+  description: ""
+  id: 0
+  license: ""
+  name: gst-plugins-alsa
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libpcre
+  
+  version: "5.0"
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-utils
+  
+  version: 1.0.17
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: xosd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: gstreamer
   

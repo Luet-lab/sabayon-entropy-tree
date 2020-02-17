@@ -1,40 +1,40 @@
-ID: 0
 category: x11-misc
 conflicts: []
 description: Qt5 libraries for LightDM
+id: 0
 license: GPL-3 LGPL-3
 name: lightdm-qt5
 requires:
-- ID: 0
-  
+- 
   category: dev-qt
   description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- ID: 0
-  
-  category: dev-qt
-  description: ""
+  id: 0
   license: ""
   name: qtgui
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: lightdm-base
   
   version: 1.24.0
-- ID: 0
-  
+- 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
   name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtdbus
   
   version: ""
 uri:

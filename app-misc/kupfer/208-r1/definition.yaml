@@ -1,80 +1,80 @@
-ID: 0
 category: app-misc
 conflicts: []
 description: Kupfer, a convenient command and access tool
+id: 0
 license: Apache-2.0 GPL-2 GPL-3
 name: kupfer
 requires:
-- ID: 0
-  
+- 
   category: dev-python
   description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- ID: 0
-  
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycairo
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: libgnome-python
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
+  id: 0
   license: ""
   name: pyxdg
   
   version: ""
-- ID: 0
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: keybinder
   
+  version: ""
+- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: libwnck-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pycairo
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: libgnome-python
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: nautilus
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pygtk
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-python
   
   version: ""
 uri:

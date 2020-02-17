@@ -1,106 +1,106 @@
-ID: 0
 category: app-admin
 conflicts: []
 description: Distribution-independent installer framework
+id: 0
 license: GPL-3
 name: calamares
 requires:
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: ""
-- ID: 0
-  
-  category: app-admin
-  description: ""
-  license: ""
-  name: sudo
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libatasmart
-  
-  version: ""
-- ID: 0
-  
-  category: sys-libs
-  description: ""
-  license: ""
-  name: kpmcore
-  
-  version: 3.0.3
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: PythonQt
-  
-  version: "3.1"
-- ID: 0
-  
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
-- ID: 0
-  
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.55"
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- ID: 0
-  
-  category: sys-apps
-  description: ""
+  id: 0
   license: ""
   name: dmidecode
   
   version: ""
-- ID: 0
-  
-  category: sys-auth
+- 
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: polkit-qt[qt5(+)]
+  name: kpmcore
+  
+  version: 3.0.3
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: PythonQt
+  
+  version: "3.1"
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: rsync
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-block
   description: ""
+  id: 0
   license: ""
   name: parted
   
   version: "3.0"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libatasmart
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  id: 0
+  license: ""
+  name: yaml-cpp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: boost
+  
+  version: "1.55"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libpwquality
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: polkit-qt[qt5(+)]
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  id: 0
+  license: ""
+  name: sudo
+  
+  version: ""
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.15/calamares-3.2.15.tar.gz
 use_flags:

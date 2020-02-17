@@ -1,6 +1,6 @@
-ID: 0
 category: dev-python
 description: Python bindings for libsmbclient
+id: 0
 license: GPL-2
 name: pysmbc
 uri:

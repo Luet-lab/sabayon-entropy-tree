@@ -1,32 +1,32 @@
-ID: 0
 category: app-emulation
 conflicts: []
 description: Sabayon LXD image builder from Docker images
+id: 0
 license: LGPL-2.1
 name: sabayon-lxd-imagebuilder
 requires:
-- ID: 0
-  
+- 
   category: app-emulation
   description: ""
+  id: 0
+  license: ""
+  name: lxd
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  id: 0
   license: ""
   name: docker-companion
   
   version: ""
-- ID: 0
-  
+- 
   category: app-emulation
   description: ""
+  id: 0
   license: ""
   name: docker
-  
-  version: ""
-- ID: 0
-  
-  category: app-emulation
-  description: ""
-  license: ""
-  name: lxd
   
   version: ""
 uri:

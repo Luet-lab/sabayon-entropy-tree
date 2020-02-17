@@ -1,96 +1,96 @@
-ID: 0
 category: app-misc
 conflicts: []
 description: Sabayon Development Kit
+id: 0
 license: GPL-2
 name: sabayon-devkit
 requires:
-- ID: 0
-  
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- ID: 0
-  
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker
-  
-  version: ""
-- ID: 0
-  
+- 
   category: app-portage
   description: ""
-  license: ""
-  name: eix
-  
-  version: ""
-- ID: 0
-  
-  category: app-portage
-  description: ""
-  license: ""
-  name: repoman
-  
-  version: ""
-- ID: 0
-  
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- ID: 0
-  
-  category: app-portage
-  description: ""
+  id: 0
   license: ""
   name: portage-utils
   
   version: ""
-- ID: 0
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: DBD-SQLite
   
+  version: ""
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: gentoo-functions
   
   version: ""
-- ID: 0
-  
-  category: app-misc
+- 
+  category: app-emulation
   description: ""
+  id: 0
   license: ""
-  name: pax-utils
+  name: docker
   
   version: ""
-- ID: 0
-  
+- 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: querypkg
   
   version: ""
-- ID: 0
-  
+- 
   category: app-portage
   description: ""
+  id: 0
   license: ""
   name: layman
   
   version: ""
-- ID: 0
-  
+- 
   category: app-portage
   description: ""
+  id: 0
   license: ""
   name: gentoolkit
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  id: 0
+  license: ""
+  name: repoman
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  id: 0
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  id: 0
+  license: ""
+  name: eix
   
   version: ""
 uri:

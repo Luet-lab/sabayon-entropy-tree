@@ -1,48 +1,48 @@
-ID: 0
 category: x11-misc
 conflicts: []
 description: Entropy Package Manager notification applet GTK3 frontend
+id: 0
 license: GPL-2
 name: magneto-gtk3
 requires:
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- ID: 0
-  
+- 
   category: app-misc
   description: ""
+  id: 0
   license: ""
   name: magneto-loader
   
   version: "322"
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: gobject-introspection
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gdk-pixbuf
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libnotify
   
   version: ""
 uri:

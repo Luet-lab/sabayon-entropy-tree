@@ -1,46 +1,46 @@
-ID: 0
 category: sys-fs
 conflicts: []
 description: Device mapper target autoconfig
+id: 0
 license: GPL-2
 name: multipath-tools
 requires:
-- ID: 0
-  
+- 
   category: sys-fs
   description: ""
+  id: 0
   license: ""
   name: lvm2
   
   version: 2.02.45
-- ID: 0
-  
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: udev
   
   version: "171"
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libaio
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: readline
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: systemd
   

@@ -1,112 +1,112 @@
-ID: 0
 category: lxde-base
 conflicts: []
 description: Lightweight X11 desktop panel for LXDE
+id: 0
 license: GPL-2
 name: lxpanel
 requires:
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
-  
-  version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
-  license: ""
-  name: libfm
-  
-  version: 1.2.0
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libwnck
-  
-  version: ""
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
-  
-  version: ""
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- ID: 0
-  
-  category: lxde-base
-  description: ""
-  license: ""
-  name: lxmenu-data
-  
-  version: ""
-- ID: 0
-  
-  category: lxde-base
-  description: ""
-  license: ""
-  name: menu-cache
-  
-  version: ""
-- ID: 0
-  
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wireless-tools
-  
-  version: ""
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXpm
-  
-  version: ""
-- ID: 0
-  
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: cairo
   
   version: ""
-- ID: 0
+- 
+  category: lxde-base
+  description: ""
+  id: 0
+  license: ""
+  name: lxmenu-data
   
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: keybinder
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libfm
+  
+  version: 1.2.0
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libwnck
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libXpm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libXmu
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
   license: ""
   name: gdk-pixbuf[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: lxde-base
+  description: ""
+  id: 0
+  license: ""
+  name: menu-cache
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  id: 0
+  license: ""
+  name: wireless-tools
   
   version: ""
 uri:

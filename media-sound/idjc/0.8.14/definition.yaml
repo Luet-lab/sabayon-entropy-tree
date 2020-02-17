@@ -1,136 +1,136 @@
-ID: 0
 category: media-sound
 conflicts: []
 description: IDJC has two media players, jingles player, crossfader, VoIP and streaming
+id: 0
 license: GPL-2
 name: idjc
 requires:
-- ID: 0
-  
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: 0.116.0
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- ID: 0
-  
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- ID: 0
-  
-  category: media-sound
-  description: ""
-  license: ""
-  name: mpg123
-  
-  version: ""
-- ID: 0
-  
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- ID: 0
-  
-  category: media-sound
-  description: ""
-  license: ""
-  name: twolame
-  
-  version: ""
-- ID: 0
-  
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: mysql-python
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: ""
-- ID: 0
-  
-  category: dev-python
-  description: ""
-  license: ""
-  name: eyeD3
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
+  id: 0
   license: ""
   name: libvorbis
   
   version: ""
-- ID: 0
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: ffmpeg
   
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: twolame
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pygtk
+  
+  version: ""
+- 
   category: media-libs
   description: ""
+  id: 0
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: mpg123
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: speex
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: eyeD3
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: flac
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
   license: ""
   name: mutagen
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  id: 0
+  license: ""
+  name: jack-audio-connection-kit
+  
+  version: 0.116.0
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
   
   version: ""
 uri:

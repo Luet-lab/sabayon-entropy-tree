@@ -1,14 +1,14 @@
-ID: 0
 category: sys-boot
 conflicts: []
 description: Utility to detect other OSs on a set of drives
+id: 0
 license: GPL-3
 name: os-prober
 requires:
-- ID: 0
-  
+- 
   category: sys-boot
   description: ""
+  id: 0
   license: ""
   name: grub
   

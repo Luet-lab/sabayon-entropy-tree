@@ -1,14 +1,14 @@
-ID: 0
 category: dev-haskell
 conflicts: []
 description: Simple ANSI terminal support, with Windows compatibility
+id: 0
 license: BSD
 name: ansi-terminal
 requires:
-- ID: 0
-  
+- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: ghc
   

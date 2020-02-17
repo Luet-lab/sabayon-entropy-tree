@@ -1,38 +1,38 @@
-ID: 0
 category: sci-physics
 conflicts: []
 description: Physics sandbox and simulator for gravity, friction
+id: 0
 license: free-noncomm
 name: phun
 requires:
-- ID: 0
-  
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: opengl
   
   version: ""
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: sdl-image
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: boost
   
   version: ""
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: glew
   

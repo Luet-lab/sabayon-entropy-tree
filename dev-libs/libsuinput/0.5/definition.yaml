@@ -1,7 +1,7 @@
-ID: 0
 category: dev-libs
 conflicts: []
 description: Helper functions to simplify Uinput usage.
+id: 0
 license: GPL-3
 name: libsuinput
 requires: []

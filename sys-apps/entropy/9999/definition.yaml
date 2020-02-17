@@ -1,64 +1,64 @@
-ID: 0
 category: sys-apps
 conflicts: []
 description: Entropy Package Manager foundation library
+id: 0
 license: GPL-2
 name: entropy
 requires:
-- ID: 0
-  
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: "0.7"
-- ID: 0
-  
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- ID: 0
-  
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
-  license: ""
-  name: diffutils
-  
-  version: ""
-- ID: 0
-  
-  category: sys-apps
-  description: ""
+  id: 0
   license: ""
   name: sandbox
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: portage
   
   version: 2.1.9
-- ID: 0
-  
+- 
   category: sys-devel
   description: ""
+  id: 0
   license: ""
   name: gettext
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  id: 0
+  license: ""
+  name: pax-utils
+  
+  version: "0.7"
+- 
+  category: dev-db
+  description: ""
+  id: 0
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: rsync
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: diffutils
   
   version: ""
 uri: []

@@ -1,22 +1,22 @@
-ID: 0
 category: x11-themes
 conflicts: []
 description: SVG and PNG icon theme from the Tango project
+id: 0
 license: public-domain
 name: tango-icon-theme
 requires:
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: adwaita-icon-theme
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-themes
   description: ""
+  id: 0
   license: ""
   name: hicolor-icon-theme
   

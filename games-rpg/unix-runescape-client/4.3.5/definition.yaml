@@ -1,112 +1,112 @@
-ID: 0
 category: games-rpg
 conflicts: []
 description: RuneScape client for Linux and Unix
+id: 0
 license: GPL-2
 name: unix-runescape-client
 requires:
-- ID: 0
-  
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: ""
-- ID: 0
-  
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Archive-Extract
-  
-  version: ""
-- ID: 0
-  
-  category: net-misc
-  description: ""
-  license: ""
-  name: wget
-  
-  version: ""
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libpng-compat
   
   version: ""
-- ID: 0
-  
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: alsa-oss
   
   version: ""
-- ID: 0
-  
+- 
   category: media-sound
   description: ""
+  id: 0
   license: ""
   name: pulseaudio
   
   version: ""
-- ID: 0
-  
-  category: app-emulation
-  description: ""
-  license: ""
-  name: wine
-  
-  version: ""
-- ID: 0
-  
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- ID: 0
-  
+- 
   category: dev-perl
   description: ""
+  id: 0
+  license: ""
+  name: Archive-Extract
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
   license: ""
   name: Config-IniFiles
   
   version: ""
-- ID: 0
-  
+- 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: IO-stringy
   
   version: ""
-- ID: 0
-  
-  category: dev-perl
+- 
+  category: net-misc
   description: ""
+  id: 0
   license: ""
-  name: Wx
+  name: wget
   
   version: ""
-- ID: 0
-  
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: cairo
   
   version: ""
-- ID: 0
-  
+- 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: p7zip
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  id: 0
+  license: ""
+  name: wine
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jre
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: Wx
   
   version: ""
 uri:

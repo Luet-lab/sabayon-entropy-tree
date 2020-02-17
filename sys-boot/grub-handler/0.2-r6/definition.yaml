@@ -1,7 +1,7 @@
-ID: 0
 category: sys-boot
 conflicts: []
 description: Sabayon Linux GRUB utilities
+id: 0
 license: GPL-2
 name: grub-handler
 requires: []

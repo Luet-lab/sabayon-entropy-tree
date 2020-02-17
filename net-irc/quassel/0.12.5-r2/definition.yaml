@@ -1,192 +1,192 @@
-ID: 0
 category: net-irc
 conflicts: []
 description: Qt/KDE IRC client - monolithic client only (no remote daemon)
+id: 0
 license: GPL-3
 name: quassel
 requires:
-- ID: 0
-  
-  category: dev-qt
+- 
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: qtsql
+  name: zlib
   
   version: ""
-- ID: 0
-  
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- ID: 0
-  
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- ID: 0
-  
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
-  
-  version: ""
-- ID: 0
-  
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- ID: 0
-  
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfigwidgets
-  
-  version: ""
-- ID: 0
-  
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: ""
-- ID: 0
-  
-  category: net-irc
-  description: ""
-  license: ""
-  name: quassel-common
-  
-  version: 0.12.5
-- ID: 0
-  
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
-  
-  version: ""
-- ID: 0
-  
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifyconfig
-  
-  version: ""
-- ID: 0
-  
+- 
   category: dev-db
   description: ""
+  id: 0
   license: ""
   name: sqlite
   
   version: ""
-- ID: 0
-  
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: ""
-- ID: 0
-  
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: sonnet
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: phonon[qt5(+)]
-  
-  version: ""
-- ID: 0
-  
-  category: app-crypt
-  description: ""
-  license: ""
-  name: qca
-  
-  version: ""
-- ID: 0
-  
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: ""
-- ID: 0
-  
-  category: x11-libs
-  description: ""
-  license: ""
-  name: snorenotify
-  
-  version: 0.7.0
-- ID: 0
-  
+- 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
-  name: qtwebengine
+  name: qtgui
   
   version: ""
-- ID: 0
-  
-  category: dev-qt
+- 
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: qtcore
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
   
   version: ""
-- ID: 0
-  
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtscript
-  
-  version: ""
-- ID: 0
-  
-  category: virtual
-  description: ""
-  license: ""
-  name: logger
-  
-  version: ""
-- ID: 0
-  
+- 
   category: kde-frameworks
   description: ""
+  id: 0
   license: ""
   name: kwidgetsaddons
   
   version: ""
-- ID: 0
-  
-  category: sys-libs
+- 
+  category: dev-qt
   description: ""
+  id: 0
   license: ""
-  name: zlib
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtscript
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: kconfigwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: sonnet
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: phonon[qt5(+)]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: snorenotify
+  
+  version: 0.7.0
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtsql
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: logger
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: kcoreaddons
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: knotifyconfig
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: ktextwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: kxmlgui
+  
+  version: ""
+- 
+  category: net-irc
+  description: ""
+  id: 0
+  license: ""
+  name: quassel-common
+  
+  version: 0.12.5
+- 
+  category: app-crypt
+  description: ""
+  id: 0
+  license: ""
+  name: qca
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  id: 0
+  license: ""
+  name: knotifications
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtwebengine
   
   version: ""
 uri:

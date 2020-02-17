@@ -1,98 +1,98 @@
-ID: 0
 category: media-sound
 conflicts:
-- ID: 0
-  
+- 
   category: media-sound
   description: ""
+  id: 0
   license: ""
   name: jack-cvs
   
   version: ""
-- ID: 0
-  
+- 
   category: app-emulation
   description: ""
+  id: 0
   license: ""
   name: emul-linux-x86-soundlibs[-abi_x86_32(-)]
   
   version: ""
-- ID: 0
-  
+- 
   category: <=app-emulation
   description: ""
+  id: 0
   license: ""
   name: emul-linux-x86-soundlibs
   
   version: 20130224-r7
 description: A low-latency audio server
+id: 0
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: 0.1.8-r1
-- ID: 0
-  
-  category: sys-process
-  description: ""
-  license: ""
-  name: lsof
-  
-  version: ""
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.0
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.27.2
-- ID: 0
-  
-  category: media-libs
-  description: ""
-  license: ""
-  name: libffado
-  
-  version: ""
-- ID: 0
-  
+- 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: realtime-base
   
   version: ""
-- ID: 0
-  
+- 
   category: sys-libs
   description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- ID: 0
-  
-  category: sys-libs
-  description: ""
+  id: 0
   license: ""
   name: readline
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsamplerate
+  
+  version: 0.1.8-r1
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.27.2
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libffado
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  id: 0
+  license: ""
+  name: lsof
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: db
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.0
 uri:
 - http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz
 use_flags:
