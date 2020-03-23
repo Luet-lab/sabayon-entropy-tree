@@ -5,28 +5,22 @@ id: 0
 license: GPL-2
 name: nautilus-image-converter
 requires:
-- 
-  category: gnome-base
-  description: ""
+  
+  category: dev-libs
   id: 0
-  license: ""
+  name: glib
+  
+  version: ""
+  
+  category: gnome-base
+  id: 0
   name: nautilus
   
   version: "3"
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gtk+
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
+  category: x11-libs
   id: 0
-  license: ""
-  name: glib
+  name: gtk+
   
   version: ""
 uri:

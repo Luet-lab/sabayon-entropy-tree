@@ -5,100 +5,76 @@ id: 0
 license: GPL-3
 name: autokey
 requires:
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gobject-introspection
   
-  version: ""
-- 
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: dbus-python
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
-  name: pyinotify
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  id: 0
-  license: ""
-  name: zenity
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gtksourceview
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
   name: pygobject
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
-  name: pyatspi
+  name: pyinotify
   
   version: ""
-- 
+  
   category: dev-python
-  description: ""
   id: 0
-  license: ""
   name: python-xlib
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
+  name: gtksourceview
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libnotify
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: pyatspi
+  
+  version: ""
+  
+  category: gnome-extra
+  id: 0
+  name: zenity
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
   name: gtk+
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: pango
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: glib
   
   version: ""
 uri:

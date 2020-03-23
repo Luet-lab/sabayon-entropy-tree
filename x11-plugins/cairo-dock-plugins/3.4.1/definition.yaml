@@ -5,204 +5,154 @@ id: 0
 license: GPL-3
 name: cairo-dock-plugins
 requires:
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libexif
   
-  version: ""
-- 
   category: gnome-base
-  description: ""
   id: 0
-  license: ""
-  name: gnome-menus
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  id: 0
-  license: ""
-  name: thunar
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  id: 0
-  license: ""
-  name: gnote
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  id: 0
-  license: ""
-  name: cairo-dock
-  
-  version: 3.4.1
-- 
-  category: media-libs
-  description: ""
-  id: 0
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libindicator
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libzeitgeist
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: oauth
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: simplejson
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libetpan
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  id: 0
-  license: ""
-  name: webkit-gtk
-  
-  version: 1.4.0
-- 
-  category: kde-frameworks
-  description: ""
-  id: 0
-  license: ""
-  name: kdelibs
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  id: 0
-  license: ""
   name: librsvg
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
+  
+  category: media-libs
   id: 0
-  license: ""
-  name: cairo
+  name: alsa-lib
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
+  
+  category: media-libs
   id: 0
-  license: ""
+  name: libexif
+  
+  version: ""
+  
+  category: kde-frameworks
+  id: 0
+  name: kdelibs
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: oauth
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: simplejson
+  
+  version: ""
+  
+  category: net-libs
+  id: 0
+  name: libetpan
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libxml2
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
   name: gtk+
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
+  
+  category: x11-libs
   id: 0
-  license: ""
-  name: vala
+  name: vte
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
+  name: libzeitgeist
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
   name: glib
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
+  name: cairo
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
   name: gtkglext
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
+  
+  category: x11-misc
   id: 0
-  license: ""
-  name: vte
+  name: cairo-dock
+  
+  version: 3.4.1
+  
+  category: net-libs
+  id: 0
+  name: webkit-gtk
+  
+  version: 1.4.0
+  
+  category: x11-libs
+  id: 0
+  name: libXxf86vm
+  
+  version: ""
+  
+  category: app-misc
+  id: 0
+  name: gnote
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: dbus
+  
+  version: ""
+  
+  category: gnome-base
+  id: 0
+  name: gnome-menus
+  
+  version: ""
+  
+  category: dev-lang
+  id: 0
+  name: vala
+  
+  version: ""
+  
+  category: xfce-base
+  id: 0
+  name: thunar
+  
+  version: ""
+  
+  category: x11-libs
+  id: 0
+  name: libxklavier
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libindicator
   
   version: ""
 uri:

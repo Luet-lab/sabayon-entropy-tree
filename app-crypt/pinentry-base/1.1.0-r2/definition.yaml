@@ -5,59 +5,45 @@ id: 0
 license: GPL-2
 name: pinentry-base
 requires:
-- 
+  
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
   name: ncurses
   
   version: ""
-- 
+  
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
   name: libcap
   
   version: ""
-- 
+  
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
   name: ncurses
   
   version: 5.7-r5
-- 
+  
   category: app-eselect
-  description: ""
   id: 0
-  license: ""
   name: eselect-pinentry
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: libgpg-error
   
   version: "1.17"
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: libassuan
   
   version: "2.1"
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: libgcrypt
   
   version: 1.6.3

@@ -1,18 +1,14 @@
 category: net-dns
 conflicts:
-- 
+  
   category: net-misc
-  description: ""
   id: 0
-  license: ""
   name: mDNSResponder
   
   version: ""
-- 
+  
   category: net-misc
-  description: ""
   id: 0
-  license: ""
   name: howl
   
   version: ""
@@ -21,92 +17,70 @@ id: 0
 license: LGPL-2.1
 name: avahi-base
 requires:
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libdaemon
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: glib
-  
-  version: ""
-- 
   category: sys-libs
-  description: ""
   id: 0
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: twisted
-  
-  version: 16.0.0
-- 
-  category: sys-libs
-  description: ""
-  id: 0
-  license: ""
   name: gdbm
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
+  
+  category: sys-libs
   id: 0
-  license: ""
-  name: dbus
+  name: libcap
   
   version: ""
-- 
-  category: dev-python
-  description: ""
+  
+  category: dev-libs
   id: 0
-  license: ""
+  name: gobject-introspection
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
+  name: dbus-python
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: expat
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: glib
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
   name: pygobject
   
   version: ""
-- 
-  category: sec-policy
-  description: ""
+  
+  category: dev-python
   id: 0
-  license: ""
+  name: twisted
+  
+  version: 16.0.0
+  
+  category: sec-policy
+  id: 0
   name: selinux-avahi
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libdaemon
+  
+  version: ""
+  
+  category: sys-apps
+  id: 0
+  name: dbus
   
   version: ""
 uri:

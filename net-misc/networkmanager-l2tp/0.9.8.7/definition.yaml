@@ -5,62 +5,48 @@ id: 0
 license: GPL-2+
 name: networkmanager-l2tp
 requires:
-- 
-  category: net-dialup
-  description: ""
-  id: 0
-  license: ""
-  name: ppp
   
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  id: 0
-  license: ""
-  name: networkmanager
-  
-  version: 0.9.6.4
-- 
   category: sys-apps
-  description: ""
   id: 0
-  license: ""
   name: dbus
   
   version: ""
-- 
+  
   category: gnome-base
-  description: ""
   id: 0
-  license: ""
   name: libgnome-keyring
   
   version: ""
-- 
+  
   category: x11-libs
-  description: ""
   id: 0
-  license: ""
   name: gtk+
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: dbus-glib
   
   version: ""
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: glib
   
   version: ""
+  
+  category: net-dialup
+  id: 0
+  name: ppp
+  
+  version: ""
+  
+  category: net-misc
+  id: 0
+  name: networkmanager
+  
+  version: 0.9.6.4
 uri:
 - https://github.com/seriyps/NetworkManager-l2tp/archive/0.9.8.7.tar.gz -> networkmanager-l2tp-0.9.8.7.tar.gz
 use_flags:

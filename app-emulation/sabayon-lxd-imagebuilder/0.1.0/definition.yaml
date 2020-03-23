@@ -5,28 +5,22 @@ id: 0
 license: LGPL-2.1
 name: sabayon-lxd-imagebuilder
 requires:
-- 
+  
   category: app-emulation
-  description: ""
   id: 0
-  license: ""
+  name: docker
+  
+  version: ""
+  
+  category: app-emulation
+  id: 0
   name: lxd
   
   version: ""
-- 
-  category: app-emulation
-  description: ""
-  id: 0
-  license: ""
-  name: docker-companion
   
-  version: ""
-- 
   category: app-emulation
-  description: ""
   id: 0
-  license: ""
-  name: docker
+  name: docker-companion
   
   version: ""
 uri:

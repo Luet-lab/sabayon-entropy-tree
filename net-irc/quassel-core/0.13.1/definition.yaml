@@ -5,68 +5,52 @@ id: 0
 license: GPL-3
 name: quassel-core
 requires:
-- 
-  category: app-crypt
-  description: ""
+  
+  category: dev-qt
   id: 0
-  license: ""
+  name: qtscript
+  
+  version: ""
+  
+  category: app-crypt
+  id: 0
   name: qca
   
   version: ""
-- 
+  
   category: net-nds
-  description: ""
   id: 0
-  license: ""
   name: openldap
   
   version: ""
-- 
+  
   category: dev-qt
-  description: ""
   id: 0
-  license: ""
   name: qtsql
   
   version: ""
-- 
+  
   category: dev-db
-  description: ""
   id: 0
-  license: ""
   name: sqlite
   
   version: ""
-- 
+  
   category: virtual
-  description: ""
   id: 0
-  license: ""
   name: logger
   
   version: ""
-- 
+  
   category: dev-qt
-  description: ""
   id: 0
-  license: ""
   name: qtcore
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  id: 0
-  license: ""
-  name: zlib
   
-  version: ""
-- 
-  category: dev-qt
-  description: ""
+  category: sys-libs
   id: 0
-  license: ""
-  name: qtscript
+  name: zlib
   
   version: ""
 uri:

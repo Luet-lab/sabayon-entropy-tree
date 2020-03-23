@@ -5,52 +5,40 @@ id: 0
 license: GPL-2
 name: sabayon-sark
 requires:
-- 
-  category: app-misc
-  description: ""
+  
+  category: dev-util
   id: 0
-  license: ""
+  name: pkgs-checker
+  
+  version: ""
+  
+  category: app-misc
+  id: 0
   name: sabayon-devkit
   
   version: ""
-- 
+  
   category: sys-process
-  description: ""
   id: 0
-  license: ""
   name: tini
   
   version: ""
-- 
+  
   category: app-emulation
-  description: ""
   id: 0
-  license: ""
   name: docker
   
   version: ""
-- 
+  
   category: dev-lang
-  description: ""
   id: 0
-  license: ""
   name: perl
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: shyaml
   
-  version: ""
-- 
-  category: dev-util
-  description: ""
+  category: dev-python
   id: 0
-  license: ""
-  name: pkgs-checker
+  name: shyaml
   
   version: ""
 uri:

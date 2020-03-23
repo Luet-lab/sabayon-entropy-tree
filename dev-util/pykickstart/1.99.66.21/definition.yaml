@@ -5,20 +5,16 @@ id: 0
 license: GPL-2
 name: pykickstart
 requires:
-- 
-  category: app-i18n
-  description: ""
+  
+  category: sys-devel
   id: 0
-  license: ""
-  name: transifex-client
+  name: gettext
   
   version: ""
-- 
-  category: sys-devel
-  description: ""
+  
+  category: app-i18n
   id: 0
-  license: ""
-  name: gettext
+  name: transifex-client
   
   version: ""
 uri:

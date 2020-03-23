@@ -5,28 +5,22 @@ id: 0
 license: MIT
 name: obkey
 requires:
-- 
-  category: dev-python
-  description: ""
+  
+  category: x11-wm
   id: 0
-  license: ""
+  name: openbox
+  
+  version: ""
+  
+  category: dev-python
+  id: 0
   name: pygobject
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  id: 0
-  license: ""
-  name: pygtk
   
-  version: ""
-- 
-  category: x11-wm
-  description: ""
+  category: dev-python
   id: 0
-  license: ""
-  name: openbox
+  name: pygtk
   
   version: ""
 uri:
