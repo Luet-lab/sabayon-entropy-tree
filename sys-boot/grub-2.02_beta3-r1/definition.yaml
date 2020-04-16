@@ -1,100 +1,70 @@
 category: sys-boot
 conflicts:
-  
   category: sys-boot
   id: 0
   name: grub
-  
   version: ""
 description: GNU GRUB boot loader
 id: 0
 license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
-  
-  category: sys-apps
-  id: 0
-  name: ibm-powerpc-utils
-  
-  version: ""
-  
-  category: sys-apps
-  id: 0
-  name: powerpc-utils
-  
-  version: ""
-  
-  category: sys-fs
-  id: 0
-  name: zfs
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: freetype
-  
-  version: ""
-  
-  category: sys-boot
-  id: 0
-  name: efibootmgr
-  
-  version: ""
-  
-  category: app-crypt
-  id: 0
-  name: sbsigntools
-  
-  version: ""
-  
-  category: sys-boot
-  id: 0
-  name: os-prober
-  
-  version: ""
-  
-  category: x11-themes
-  id: 0
-  name: sabayon-artwork-grub
-  
-  version: ""
-  
-  category: media-libs
-  id: 0
-  name: libsdl
-  
-  version: ""
-  
   category: sys-fs
   id: 0
   name: lvm2
-  
   version: 2.02.45
-  
   category: sys-fs
   id: 0
-  name: fuse
-  
+  name: zfs
   version: ""
-  
-  category: sys-devel
+  category: sys-apps
   id: 0
-  name: gettext
-  
+  name: ibm-powerpc-utils
   version: ""
-  
-  category: app-arch
+  category: sys-apps
   id: 0
-  name: xz-utils
-  
+  name: powerpc-utils
   version: ""
-  
+  category: sys-boot
+  id: 0
+  name: efibootmgr
+  version: ""
+  category: sys-boot
+  id: 0
+  name: os-prober
+  version: ""
   category: sys-libs
   id: 0
   name: ncurses
-  
   version: 5.2-r5
+  category: sys-devel
+  id: 0
+  name: gettext
+  version: ""
+  category: media-libs
+  id: 0
+  name: libsdl
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype
+  version: ""
+  category: app-arch
+  id: 0
+  name: xz-utils
+  version: ""
+  category: sys-fs
+  id: 0
+  name: fuse
+  version: ""
+  category: app-crypt
+  id: 0
+  name: sbsigntools
+  version: ""
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-grub
+  version: ""
 uri:
 - mirror://gnu/grub-2.02_beta3-r1/grub-2.02_beta3-r1-.tar.xz
 - mirror://gentoo/grub-2.02_beta3-r1-.tar.xz
