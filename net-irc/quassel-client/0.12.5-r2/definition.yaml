@@ -6,9 +6,21 @@ id: 0
 license: GPL-3
 name: quassel-client
 requires:
-  category: dev-libs
+  category: kde-frameworks
   id: 0
-  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  name: knotifications
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kwidgetsaddons
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kconfigwidgets
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtcore
   version: ""
   category: dev-qt
   id: 0
@@ -16,31 +28,35 @@ requires:
   version: ""
   category: kde-frameworks
   id: 0
-  name: kconfigwidgets
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: knotifications
-  version: ""
-  category: kde-frameworks
-  id: 0
   name: ktextwidgets
   version: ""
   category: kde-frameworks
   id: 0
-  name: kwidgetsaddons
+  name: kxmlgui
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: sonnet
   version: ""
   category: media-libs
   id: 0
   name: phonon[qt5(+)]
   version: ""
-  category: x11-libs
+  category: net-irc
   id: 0
-  name: snorenotify
-  version: 0.7.0
+  name: quassel-common
+  version: 0.12.5
   category: dev-qt
   id: 0
   name: qtwidgets
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libdbusmenu-qt-0.9.3_pre20140619[qt5(+)]
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtwebengine
   version: ""
   category: sys-libs
   id: 0
@@ -52,31 +68,15 @@ requires:
   version: ""
   category: kde-frameworks
   id: 0
-  name: sonnet
+  name: knotifyconfig
   version: ""
-  category: dev-qt
+  category: x11-libs
   id: 0
-  name: qtwebengine
-  version: ""
-  category: net-irc
-  id: 0
-  name: quassel-common
-  version: 0.12.5
+  name: snorenotify
+  version: 0.7.0
   category: dev-qt
   id: 0
   name: qtgui
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: knotifyconfig
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: kxmlgui
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtcore
   version: ""
 uri:
 - http://quassel-irc.org/pub/quassel-0.12.5.tar.bz2

@@ -7,51 +7,7 @@ name: brave-bin
 requires:
   category: x11-libs
   id: 0
-  name: libXdmcp
-  version: ""
-  category: media-libs
-  id: 0
-  name: libepoxy
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libunistring
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXinerama
-  version: ""
-  category: dev-libs
-  id: 0
-  name: nss
-  version: ""
-  category: media-libs
-  id: 0
-  name: alsa-lib
-  version: ""
-  category: x11-libs
-  id: 0
-  name: gdk-pixbuf
-  version: ""
-  category: virtual
-  id: 0
-  name: libffi
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libpcre
-  version: ""
-  category: dev-libs
-  id: 0
-  name: nettle
-  version: ""
-  category: app-arch
-  id: 0
-  name: bzip2
+  name: libXcomposite
   version: ""
   category: x11-libs
   id: 0
@@ -59,43 +15,7 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libXrandr
-  version: ""
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: ""
-  category: dev-libs
-  id: 0
-  name: gmp
-  version: ""
-  category: media-gfx
-  id: 0
-  name: graphite2
-  version: ""
-  category: app-accessibility
-  id: 0
-  name: at-spi2-core
-  version: ""
-  category: media-libs
-  id: 0
-  name: fontconfig
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXcursor
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXtst
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: nspr
+  name: libXxf86vm
   version: ""
   category: net-print
   id: 0
@@ -105,85 +25,25 @@ requires:
   id: 0
   name: cairo
   version: ""
-  category: dev-libs
-  id: 0
-  name: libbsd
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libtasn1
-  version: ""
-  category: net-dns
-  id: 0
-  name: libidn2
-  version: ""
-  category: media-libs
-  id: 0
-  name: libpng
-  version: 1.6.34
-  category: x11-libs
-  id: 0
-  name: libXext
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXfixes
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXrender
-  version: ""
-  category: x11-libs
-  id: 0
-  name: gtk+
-  version: ""
-  category: net-libs
-  id: 0
-  name: gnutls
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXcomposite
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libxshmfence
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXau
-  version: ""
-  category: x11-libs
-  id: 0
-  name: pango
-  version: ""
   category: app-accessibility
   id: 0
   name: at-spi2-atk
   version: ""
-  category: media-libs
+  category: sys-libs
   id: 0
-  name: harfbuzz
-  version: ""
-  category: dev-libs
-  id: 0
-  name: expat
-  version: ""
-  category: media-libs
-  id: 0
-  name: freetype
-  version: ""
-  category: dev-libs
-  id: 0
-  name: atk
+  name: zlib
   version: ""
   category: dev-libs
   id: 0
   name: fribidi
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXtst
+  version: ""
+  category: media-libs
+  id: 0
+  name: alsa-lib
   version: ""
   category: gnome-base
   id: 0
@@ -195,23 +55,163 @@ requires:
   version: ""
   category: x11-libs
   id: 0
+  name: libXrender
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXau
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
+  category: app-arch
+  id: 0
+  name: bzip2
+  version: ""
+  category: x11-libs
+  id: 0
   name: libxcb
   version: ""
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: libXxf86vm
+  name: nspr
   version: ""
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: libXScrnSaver
+  name: expat
   version: ""
   category: dev-libs
   id: 0
   name: gobject-introspection
   version: ""
+  category: dev-libs
+  id: 0
+  name: libpcre
+  version: ""
+  category: dev-libs
+  id: 0
+  name: nettle
+  version: ""
+  category: dev-libs
+  id: 0
+  name: gmp
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXi
+  version: ""
+  category: dev-libs
+  id: 0
+  name: nss
+  version: ""
+  category: dev-libs
+  id: 0
+  name: atk
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gdk-pixbuf
+  version: ""
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
+  category: net-dns
+  id: 0
+  name: libidn2
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXcursor
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXrandr
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXdmcp
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: ""
+  category: net-libs
+  id: 0
+  name: gnutls
+  version: ""
+  category: media-libs
+  id: 0
+  name: harfbuzz
+  version: ""
+  category: media-libs
+  id: 0
+  name: libpng
+  version: 1.6.34
+  category: media-gfx
+  id: 0
+  name: graphite2
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXext
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXfixes
+  version: ""
   category: x11-libs
   id: 0
   name: pixman
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libbsd
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libunistring
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libxshmfence
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXScrnSaver
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXinerama
+  version: ""
+  category: x11-libs
+  id: 0
+  name: pango
+  version: ""
+  category: app-accessibility
+  id: 0
+  name: at-spi2-core
+  version: ""
+  category: virtual
+  id: 0
+  name: libffi
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype
+  version: ""
+  category: media-libs
+  id: 0
+  name: libepoxy
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libtasn1
   version: ""
 uri:
 - https://github.com/brave/brave-browser/releases/download/v1.3.113/brave-v1.3.113-linux-x64.zip

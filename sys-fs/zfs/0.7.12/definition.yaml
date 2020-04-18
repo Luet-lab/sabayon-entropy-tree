@@ -17,37 +17,29 @@ id: 0
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-  category: sys-block
-  id: 0
-  name: parted
-  version: ""
-  category: app-misc
-  id: 0
-  name: pax-utils
-  version: ""
-  category: virtual
-  id: 0
-  name: awk
-  version: ""
   category: virtual
   id: 0
   name: udev
-  version: ""
-  category: sys-devel
-  id: 0
-  name: bc
-  version: ""
-  category: virtual
-  id: 0
-  name: modutils
   version: ""
   category: sys-apps
   id: 0
   name: util-linux
   version: ""
+  category: sys-block
+  id: 0
+  name: parted
+  version: ""
   category: sys-fs
   id: 0
   name: mdadm
+  version: ""
+  category: virtual
+  id: 0
+  name: awk
+  version: ""
+  category: sys-devel
+  id: 0
+  name: bc
   version: ""
   category: sys-fs
   id: 0
@@ -57,14 +49,22 @@ requires:
   id: 0
   name: procps
   version: ""
-  category: app-arch
-  id: 0
-  name: cpio
-  version: ""
   category: sys-fs
   id: 0
   name: zfs-kmod
   version: 0.7.12
+  category: virtual
+  id: 0
+  name: modutils
+  version: ""
+  category: app-arch
+  id: 0
+  name: cpio
+  version: ""
+  category: app-misc
+  id: 0
+  name: pax-utils
+  version: ""
   category: sys-fs
   id: 0
   name: udev-init-scripts

@@ -1,12 +1,12 @@
 category: sys-fs
 conflicts:
-  category: sys-kernel
-  id: 0
-  name: spl
-  version: ""
   category: sys-fs
   id: 0
   name: zfs-fuse
+  version: ""
+  category: sys-kernel
+  id: 0
+  name: spl
   version: ""
 description: Linux ZFS kernel module for sys-fs/zfs
 id: 0

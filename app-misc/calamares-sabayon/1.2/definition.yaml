@@ -7,7 +7,15 @@ name: calamares-sabayon
 requires:
   category: sys-fs
   id: 0
-  name: jfsutils
+  name: xfsdump
+  version: ""
+  category: app-misc
+  id: 0
+  name: calamares-sabayon-branding
+  version: ""
+  category: sys-fs
+  id: 0
+  name: dosfstools
   version: ""
   category: sys-fs
   id: 0
@@ -16,14 +24,6 @@ requires:
   category: sys-fs
   id: 0
   name: xfsprogs
-  version: ""
-  category: app-misc
-  id: 0
-  name: calamares-sabayon-base-modules
-  version: ""
-  category: sys-fs
-  id: 0
-  name: dosfstools
   version: ""
   category: sys-fs
   id: 0
@@ -35,11 +35,11 @@ requires:
   version: ""
   category: app-misc
   id: 0
-  name: calamares-sabayon-branding
+  name: calamares-sabayon-base-modules
   version: ""
   category: sys-fs
   id: 0
-  name: xfsdump
+  name: jfsutils
   version: ""
 uri:
 - mirror://sabayon//calamares-sabayon/installer-desktop-icon.png

@@ -5,50 +5,6 @@ id: 0
 license: GPL-3
 name: cairo-dock-plugins
 requires:
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: ""
-  category: x11-libs
-  id: 0
-  name: gtkglext
-  version: ""
-  category: gnome-base
-  id: 0
-  name: gnome-menus
-  version: ""
-  category: x11-libs
-  id: 0
-  name: vte
-  version: ""
-  category: net-libs
-  id: 0
-  name: webkit-gtk
-  version: 1.4.0
-  category: app-misc
-  id: 0
-  name: gnote
-  version: ""
-  category: net-libs
-  id: 0
-  name: libetpan
-  version: ""
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: ""
-  category: x11-libs
-  id: 0
-  name: gtk+
-  version: ""
-  category: x11-misc
-  id: 0
-  name: cairo-dock
-  version: 3.4.1
   category: media-libs
   id: 0
   name: alsa-lib
@@ -65,17 +21,65 @@ requires:
   id: 0
   name: thunar
   version: ""
+  category: app-misc
+  id: 0
+  name: gnote
+  version: ""
+  category: dev-python
+  id: 0
+  name: oauth
+  version: ""
+  category: gnome-base
+  id: 0
+  name: librsvg
+  version: ""
+  category: x11-misc
+  id: 0
+  name: cairo-dock
+  version: 3.4.1
   category: x11-libs
   id: 0
-  name: libxklavier
+  name: vte
   version: ""
   category: dev-libs
   id: 0
-  name: libindicator
+  name: libzeitgeist
+  version: ""
+  category: net-libs
+  id: 0
+  name: libetpan
+  version: ""
+  category: dev-lang
+  id: 0
+  name: vala
   version: ""
   category: x11-libs
   id: 0
   name: libXxf86vm
+  version: ""
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libxml2
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtkglext
+  version: ""
+  category: gnome-base
+  id: 0
+  name: gnome-menus
   version: ""
   category: dev-python
   id: 0
@@ -83,27 +87,23 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libxml2
+  name: libindicator
   version: ""
-  category: gnome-base
+  category: sys-apps
   id: 0
-  name: librsvg
+  name: dbus
   version: ""
   category: x11-libs
   id: 0
   name: cairo
   version: ""
-  category: dev-lang
+  category: net-libs
   id: 0
-  name: vala
-  version: ""
-  category: dev-python
+  name: webkit-gtk
+  version: 1.4.0
+  category: x11-libs
   id: 0
-  name: oauth
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libzeitgeist
+  name: libxklavier
   version: ""
 uri:
 - http://launchpad.net/cairo-dock-plug-ins//3.4.1/+download/cairo-dock-plug-ins-3.4.1.tar.gz

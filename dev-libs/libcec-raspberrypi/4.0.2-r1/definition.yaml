@@ -5,10 +5,6 @@ id: 0
 license: GPL-2
 name: libcec-raspberrypi
 requires:
-  category: sys-libs
-  id: 0
-  name: ncurses
-  version: ""
   category: media-libs
   id: 0
   name: raspberrypi-userland
@@ -25,6 +21,10 @@ requires:
   id: 0
   name: libplatform
   version: 2.0.0
+  category: sys-libs
+  id: 0
+  name: ncurses
+  version: ""
 uri:
 - https://github.com/Pulse-Eight/libcec/archive/libcec-4.0.2.tar.gz
 use_flags:

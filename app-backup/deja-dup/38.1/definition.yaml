@@ -5,6 +5,38 @@ id: 0
 license: GPL-3
 name: deja-dup
 requires:
+  category: app-admin
+  id: 0
+  name: packagekit-base
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libpeas
+  version: "1.0"
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: "3.10"
+  category: x11-libs
+  id: 0
+  name: libnotify
+  version: "0.7"
+  category: app-backup
+  id: 0
+  name: duplicity
+  version: 0.7.14
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: ""
+  category: net-libs
+  id: 0
+  name: gnome-online-accounts
+  version: ""
+  category: dev-libs
+  id: 0
+  name: appstream-glib
+  version: ""
   category: gnome-base
   id: 0
   name: nautilus
@@ -13,49 +45,17 @@ requires:
   id: 0
   name: dconf
   version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.34"
-  category: dev-libs
-  id: 0
-  name: libpeas
-  version: "1.0"
-  category: x11-libs
-  id: 0
-  name: libnotify
-  version: "0.7"
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: appstream-glib
-  version: ""
-  category: gnome-base
-  id: 0
-  name: gvfs
-  version: ""
-  category: app-admin
-  id: 0
-  name: packagekit-base
-  version: ""
   category: app-crypt
   id: 0
   name: libsecret
   version: ""
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: gtk+
-  version: "3.10"
-  category: app-backup
+  name: glib
+  version: "2.34"
+  category: gnome-base
   id: 0
-  name: duplicity
-  version: 0.7.14
-  category: net-libs
-  id: 0
-  name: gnome-online-accounts
+  name: gvfs
   version: ""
 uri:
 - https://launchpad.net/deja-dup/38/38.1/+download/deja-dup-38.1.tar.xz

@@ -25,18 +25,6 @@ requires:
   id: 0
   name: eselect-python
   version: ""
-  category: sys-kernel
-  id: 0
-  name: sabayon-dracut
-  version: ""
-  category: virtual
-  id: 0
-  name: man
-  version: ""
-  category: sys-devel
-  id: 0
-  name: base-gcc
-  version: ""
   category: dev-lang
   id: 0
   name: python
@@ -45,9 +33,21 @@ requires:
   id: 0
   name: systemd
   version: ""
+  category: virtual
+  id: 0
+  name: man
+  version: ""
   category: sys-devel
   id: 0
   name: gcc-config
+  version: ""
+  category: sys-kernel
+  id: 0
+  name: sabayon-dracut
+  version: ""
+  category: sys-devel
+  id: 0
+  name: base-gcc
   version: ""
 use_flags:
 - ""

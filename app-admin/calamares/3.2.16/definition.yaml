@@ -5,21 +5,21 @@ id: 0
 license: GPL-3
 name: calamares
 requires:
-  category: sys-apps
+  category: dev-libs
   id: 0
-  name: dmidecode
-  version: ""
-  category: sys-libs
-  id: 0
-  name: kpmcore
-  version: 4.0.0
-  category: app-admin
-  id: 0
-  name: sudo
+  name: libpwquality
   version: ""
   category: net-misc
   id: 0
   name: rsync
+  version: ""
+  category: sys-fs
+  id: 0
+  name: ntfs3g
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtconcurrent
   version: ""
   category: dev-qt
   id: 0
@@ -27,27 +27,43 @@ requires:
   version: ""
   category: kde-frameworks
   id: 0
-  name: kconfig
+  name: kservice
+  version: ""
+  category: sys-auth
+  id: 0
+  name: polkit-qt
+  version: ""
+  category: app-admin
+  id: 0
+  name: sudo
   version: ""
   category: kde-frameworks
   id: 0
-  name: kcrash
+  name: kconfig
   version: ""
   category: sys-apps
   id: 0
-  name: dbus
+  name: dmidecode
   version: ""
   category: dev-qt
   id: 0
-  name: qtdbus
+  name: linguist-tools
   version: ""
   category: dev-qt
   id: 0
   name: qtsvg
   version: ""
-  category: sys-auth
+  category: kde-frameworks
   id: 0
-  name: polkit-qt
+  name: kpackage
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libatasmart
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kcoreaddons
   version: ""
   category: dev-python
   id: 0
@@ -55,12 +71,16 @@ requires:
   version: "3.1"
   category: dev-qt
   id: 0
-  name: linguist-tools
+  name: qtdbus
   version: ""
   category: dev-qt
   id: 0
-  name: qtnetwork
+  name: qtgui
   version: ""
+  category: dev-libs
+  id: 0
+  name: boost
+  version: "1.55"
   category: dev-qt
   id: 0
   name: qtdeclarative
@@ -69,9 +89,9 @@ requires:
   id: 0
   name: qtwebengine
   version: ""
-  category: kde-frameworks
+  category: dev-qt
   id: 0
-  name: kservice
+  name: qtxml
   version: ""
   category: kde-frameworks
   id: 0
@@ -81,46 +101,26 @@ requires:
   id: 0
   name: yaml-cpp
   version: ""
-  category: dev-libs
+  category: dev-qt
   id: 0
-  name: libatasmart
+  name: qtnetwork
   version: ""
+  category: kde-frameworks
+  id: 0
+  name: kcrash
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
+  category: sys-libs
+  id: 0
+  name: kpmcore
+  version: 4.0.0
   category: sys-block
   id: 0
   name: parted
   version: "3.0"
-  category: dev-qt
-  id: 0
-  name: qtgui
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtxml
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: kcoreaddons
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: kpackage
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtconcurrent
-  version: ""
-  category: dev-libs
-  id: 0
-  name: boost
-  version: "1.55"
-  category: dev-libs
-  id: 0
-  name: libpwquality
-  version: ""
-  category: sys-fs
-  id: 0
-  name: ntfs3g
-  version: ""
 uri:
 - https://github.com/calamares/calamares/releases/download/v3.2.16/calamares-3.2.16.tar.gz
 use_flags:

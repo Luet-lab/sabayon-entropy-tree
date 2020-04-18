@@ -5,14 +5,6 @@ id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-core
 requires:
-  category: sys-apps
-  id: 0
-  name: findutils
-  version: ""
-  category: x11-themes
-  id: 0
-  name: sabayon-artwork-cursor
-  version: ""
   category: x11-themes
   id: 0
   name: sabayon-artwork-grub
@@ -24,6 +16,14 @@ requires:
   category: x11-themes
   id: 0
   name: sabayon-artwork-wallpapers
+  version: ""
+  category: sys-apps
+  id: 0
+  name: findutils
+  version: ""
+  category: x11-themes
+  id: 0
+  name: sabayon-artwork-cursor
   version: ""
 use_flags:
 - ""

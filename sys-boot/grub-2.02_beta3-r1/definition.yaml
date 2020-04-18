@@ -9,25 +9,33 @@ id: 0
 license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub-2.02_beta3-r1
 requires:
-  category: sys-fs
+  category: app-crypt
   id: 0
-  name: lvm2
-  version: 2.02.45
-  category: sys-fs
+  name: sbsigntools
+  version: ""
+  category: x11-themes
   id: 0
-  name: zfs
+  name: sabayon-artwork-grub
   version: ""
   category: sys-apps
   id: 0
   name: ibm-powerpc-utils
   version: ""
+  category: app-arch
+  id: 0
+  name: xz-utils
+  version: ""
+  category: sys-fs
+  id: 0
+  name: lvm2
+  version: 2.02.45
   category: sys-apps
   id: 0
   name: powerpc-utils
   version: ""
-  category: sys-boot
+  category: sys-devel
   id: 0
-  name: efibootmgr
+  name: gettext
   version: ""
   category: sys-boot
   id: 0
@@ -37,33 +45,25 @@ requires:
   id: 0
   name: ncurses
   version: 5.2-r5
-  category: sys-devel
+  category: sys-boot
   id: 0
-  name: gettext
+  name: efibootmgr
   version: ""
   category: media-libs
   id: 0
   name: libsdl
   version: ""
-  category: media-libs
+  category: sys-fs
   id: 0
-  name: freetype
-  version: ""
-  category: app-arch
-  id: 0
-  name: xz-utils
+  name: zfs
   version: ""
   category: sys-fs
   id: 0
   name: fuse
   version: ""
-  category: app-crypt
+  category: media-libs
   id: 0
-  name: sbsigntools
-  version: ""
-  category: x11-themes
-  id: 0
-  name: sabayon-artwork-grub
+  name: freetype
   version: ""
 uri:
 - mirror://gnu/grub-2.02_beta3-r1/grub-2.02_beta3-r1-.tar.xz

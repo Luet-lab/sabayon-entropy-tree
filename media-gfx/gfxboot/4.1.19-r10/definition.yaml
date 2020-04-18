@@ -5,6 +5,10 @@ id: 0
 license: GPL-2
 name: gfxboot
 requires:
+  category: app-arch
+  id: 0
+  name: cpio
+  version: ""
   category: dev-lang
   id: 0
   name: nasm
@@ -32,10 +36,6 @@ requires:
   category: dev-perl
   id: 0
   name: HTML-Parser
-  version: ""
-  category: app-arch
-  id: 0
-  name: cpio
   version: ""
 uri:
 - download.opensuse.org/repositories/Education/SLE-11/src/gfxboot-4.1.19-.1.src.rpm

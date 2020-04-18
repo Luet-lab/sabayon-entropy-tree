@@ -5,17 +5,9 @@ id: 0
 license: GPL-2
 name: idjc
 requires:
-  category: dev-python
-  id: 0
-  name: pygtk
-  version: ""
-  category: virtual
-  id: 0
-  name: ffmpeg
-  version: ""
   category: media-sound
   id: 0
-  name: lame
+  name: mpg123
   version: ""
   category: dev-python
   id: 0
@@ -27,23 +19,7 @@ requires:
   version: ""
   category: media-libs
   id: 0
-  name: speex
-  version: ""
-  category: media-libs
-  id: 0
   name: libsamplerate
-  version: ""
-  category: media-libs
-  id: 0
-  name: libsndfile
-  version: ""
-  category: media-sound
-  id: 0
-  name: jack-audio-connection-kit
-  version: 0.116.0
-  category: dev-python
-  id: 0
-  name: eyeD3
   version: ""
   category: media-libs
   id: 0
@@ -51,7 +27,11 @@ requires:
   version: ""
   category: media-sound
   id: 0
-  name: mpg123
+  name: jack-audio-connection-kit
+  version: 0.116.0
+  category: media-sound
+  id: 0
+  name: lame
   version: ""
   category: sys-devel
   id: 0
@@ -61,13 +41,33 @@ requires:
   id: 0
   name: mutagen
   version: ""
+  category: virtual
+  id: 0
+  name: ffmpeg
+  version: ""
   category: media-libs
   id: 0
-  name: flac
+  name: speex
   version: ""
   category: media-sound
   id: 0
   name: twolame
+  version: ""
+  category: dev-python
+  id: 0
+  name: eyeD3
+  version: ""
+  category: dev-python
+  id: 0
+  name: pygtk
+  version: ""
+  category: media-libs
+  id: 0
+  name: libsndfile
+  version: ""
+  category: media-libs
+  id: 0
+  name: flac
   version: ""
 uri:
 - mirror://sourceforge/idjc/idjc-0.8.14.tar.gz

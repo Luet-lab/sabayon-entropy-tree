@@ -7,6 +7,10 @@ name: nmap
 requires:
   category: dev-libs
   id: 0
+  name: libpcre
+  version: ""
+  category: dev-libs
+  id: 0
   name: libressl
   version: ""
   category: dev-lang
@@ -15,15 +19,7 @@ requires:
   version: "5.2"
   category: dev-libs
   id: 0
-  name: liblinear
-  version: ""
-  category: net-libs
-  id: 0
-  name: libssh2
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
+  name: apr
   version: ""
   category: dev-vcs
   id: 0
@@ -31,15 +27,19 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libpcre
+  name: openssl
+  version: ""
+  category: dev-libs
+  id: 0
+  name: liblinear
   version: ""
   category: net-libs
   id: 0
   name: libpcap
   version: ""
-  category: dev-libs
+  category: net-libs
   id: 0
-  name: apr
+  name: libssh2
   version: ""
 uri:
 - https://nmap.org/dist/nmap-7.70.tar.bz2

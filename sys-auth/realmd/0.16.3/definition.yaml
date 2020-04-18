@@ -5,14 +5,6 @@ id: 0
 license: LGPL-2+
 name: realmd
 requires:
-  category: app-admin
-  id: 0
-  name: packagekit-base
-  version: ""
-  category: sys-auth
-  id: 0
-  name: polkit
-  version: ""
   category: sys-devel
   id: 0
   name: gettext
@@ -28,6 +20,14 @@ requires:
   category: sys-apps
   id: 0
   name: systemd
+  version: ""
+  category: app-admin
+  id: 0
+  name: packagekit-base
+  version: ""
+  category: sys-auth
+  id: 0
+  name: polkit
   version: ""
 uri:
 - http://www.freedesktop.org/software/realmd/releases/realmd-0.16.3.tar.gz

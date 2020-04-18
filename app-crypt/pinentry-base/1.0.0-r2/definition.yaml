@@ -5,18 +5,6 @@ id: 0
 license: GPL-2
 name: pinentry-base
 requires:
-  category: dev-libs
-  id: 0
-  name: libassuan
-  version: "2.1"
-  category: dev-libs
-  id: 0
-  name: libgcrypt
-  version: 1.6.3
-  category: sys-libs
-  id: 0
-  name: ncurses
-  version: ""
   category: sys-libs
   id: 0
   name: libcap
@@ -33,6 +21,18 @@ requires:
   id: 0
   name: libgpg-error
   version: "1.17"
+  category: dev-libs
+  id: 0
+  name: libassuan
+  version: "2.1"
+  category: dev-libs
+  id: 0
+  name: libgcrypt
+  version: 1.6.3
+  category: sys-libs
+  id: 0
+  name: ncurses
+  version: ""
 uri:
 - mirror://gnupg/pinentry/pinentry-1.0.0.tar.bz2
 use_flags:

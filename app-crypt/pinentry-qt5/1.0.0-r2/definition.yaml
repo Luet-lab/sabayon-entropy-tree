@@ -13,10 +13,6 @@ id: 0
 license: GPL-2
 name: pinentry-qt5
 requires:
-  category: dev-qt
-  id: 0
-  name: qtwidgets
-  version: ""
   category: sys-libs
   id: 0
   name: ncurses
@@ -36,6 +32,10 @@ requires:
   category: dev-qt
   id: 0
   name: qtgui
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtwidgets
   version: ""
 uri:
 - mirror://gnupg/pinentry/pinentry-1.0.0.tar.bz2

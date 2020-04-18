@@ -11,15 +11,23 @@ name: glibc
 requires:
   category: sys-apps
   id: 0
-  name: sabayon-lib-migration-check
+  name: sabayon-lib-migration
   version: ""
   category: sys-apps
   id: 0
-  name: gentoo-functions
+  name: sabayon-lib-migration-check
   version: ""
   category: sys-libs
   id: 0
   name: libcap
+  version: ""
+  category: net-dns
+  id: 0
+  name: libidn2
+  version: 2.0.5
+  category: sys-process
+  id: 0
+  name: audit
   version: ""
   category: sys-libs
   id: 0
@@ -29,17 +37,9 @@ requires:
   id: 0
   name: systemtap
   version: ""
-  category: net-dns
-  id: 0
-  name: libidn2
-  version: 2.0.5
   category: sys-apps
   id: 0
-  name: sabayon-lib-migration
-  version: ""
-  category: sys-process
-  id: 0
-  name: audit
+  name: gentoo-functions
   version: ""
 uri:
 - 'mirror://gnu/glibc/glibc-2.29.tar.xz https://dev.gentoo.org/~dilfridge/distfiles/glibc-2.29-patches-8.tar.xz

@@ -17,6 +17,14 @@ id: 0
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
+  category: sys-libs
+  id: 0
+  name: db
+  version: ""
+  category: media-libs
+  id: 0
+  name: libffado
+  version: ""
   category: sys-process
   id: 0
   name: lsof
@@ -28,14 +36,6 @@ requires:
   category: sys-libs
   id: 0
   name: readline
-  version: ""
-  category: media-libs
-  id: 0
-  name: libffado
-  version: ""
-  category: sys-libs
-  id: 0
-  name: db
   version: ""
   category: media-libs
   id: 0

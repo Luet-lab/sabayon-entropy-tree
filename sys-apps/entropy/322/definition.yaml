@@ -5,6 +5,14 @@ id: 0
 license: GPL-2
 name: entropy
 requires:
+  category: sys-devel
+  id: 0
+  name: gettext
+  version: ""
+  category: app-misc
+  id: 0
+  name: pax-utils
+  version: "0.7"
   category: app-portage
   id: 0
   name: portage-utils
@@ -29,14 +37,6 @@ requires:
   id: 0
   name: portage
   version: 2.1.9
-  category: sys-devel
-  id: 0
-  name: gettext
-  version: ""
-  category: app-misc
-  id: 0
-  name: pax-utils
-  version: "0.7"
 uri:
 - mirror://sabayon//entropy-322.tar.bz2
 use_flags:

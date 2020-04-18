@@ -9,30 +9,14 @@ id: 0
 license: GPL-2
 name: xneur
 requires:
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: gtk+
+  name: libpcre
+  version: "5.0"
+  category: app-text
+  id: 0
+  name: enchant
   version: ""
-  category: x11-libs
-  id: 0
-  name: libnotify
-  version: 0.4.0
-  category: media-plugins
-  id: 0
-  name: gst-plugins-alsa
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: ""
-  category: media-libs
-  id: 0
-  name: freealut
-  version: 1.0.1
   category: x11-libs
   id: 0
   name: xosd
@@ -41,14 +25,14 @@ requires:
   id: 0
   name: gst-plugins-good
   version: ""
-  category: virtual
+  category: sys-libs
   id: 0
-  name: libintl
+  name: zlib
   version: ""
-  category: dev-libs
+  category: x11-libs
   id: 0
-  name: libpcre
-  version: "5.0"
+  name: libXtst
+  version: ""
   category: media-libs
   id: 0
   name: gstreamer
@@ -59,15 +43,31 @@ requires:
   version: 1.0.17
   category: x11-libs
   id: 0
+  name: libnotify
+  version: 0.4.0
+  category: media-plugins
+  id: 0
+  name: gst-plugins-alsa
+  version: ""
+  category: x11-libs
+  id: 0
   name: libX11
   version: "1.1"
   category: x11-libs
   id: 0
-  name: libXtst
+  name: libXi
   version: ""
-  category: app-text
+  category: media-libs
   id: 0
-  name: enchant
+  name: freealut
+  version: 1.0.1
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: ""
+  category: virtual
+  id: 0
+  name: libintl
   version: ""
 uri:
 - https://launchpad.net/~andrew-crew-kuznetsov/+archive/xneur-stable/+files/xneur_0.20.0.orig.tar.gz

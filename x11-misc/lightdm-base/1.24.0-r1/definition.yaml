@@ -5,9 +5,13 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm-base
 requires:
-  category: sys-apps
+  category: dev-libs
   id: 0
-  name: accountsservice
+  name: glib
+  version: 2.32.3
+  category: dev-libs
+  id: 0
+  name: libxml2
   version: ""
   category: sys-libs
   id: 0
@@ -17,6 +21,10 @@ requires:
   id: 0
   name: libX11
   version: ""
+  category: sys-auth
+  id: 0
+  name: pambase
+  version: 20101024-r2
   category: x11-libs
   id: 0
   name: libxklavier
@@ -25,22 +33,14 @@ requires:
   id: 0
   name: audit
   version: ""
-  category: dev-libs
+  category: sys-apps
   id: 0
-  name: glib
-  version: 2.32.3
-  category: dev-libs
-  id: 0
-  name: libxml2
+  name: accountsservice
   version: ""
   category: dev-libs
   id: 0
   name: gobject-introspection
   version: "1"
-  category: sys-auth
-  id: 0
-  name: pambase
-  version: 20101024-r2
 uri:
 - https://launchpad.net/lightdm//1.24.0/+download/lightdm-1.24.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

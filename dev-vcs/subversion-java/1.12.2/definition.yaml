@@ -5,6 +5,14 @@ id: 0
 license: Subversion
 name: subversion-java
 requires:
+  category: app-arch
+  id: 0
+  name: bzip2
+  version: ""
+  category: app-arch
+  id: 0
+  name: lz4
+  version: ""
   category: virtual
   id: 0
   name: jre
@@ -28,14 +36,6 @@ requires:
   category: sys-apps
   id: 0
   name: file
-  version: ""
-  category: app-arch
-  id: 0
-  name: bzip2
-  version: ""
-  category: app-arch
-  id: 0
-  name: lz4
   version: ""
 uri:
 - mirror://apache/subversion/subversion-1.12.2.tar.bz2

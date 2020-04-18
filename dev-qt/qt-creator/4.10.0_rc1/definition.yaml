@@ -7,99 +7,35 @@ name: qt-creator
 requires:
   category: dev-qt
   id: 0
-  name: qtgui
-  version: 5.12.3
-  category: dev-qt
-  id: 0
-  name: qtxml
-  version: 5.12.3
-  category: dev-qt
-  id: 0
-  name: qtserialport
-  version: 5.12.3
-  category: dev-qt
-  id: 0
-  name: qttranslations
-  version: 5.12.3
-  category: dev-util
-  id: 0
-  name: qbs
-  version: 1.13.1
-  category: dev-util
-  id: 0
-  name: cppcheck
-  version: ""
-  category: sys-apps
-  id: 0
-  name: the_silver_searcher
-  version: ""
-  category: dev-util
-  id: 0
-  name: valgrind
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtconcurrent
+  name: qtnetwork
   version: 5.12.3
   category: dev-qt
   id: 0
   name: qtsvg
   version: 5.12.3
-  category: sys-devel
-  id: 0
-  name: gdb
-  version: ""
-  category: dev-vcs
-  id: 0
-  name: cvs
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtwidgets
-  version: 5.12.3
-  category: dev-qt
-  id: 0
-  name: qtx11extras
-  version: 5.12.3
-  category: sys-devel
-  id: 0
-  name: clang
-  version: "8"
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: ""
-  category: dev-vcs
-  id: 0
-  name: bzr
-  version: ""
   category: dev-vcs
   id: 0
   name: mercurial
   version: ""
-  category: dev-qt
-  id: 0
-  name: qtsql
-  version: 5.12.3
   category: dev-vcs
   id: 0
   name: subversion
   version: ""
   category: dev-qt
   id: 0
-  name: qtnetwork
+  name: qttranslations
   version: 5.12.3
   category: dev-qt
   id: 0
-  name: designer
+  name: qtquickcontrols
   version: 5.12.3
   category: dev-qt
   id: 0
-  name: qtwebengine
+  name: qtx11extras
   version: 5.12.3
-  category: dev-util
+  category: sys-apps
   id: 0
-  name: cmake[server(+)]
+  name: the_silver_searcher
   version: ""
   category: dev-qt
   id: 0
@@ -115,24 +51,88 @@ requires:
   version: 5.12.3
   category: dev-qt
   id: 0
+  name: qtwebengine
+  version: 5.12.3
+  category: dev-qt
+  id: 0
+  name: qtserialport
+  version: 5.12.3
+  category: dev-util
+  id: 0
+  name: valgrind
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtgui
+  version: 5.12.3
+  category: dev-qt
+  id: 0
+  name: qtsql
+  version: 5.12.3
+  category: dev-vcs
+  id: 0
+  name: cvs
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtscript
+  version: 5.12.3
+  category: dev-qt
+  id: 0
+  name: qtwidgets
+  version: 5.12.3
+  category: sys-devel
+  id: 0
+  name: clang
+  version: "8"
+  category: dev-qt
+  id: 0
   name: qthelp
   version: 5.12.3
+  category: dev-qt
+  id: 0
+  name: qtconcurrent
+  version: 5.12.3
+  category: dev-qt
+  id: 0
+  name: qtxml
+  version: 5.12.3
+  category: dev-qt
+  id: 0
+  name: designer
+  version: 5.12.3
+  category: dev-util
+  id: 0
+  name: qbs
+  version: 1.13.1
   category: dev-libs
   id: 0
   name: elfutils
+  version: ""
+  category: sys-devel
+  id: 0
+  name: gdb
+  version: ""
+  category: dev-vcs
+  id: 0
+  name: bzr
   version: ""
   category: dev-vcs
   id: 0
   name: git
   version: ""
-  category: dev-qt
+  category: sys-apps
   id: 0
-  name: qtquickcontrols
-  version: 5.12.3
-  category: dev-qt
+  name: systemd
+  version: ""
+  category: dev-util
   id: 0
-  name: qtscript
-  version: 5.12.3
+  name: cmake[server(+)]
+  version: ""
+  category: dev-util
+  id: 0
+  name: cppcheck
+  version: ""
 uri:
 - https://download.qt.io/official_releases/qtcreator//4.10.0/qt-creator-opensource-src-4.10.0.tar.xz
 use_flags:

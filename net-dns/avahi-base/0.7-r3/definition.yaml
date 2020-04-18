@@ -15,38 +15,6 @@ name: avahi-base
 requires:
   category: dev-libs
   id: 0
-  name: glib
-  version: ""
-  category: sys-libs
-  id: 0
-  name: gdbm
-  version: ""
-  category: acct-user
-  id: 0
-  name: avahi-autoipd
-  version: ""
-  category: acct-group
-  id: 0
-  name: avahi-autoipd
-  version: ""
-  category: dev-python
-  id: 0
-  name: twisted
-  version: 16.0.0
-  category: sec-policy
-  id: 0
-  name: selinux-avahi
-  version: ""
-  category: acct-user
-  id: 0
-  name: avahi
-  version: ""
-  category: acct-group
-  id: 0
-  name: netdev
-  version: ""
-  category: dev-libs
-  id: 0
   name: expat
   version: ""
   category: sys-apps
@@ -57,21 +25,53 @@ requires:
   id: 0
   name: gobject-introspection
   version: ""
+  category: dev-python
+  id: 0
+  name: pygobject
+  version: ""
+  category: acct-user
+  id: 0
+  name: avahi
+  version: ""
   category: acct-group
   id: 0
   name: avahi
+  version: ""
+  category: acct-user
+  id: 0
+  name: avahi-autoipd
   version: ""
   category: dev-libs
   id: 0
   name: libdaemon
   version: ""
+  category: sys-libs
+  id: 0
+  name: gdbm
+  version: ""
   category: dev-python
   id: 0
-  name: pygobject
+  name: twisted
+  version: 16.0.0
+  category: sec-policy
+  id: 0
+  name: selinux-avahi
+  version: ""
+  category: acct-group
+  id: 0
+  name: avahi-autoipd
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
   version: ""
   category: sys-libs
   id: 0
   name: libcap
+  version: ""
+  category: acct-group
+  id: 0
+  name: netdev
   version: ""
   category: dev-python
   id: 0

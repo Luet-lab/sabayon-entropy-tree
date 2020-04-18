@@ -9,9 +9,13 @@ requires:
   id: 0
   name: dbus-python
   version: ""
-  category: dev-python
+  category: x11-libs
   id: 0
-  name: pyinotify
+  name: gtk+
+  version: ""
+  category: x11-libs
+  id: 0
+  name: pango
   version: ""
   category: dev-python
   id: 0
@@ -23,15 +27,15 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: gtk+
-  version: ""
-  category: x11-libs
-  id: 0
   name: gtksourceview
   version: ""
   category: dev-libs
   id: 0
   name: glib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
   version: ""
   category: dev-python
   id: 0
@@ -41,17 +45,13 @@ requires:
   id: 0
   name: pyatspi
   version: ""
+  category: dev-python
+  id: 0
+  name: pyinotify
+  version: ""
   category: x11-libs
   id: 0
   name: libnotify
-  version: ""
-  category: x11-libs
-  id: 0
-  name: pango
-  version: ""
-  category: dev-libs
-  id: 0
-  name: gobject-introspection
   version: ""
 uri:
 - https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/autokey/autokey-0.90.4.tar.gz

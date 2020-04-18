@@ -1,26 +1,18 @@
 category: app-misc
 conflicts:
-  category: '!app-misc'
-  id: 0
-  name: calamares-sabayon
-  version: ""
   category: '!app-admin'
   id: 0
   name: anaconda
+  version: ""
+  category: '!app-misc'
+  id: 0
+  name: calamares-sabayon
   version: ""
 description: Sabayon Official Installer
 id: 0
 license: CC-BY-SA-4.0
 name: calamares-sabayon-server
 requires:
-  category: app-misc
-  id: 0
-  name: calamares-sabayon-server-base-modules
-  version: ""
-  category: app-misc
-  id: 0
-  name: calamares-sabayon-server-branding
-  version: ""
   category: sys-fs
   id: 0
   name: dosfstools
@@ -31,15 +23,19 @@ requires:
   version: ""
   category: sys-fs
   id: 0
-  name: jfsutils
-  version: ""
-  category: sys-fs
-  id: 0
   name: xfsprogs
   version: ""
   category: sys-fs
   id: 0
   name: xfsdump
+  version: ""
+  category: app-misc
+  id: 0
+  name: calamares-sabayon-server-base-modules
+  version: ""
+  category: sys-fs
+  id: 0
+  name: jfsutils
   version: ""
   category: sys-fs
   id: 0
@@ -48,6 +44,10 @@ requires:
   category: sys-fs
   id: 0
   name: btrfs-progs
+  version: ""
+  category: app-misc
+  id: 0
+  name: calamares-sabayon-server-branding
   version: ""
 use_flags:
 - ""

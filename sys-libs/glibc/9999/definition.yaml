@@ -9,6 +9,10 @@ id: 0
 license: LGPL-2.1+ BSD HPND ISC inner-net rc PCRE
 name: glibc
 requires:
+  category: sys-libs
+  id: 0
+  name: libselinux
+  version: ""
   category: dev-util
   id: 0
   name: systemtap
@@ -32,10 +36,6 @@ requires:
   category: sys-libs
   id: 0
   name: libcap
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libselinux
   version: ""
 uri:
 - 'https://dev.gentoo.org/~slyfox/distfiles/glibc-9999-patches-15.tar.xz multilib?

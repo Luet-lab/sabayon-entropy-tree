@@ -1,12 +1,12 @@
 category: app-misc
 conflicts:
-  category: app-misc
-  id: 0
-  name: livecd-tools
-  version: ""
   category: sys-apps
   id: 0
   name: gpu-detector
+  version: ""
+  category: app-misc
+  id: 0
+  name: livecd-tools
   version: ""
 description: Sabayon live image scripts and tools
 id: 0
@@ -19,12 +19,20 @@ requires:
   version: ""
   category: sys-apps
   id: 0
+  name: pciutils
+  version: ""
+  category: sys-apps
+  id: 0
   name: keyboard-configuration-helpers
   version: ""
   category: sys-apps
   id: 0
-  name: dmidecode
+  name: sed
   version: ""
+  category: sys-apps
+  id: 0
+  name: systemd
+  version: 239-r2
   category: dev-util
   id: 0
   name: dialog
@@ -35,16 +43,8 @@ requires:
   version: ""
   category: sys-apps
   id: 0
-  name: pciutils
+  name: dmidecode
   version: ""
-  category: sys-apps
-  id: 0
-  name: sed
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: 239-r2
 uri:
 - https://github.com/Sabayon/sabayon-live/archive/v25.tar.gz -> 25.tar.gz
 use_flags:

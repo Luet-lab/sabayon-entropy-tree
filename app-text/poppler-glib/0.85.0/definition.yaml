@@ -5,6 +5,10 @@ id: 0
 license: GPL-2
 name: poppler-glib
 requires:
+  category: app-text
+  id: 0
+  name: poppler-base-0.85.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
+  version: ""
   category: dev-libs
   id: 0
   name: glib
@@ -16,10 +20,6 @@ requires:
   category: dev-libs
   id: 0
   name: gobject-introspection
-  version: ""
-  category: app-text
-  id: 0
-  name: poppler-base-0.85.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
   version: ""
 uri:
 - https://poppler.freedesktop.org/poppler-0.85.0.tar.xz

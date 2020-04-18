@@ -5,6 +5,10 @@ id: 0
 license: GPL-2
 name: magneto-gtk
 requires:
+  category: dev-python
+  id: 0
+  name: pygtk
+  version: ""
   category: app-misc
   id: 0
   name: magneto-loader
@@ -12,10 +16,6 @@ requires:
   category: dev-python
   id: 0
   name: notify-python
-  version: ""
-  category: dev-python
-  id: 0
-  name: pygtk
   version: ""
 uri:
 - mirror://sabayon/sys-apps/entropy-323.tar.bz2

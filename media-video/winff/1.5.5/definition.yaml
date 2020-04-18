@@ -7,14 +7,6 @@ name: winff
 requires:
   category: x11-libs
   id: 0
-  name: gtk+
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: ""
-  category: x11-libs
-  id: 0
   name: pango
   version: ""
   category: virtual
@@ -32,6 +24,14 @@ requires:
   category: x11-libs
   id: 0
   name: cairo
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libX11
   version: ""
 uri:
 - http://winff.org/docs/source/winff-1.5.5-source.tar.gz

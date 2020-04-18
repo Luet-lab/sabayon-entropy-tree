@@ -6,10 +6,6 @@ name: enman
 requires:
   category: dev-perl
   id: 0
-  name: App-Cmd
-  version: ""
-  category: dev-perl
-  id: 0
   name: LWP-Protocol-https
   version: ""
   category: virtual
@@ -35,6 +31,10 @@ requires:
   category: dev-perl
   id: 0
   name: Module-Build
+  version: ""
+  category: dev-perl
+  id: 0
+  name: App-Cmd
   version: ""
 uri:
 - https://github.com/Sabayon/enman/archive/v1.4.0.tar.gz -> enman-1.4.0.tar.gz

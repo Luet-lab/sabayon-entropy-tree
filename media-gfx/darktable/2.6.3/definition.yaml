@@ -5,21 +5,13 @@ id: 0
 license: GPL-3 CC-BY-3.0
 name: darktable
 requires:
-  category: virtual
+  category: x11-libs
   id: 0
-  name: opencl
+  name: pango
   version: ""
   category: x11-libs
   id: 0
-  name: gtk+
-  version: "3.14"
-  category: net-print
-  id: 0
-  name: cups
-  version: ""
-  category: media-libs
-  id: 0
-  name: flickcurl
+  name: colord-gtk
   version: ""
   category: app-crypt
   id: 0
@@ -27,43 +19,63 @@ requires:
   version: "0.18"
   category: media-libs
   id: 0
-  name: openjpeg
+  name: libpng
+  version: ""
+  category: net-misc
+  id: 0
+  name: curl
   version: ""
   category: media-libs
   id: 0
   name: openexr
   version: ""
-  category: kde-frameworks
+  category: dev-libs
   id: 0
-  name: kwallet
-  version: 5.34.0-r1
+  name: pugixml
+  version: ""
+  category: virtual
+  id: 0
+  name: jpeg
+  version: ""
+  category: media-libs
+  id: 0
+  name: libwebp
+  version: ""
+  category: media-libs
+  id: 0
+  name: lensfun
+  version: 0.2.3
+  category: net-print
+  id: 0
+  name: cups
+  version: ""
   category: sys-libs
   id: 0
   name: zlib
   version: ""
-  category: x11-libs
-  id: 0
-  name: colord-gtk
-  version: ""
   category: media-libs
   id: 0
-  name: libpng
+  name: flickcurl
   version: ""
   category: x11-libs
   id: 0
   name: cairo
   version: ""
-  category: dev-libs
+  category: x11-libs
   id: 0
-  name: json-glib
+  name: gtk+
+  version: "3.14"
+  category: media-libs
+  id: 0
+  name: libgphoto2
   version: ""
-  category: media-gfx
+  category: media-libs
   id: 0
-  name: exiv2
-  version: 0.25-r2
-  category: dev-libs
+  name: openjpeg
+  version: ""
+  category: dev-db
   id: 0
-  name: libxml2
+  name: sqlite
   version: ""
   category: net-libs
   id: 0
@@ -71,56 +83,44 @@ requires:
   version: ""
   category: media-libs
   id: 0
-  name: lensfun
-  version: 0.2.3
-  category: media-libs
-  id: 0
-  name: libgphoto2
-  version: ""
-  category: media-gfx
-  id: 0
-  name: graphicsmagick
-  version: ""
-  category: dev-db
-  id: 0
-  name: sqlite
-  version: ""
-  category: media-libs
-  id: 0
-  name: lcms
-  version: ""
-  category: media-libs
-  id: 0
-  name: libwebp
-  version: ""
-  category: gnome-base
-  id: 0
-  name: librsvg
-  version: ""
-  category: net-misc
-  id: 0
-  name: curl
-  version: ""
-  category: virtual
-  id: 0
-  name: jpeg
+  name: tiff
   version: ""
   category: sci-geosciences
   id: 0
   name: osm-gps-map
   version: 1.1.0
+  category: media-gfx
+  id: 0
+  name: graphicsmagick
+  version: ""
+  category: virtual
+  id: 0
+  name: opencl
+  version: ""
   category: dev-libs
   id: 0
-  name: pugixml
+  name: libxml2
+  version: ""
+  category: media-gfx
+  id: 0
+  name: exiv2
+  version: 0.25-r2
+  category: dev-libs
+  id: 0
+  name: json-glib
+  version: ""
+  category: gnome-base
+  id: 0
+  name: librsvg
   version: ""
   category: media-libs
   id: 0
-  name: tiff
+  name: lcms
   version: ""
-  category: x11-libs
+  category: kde-frameworks
   id: 0
-  name: pango
-  version: ""
+  name: kwallet
+  version: 5.34.0-r1
 uri:
 - https://github.com/darktable-org/darktable/releases/download/release-2.6.3/darktable-2.6.3.tar.xz
 use_flags:

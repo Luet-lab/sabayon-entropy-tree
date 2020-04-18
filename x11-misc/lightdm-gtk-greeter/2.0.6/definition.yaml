@@ -5,6 +5,10 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm-gtk-greeter
 requires:
+  category: dev-libs
+  id: 0
+  name: libindicator
+  version: ""
   category: x11-libs
   id: 0
   name: gtk+
@@ -28,10 +32,6 @@ requires:
   category: app-eselect
   id: 0
   name: eselect-lightdm
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libindicator
   version: ""
 uri:
 - https://launchpad.net/lightdm-gtk-greeter//2.0.6/+download/lightdm-gtk-greeter-2.0.6.tar.gz

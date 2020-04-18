@@ -5,6 +5,10 @@ id: 0
 license: GPL-2
 name: gfxboot
 requires:
+  category: media-libs
+  id: 0
+  name: freetype
+  version: "2"
   category: app-text
   id: 0
   name: xmlto
@@ -29,10 +33,6 @@ requires:
   id: 0
   name: nasm
   version: ""
-  category: media-libs
-  id: 0
-  name: freetype
-  version: "2"
 uri:
 - mirror://ubuntu/pool/main/g/gfxboot/gfxboot_4.2.2.orig.tar.gz
 - mirror://ubuntu/pool/main/g/gfxboot/gfxboot_4.2.2-1ubuntu1.diff.gz
